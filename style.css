@@ -51,37 +51,43 @@ h3 { font-size: 15px; margin: 24px 0 8px; }
   padding: 0 24px; box-sizing: border-box;
 }
 .htl { overflow-x: auto; }
-.htl-track { position: relative; display: flex; height: 460px; width: max-content; }
+.htl-track { position: relative; height: 460px; }
 .htl-track::before {
   content: ""; position: absolute; left: 0; right: 0; top: 50%;
   height: 1px; background: var(--ink);
 }
-.hentry { position: relative; width: 225px; flex: none; }
-.hentry .dot {
-  position: absolute; top: 50%; left: 0; transform: translateY(-50%);
+.htl .dot {
+  position: absolute; top: 50%; transform: translateY(-50%);
   width: 9px; height: 9px; border-radius: 50%; background: var(--accent);
 }
-.hentry.minor .dot { background: #fff; border: 1.5px solid var(--gray); }
-.hentry .stem { position: absolute; left: 4px; width: 1px; background: var(--light); }
-.hentry.top .stem { bottom: 50%; height: 22px; margin-bottom: 7px; }
-.hentry.bot .stem { top: 50%; height: 22px; margin-top: 7px; }
-.hentry .card { position: absolute; left: 0; width: 200px; }
-.hentry.top .card { bottom: 50%; margin-bottom: 32px; }
-.hentry.bot .card { top: 50%; margin-top: 32px; }
-.hentry .date { font-size: 11px; color: var(--gray); letter-spacing: 0.04em; }
-.hentry .tag {
+.htl .dot.minor { background: #fff; border: 1.5px solid var(--gray); }
+.htl .stem { position: absolute; width: 1px; background: var(--light); }
+.htl .stem.top { bottom: 50%; height: 22px; margin-bottom: 7px; }
+.htl .stem.bot { top: 50%; height: 22px; margin-top: 7px; }
+.htl .conn { position: absolute; height: 1px; background: var(--light); }
+.htl .conn.top { bottom: 50%; margin-bottom: 29px; }
+.htl .conn.bot { top: 50%; margin-top: 29px; }
+.htl .card { position: absolute; width: 200px; }
+.htl .card.top { bottom: 50%; margin-bottom: 32px; }
+.htl .card.bot { top: 50%; margin-top: 32px; }
+.htl .date { font-size: 11px; color: var(--gray); letter-spacing: 0.04em; }
+.htl .tag {
   font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em;
   color: var(--accent); margin-left: 6px;
 }
-.hentry.minor .tag { color: var(--gray); }
-.hentry .title { font-weight: 700; font-size: 13px; line-height: 1.35; margin-top: 2px; }
-.hentry .detail {
+.htl .card.minor .tag { color: var(--gray); }
+.htl .title { font-weight: 700; font-size: 13px; line-height: 1.35; margin-top: 2px; }
+.htl .detail {
   color: var(--gray); font-size: 11.5px; line-height: 1.45; margin-top: 3px;
   display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.hentry .src { font-size: 11px; margin-top: 3px; display: inline-block; }
-.hentry .conf { font-size: 10px; color: var(--light); margin-left: 6px; }
+.htl .src { font-size: 11px; margin-top: 3px; display: inline-block; }
+.htl .conf { font-size: 10px; color: var(--light); margin-left: 6px; }
+.htl .year {
+  position: absolute; top: 50%; margin-top: 8px; font-size: 10px;
+  color: var(--light); letter-spacing: 0.08em;
+}
 .htl-hint { font-size: 11px; color: var(--light); margin-top: 4px; }
 
 table { border-collapse: collapse; width: 100%; font-size: 13px; margin-top: 8px; }

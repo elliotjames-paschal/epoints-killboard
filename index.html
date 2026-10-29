@@ -73,18 +73,39 @@
   const MINOR = new Set(["platform", "proposal", "genesis"]);
   const sorted = [...events].sort((a, b) =>
     a.date.replace(/[^0-9-]/g, "").localeCompare(b.date.replace(/[^0-9-]/g, "")));
-  document.getElementById("tl").innerHTML = '<div class="htl-track">' +
-    sorted.map((e, i) => `
-    <div class="hentry ${i % 2 ? "bot" : "top"} ${MINOR.has(e.type) ? "minor" : ""}">
-      <span class="dot"></span><span class="stem"></span>
-      <div class="card">
+  /* time-proportional x positions; cards slide right where events cluster,
+     a thin connector leads back to the true date on the axis */
+  const toDate = s => {
+    const m = s.match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/);
+    return new Date(+m[1], m[2] ? m[2] - 1 : 0, m[3] ? +m[3] : 1);
+  };
+  const PPD = 3.2, CW = 212, PAD = 10;        // px/day, card pitch, left margin
+  const t0 = toDate(sorted[0].date);
+  const last = { top: -Infinity, bot: -Infinity };
+  const placed = sorted.map((e, i) => {
+    const side = i % 2 ? "bot" : "top";
+    const dotX = PAD + (toDate(e.date) - t0) / 864e5 * PPD;
+    const cardX = Math.max(dotX, last[side] + CW);
+    last[side] = cardX;
+    return { e, side, dotX, cardX };
+  });
+  const width = Math.max(...placed.map(p => p.cardX + CW)) + PAD;
+  const years = [];
+  for (let y = t0.getFullYear() + 1; y <= toDate(sorted[sorted.length - 1].date).getFullYear(); y++)
+    years.push(`<span class="year" style="left:${PAD + (new Date(y, 0, 1) - t0) / 864e5 * PPD}px">${y}</span>`);
+  document.getElementById("tl").innerHTML =
+    `<div class="htl-track" style="width:${width}px">` + years.join("") +
+    placed.map(({ e, side, dotX, cardX }) => `
+      <span class="dot ${MINOR.has(e.type) ? "minor" : ""}" style="left:${dotX - 4}px"></span>
+      <span class="stem ${side}" style="left:${dotX}px"></span>
+      ${cardX - dotX > 6 ? `<span class="conn ${side}" style="left:${dotX}px;width:${cardX - dotX}px"></span>` : ""}
+      <div class="card ${side} ${MINOR.has(e.type) ? "minor" : ""}" style="left:${cardX}px">
         <span class="date">${esc(e.date)}</span><span class="tag">${esc(e.type)}</span>
         <div class="title">${esc(e.event)}</div>
         <div class="detail" title="${esc(e.detail)}">${esc(e.detail)}</div>
         <a class="src" href="${esc(e.source)}" target="_blank" rel="noopener">${host(e.source)} ↗</a>
         <span class="conf">${esc(e.confidence)}</span>
-      </div>
-    </div>`).join("") + "</div>";
+      </div>`).join("") + "</div>";
 
   /* ---- price table ---- */
   const nameOf = Object.fromEntries(cats.map(c => [c.category_id, c.name_en]));
