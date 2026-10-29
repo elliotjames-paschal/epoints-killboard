@@ -34,7 +34,10 @@
 
 <section id="timeline">
   <h2>The pricing of war, 2023 — present</h2>
-  <div class="tl" id="tl"></div>
+  <div class="htl-wrap">
+    <div class="htl" id="tl"></div>
+    <p class="htl-hint">scroll →</p>
+  </div>
 </section>
 
 <section id="prices">
@@ -70,14 +73,18 @@
   const MINOR = new Set(["platform", "proposal", "genesis"]);
   const sorted = [...events].sort((a, b) =>
     a.date.replace(/[^0-9-]/g, "").localeCompare(b.date.replace(/[^0-9-]/g, "")));
-  document.getElementById("tl").innerHTML = sorted.map(e => `
-    <div class="entry ${MINOR.has(e.type) ? "minor" : ""}">
-      <span class="date">${esc(e.date)}</span><span class="tag">${esc(e.type)}</span>
-      <div class="title">${esc(e.event)}</div>
-      <div class="detail">${esc(e.detail)}</div>
-      <a class="src" href="${esc(e.source)}" target="_blank" rel="noopener">${host(e.source)} ↗</a>
-      <span class="conf">confidence: ${esc(e.confidence)}</span>
-    </div>`).join("");
+  document.getElementById("tl").innerHTML = '<div class="htl-track">' +
+    sorted.map((e, i) => `
+    <div class="hentry ${i % 2 ? "bot" : "top"} ${MINOR.has(e.type) ? "minor" : ""}">
+      <span class="dot"></span><span class="stem"></span>
+      <div class="card">
+        <span class="date">${esc(e.date)}</span><span class="tag">${esc(e.type)}</span>
+        <div class="title">${esc(e.event)}</div>
+        <div class="detail" title="${esc(e.detail)}">${esc(e.detail)}</div>
+        <a class="src" href="${esc(e.source)}" target="_blank" rel="noopener">${host(e.source)} ↗</a>
+        <span class="conf">${esc(e.confidence)}</span>
+      </div>
+    </div>`).join("") + "</div>";
 
   /* ---- price table ---- */
   const nameOf = Object.fromEntries(cats.map(c => [c.category_id, c.name_en]));
