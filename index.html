@@ -60,7 +60,11 @@
   </p>
   <div class="chart" id="chart"></div>
   <p class="chartnote" id="chartnote"></p>
-  <div id="unittable"></div>
+  <h3>Explore a brigade</h3>
+  <p class="small muted">Every variable the killboard publishes, by month.
+  Target-class cells read <span class="pts">destroyed</span> / hit.</p>
+  <div class="kbpick"><select id="unitsel" aria-label="choose unit"></select></div>
+  <div class="kbdetail" id="unitdetail"></div>
 </section>
 
 <footer>
@@ -74,10 +78,10 @@
 <script src="app.js"></script>
 <script>
 (async () => {
-  const [events, prices, cats, kb, meta] = await Promise.all([
+  const [events, prices, cats, kb, tcs, meta] = await Promise.all([
     loadCSV("data/events.csv"), loadCSV("data/prices.csv"),
     loadCSV("data/categories.csv"), loadCSV("data/killboard_monthly.csv"),
-    loadJSON("data/meta.json"),
+    loadCSV("data/target_classes.csv"), loadJSON("data/meta.json"),
   ]);
 
   /* ---- timeline ---- */
@@ -163,22 +167,50 @@
       "Force-wide total (“USF Grouping” row of the killboard). Unit-level detail in killboard_monthly.csv; 43 target classes per unit-month.";
   }
 
-  /* ---- unit table ---- */
-  const units = {};
-  kb.filter(r => r.unit !== "USF Grouping").forEach(r => {
-    const u = (units[r.unit] ??= { months: 0, hit: 0, destroyed: 0, first: r.month, last: r.month });
-    u.months++; u.hit += +r.total_hit || 0; u.destroyed += +r.total_destroyed || 0;
-    if (r.month < u.first) u.first = r.month;
-    if (r.month > u.last) u.last = r.month;
-  });
-  document.getElementById("unittable").innerHTML = `
-    <table><thead><tr><th>Unit</th><th>Coverage</th><th>Months</th>
-    <th>Hits</th><th>Destroyed</th></tr></thead><tbody>` +
-    Object.entries(units).sort((a, b) => b[1].hit - a[1].hit).map(([u, s]) => `
-      <tr><td>${esc(u)}</td><td class="num muted">${s.first} → ${s.last}</td>
-      <td class="num">${s.months}</td><td class="num">${s.hit.toLocaleString()}</td>
-      <td class="num">${s.destroyed.toLocaleString()}</td></tr>`).join("") +
-    "</tbody></table>";
+  /* ---- per-brigade explorer: all variables x months for one unit ---- */
+  const totalHits = {};
+  kb.forEach(r => { totalHits[r.unit] = (totalHits[r.unit] || 0) + (+r.total_hit || 0); });
+  const unitNames = Object.keys(totalHits)
+    .filter(u => u !== "USF Grouping")
+    .sort((a, b) => totalHits[b] - totalHits[a]);
+  const sel = document.getElementById("unitsel");
+  sel.innerHTML = unitNames.map(u => `<option>${esc(u)}</option>`).join("") +
+    `<option>USF Grouping</option>`;
+
+  const SUMMARY = [
+    ["personnel_killed", "Enemy personnel killed"],
+    ["personnel_wounded", "Enemy personnel wounded"],
+    ["strike_missions", "Strike missions flown"],
+    ["recon_missions", "Reconnaissance missions flown"],
+    ["total_hit", "Targets hit — all classes"],
+    ["total_destroyed", "Targets destroyed — all classes"],
+  ];
+  function renderUnit(name) {
+    const rows = kb.filter(r => r.unit === name).sort((a, b) => a.month.localeCompare(b.month));
+    const months = rows.map(r => r.month);
+    const head = `<tr><th>variable</th>${months.map(m => `<th class="num">${m}</th>`).join("")}</tr>`;
+    const sum = SUMMARY.map(([k, label]) => `
+      <tr><td>${label}</td>${rows.map(r =>
+        `<td class="num">${(+r[k] || 0).toLocaleString()}</td>`).join("")}</tr>`).join("");
+    const tcrows = tcs.map(t => {
+      const cells = rows.map(r => {
+        const d = +r[`${t.tc_id}_destroyed`] || 0, h = +r[`${t.tc_id}_hit`] || 0;
+        return { d, h };
+      });
+      const dead = cells.every(c => !c.d && !c.h);
+      return `<tr class="${dead ? "dim" : ""}">
+        <td title="${esc(t.name_ua)} (${t.tc_id})">${esc(t.name_en)}</td>
+        ${cells.map(c => `<td class="num">${c.d || c.h
+          ? `<span class="pts">${c.d.toLocaleString()}</span> / ${c.h.toLocaleString()}`
+          : "·"}</td>`).join("")}</tr>`;
+    }).join("");
+    document.getElementById("unitdetail").innerHTML =
+      `<table><thead>${head}</thead><tbody>${sum}
+       <tr class="sep"><td colspan="${months.length + 1}">target classes — destroyed / hit (hover for the Ukrainian original)</td></tr>
+       ${tcrows}</tbody></table>`;
+  }
+  sel.addEventListener("change", () => renderUnit(sel.value));
+  renderUnit(unitNames[0]);
 
   /* ---- footer stamp ---- */
   document.getElementById("stamp").textContent =

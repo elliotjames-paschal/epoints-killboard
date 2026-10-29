@@ -105,6 +105,24 @@ td.num { font-variant-numeric: tabular-nums; }
 .chart svg { width: 100%; height: auto; display: block; }
 .chartnote { font-size: 12px; color: var(--gray); margin-top: 6px; }
 
+.kbpick select {
+  font: inherit; font-size: 13px; color: var(--ink);
+  border: 1px solid var(--ink); border-radius: 0; background: #fff;
+  padding: 6px 10px; margin-top: 4px;
+}
+.kbdetail { overflow-x: auto; margin-top: 10px; }
+.kbdetail table { width: max-content; min-width: 100%; }
+.kbdetail th:first-child, .kbdetail td:first-child {
+  position: sticky; left: 0; background: #fff; padding-right: 16px; min-width: 190px;
+}
+.kbdetail td { padding: 5px 14px 5px 0; white-space: nowrap; }
+.kbdetail tr.dim td { color: var(--light); }
+.kbdetail tr.dim td .pts { color: var(--light); font-weight: 400; }
+.kbdetail tr.sep td {
+  font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--gray); border-bottom: 1px solid var(--ink); padding-top: 18px;
+}
+
 .source-cite {
   display: flex; gap: 10px; align-items: center;
   font-size: 13px; color: var(--gray); margin-bottom: 14px;
