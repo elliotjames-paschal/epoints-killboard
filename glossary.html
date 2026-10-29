@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glossary — E-Points &amp; the Killboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Glossary</h1>
+  <p class="sub">What each table measures, where it comes from, and what it cannot see.</p>
+  <nav>
+    <a href="./">Timeline</a>
+    <a class="here" href="glossary.html">Glossary</a>
+  </nav>
+</header>
+
+<section>
+  <h2>The program</h2>
+  <p><strong>E-points (є-бали)</strong> is Ukraine's incentive program ("Армія дронів.Бонус",
+  launched August 2024) in which military units earn points for video-verified output —
+  strikes, and later reconnaissance, logistics, and other task families. Points are
+  redeemable for equipment through the <strong>Brave1 Market</strong> procurement
+  marketplace (launched April 2025). The <strong>killboard</strong> ("Підрахуйка",
+  <a href="https://sbs-group.army" target="_blank" rel="noopener">sbs-group.army</a>) is the
+  public scoreboard of the Unmanned Systems Forces (USF) publishing verified monthly
+  output per unit.</p>
+  <p><strong>What the killboard cannot see:</strong> the killboard covers USF drone
+  units' verified strike and reconnaissance output only. Several priced categories —
+  UGV logistics, capture of prisoners, sniper kills, army aviation, suicide videos —
+  never appear on it. The <code>on_killboard</code> flag in
+  <code>categories.csv</code> marks each category as <code>yes</code>,
+  <code>partial</code>, or <code>no</code>; analysis joining prices to killboard output
+  is only possible where it is <code>yes</code>.</p>
+</section>
+
+<section>
+  <h2>prices.csv — price intervals</h2>
+  <p class="small muted">One row per (category, basis, validity interval). Every row has a source.</p>
+  <table>
+    <thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+    <tr><td><code>category_id</code></td><td>Key into <code>categories.csv</code>.</td></tr>
+    <tr><td><code>basis</code></td><td>What earns the award: <code>per_kill</code>, <code>per_wounded</code>, <code>per_destroyed</code>, <code>per_hit</code> (damaged, not destroyed), <code>per_capture</code>, <code>per_mission</code>, <code>per_event</code>.</td></tr>
+    <tr><td><code>points</code>, <code>points_max</code></td><td>Point value. Only <code>points_max</code> set means the source reported "up to N". Both set means a documented range.</td></tr>
+    <tr><td><code>valid_from</code>, <code>valid_to</code></td><td>Validity interval. Empty <code>valid_to</code> = in force as of the last update. Dates carry only the precision in <code>from_precision</code> (<code>day</code>, <code>month</code>, <code>snapshot</code>, <code>bracket</code>).</td></tr>
+    <tr><td><code>confidence</code></td><td><code>high</code> = primary source (MOD, Fedorov, Brave1); <code>med</code> = reliable press, exact date unpinned; <code>low</code> = disputed between sources (see <code>note</code>).</td></tr>
+    <tr><td><code>source</code></td><td>URL supporting this exact value and interval. Rows without a source do not ship — the build fails.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>events.csv — the timeline</h2>
+  <table>
+    <thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+    <tr><td><code>date</code>, <code>precision</code></td><td>When it happened; precision is <code>day</code>, <code>month</code>, <code>quarter</code>, or <code>bracket</code> (bounded window) — dating of early repricings is genuinely contested, and the file says so rather than guessing.</td></tr>
+    <tr><td><code>type</code></td><td><code>genesis</code> (pre-launch), <code>launch</code>, <code>reprice</code> (value change), <code>expansion</code> (new task family priced), <code>platform</code> (infrastructure), <code>proposal</code> (floated, not yet in force).</td></tr>
+    <tr><td><code>event</code>, <code>detail</code></td><td>What changed, with values where documented.</td></tr>
+    <tr><td><code>confidence</code>, <code>source</code></td><td>As in <code>prices.csv</code>.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>categories.csv — category registry</h2>
+  <table>
+    <thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+    <tr><td><code>category_id</code></td><td>Stable key used across tables.</td></tr>
+    <tr><td><code>task_family</code></td><td><code>strike</code>, <code>recon</code>, <code>logistics</code>, <code>capture</code>, <code>air_defense</code>, <code>mining</code>, <code>inducement</code>.</td></tr>
+    <tr><td><code>priced_since</code></td><td>When the category entered the marketplace (precision alongside).</td></tr>
+    <tr><td><code>on_killboard</code></td><td><code>yes</code> — killboard reports a matching field; <code>partial</code> — related fields exist but do not cleanly match the priced category (see <code>notes</code>); <code>no</code> — not observable on the killboard.</td></tr>
+    <tr><td><code>killboard_fields</code></td><td>Semicolon-separated columns of <code>killboard_monthly.csv</code> that measure this category.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>killboard_monthly.csv — unit-month output</h2>
+  <p class="small muted">Collected weekly from the killboard's public API; one row per
+  unit per month; the aggregate appears as unit <code>USF Grouping</code>.</p>
+  <table>
+    <thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+    <tr><td><code>unit</code>, <code>month</code></td><td>USF unit (English title as published) and calendar month.</td></tr>
+    <tr><td><code>collected_at</code></td><td>Timestamp the killboard reported for this data snapshot. The current month's row is a running partial count until the month closes.</td></tr>
+    <tr><td><code>personnel_killed</code>, <code>personnel_wounded</code></td><td>Verified enemy personnel casualties.</td></tr>
+    <tr><td><code>strike_missions</code>, <code>recon_missions</code></td><td>Mission counts by type.</td></tr>
+    <tr><td><code>total_hit</code>, <code>total_destroyed</code></td><td>Verified targets hit (incl. damaged) / destroyed, all classes.</td></tr>
+    <tr><td><code>tc01_hit</code> … <code>tc43_destroyed</code></td><td>Hit / destroyed counts per target class — key in <code>target_classes.csv</code> (Ukrainian original, English translation, analytic group, translation confidence).</td></tr>
+    </tbody>
+  </table>
+  <h3>killboard_reconstructed.csv</h3>
+  <p class="small">The killboard publishes monthly periods from October 2025 onward
+  consistently; the 11 June – 30 September 2025 block in this file is
+  <strong>reconstructed</strong> (per-unit <code>method</code> column documents how,
+  e.g. yearly totals minus observed months) and spans a window, not calendar months.
+  Treat it as one aggregate observation per unit, not four monthly ones.</p>
+</section>
+
+<section>
+  <h2>Collection &amp; caveats</h2>
+  <p class="small">A scheduled job pulls the killboard API weekly, revalidates every
+  table (sources present, intervals consistent, no month gaps), and republishes —
+  the repository's git history preserves every prior snapshot. The killboard is a
+  self-reported official scoreboard of verified output; "verified" means video-verified
+  through Ukraine's Delta/Brave1 pipeline, not independently audited. Point values are
+  compiled from official announcements and reliable press; where sources disagree
+  (the program's launch value for infantry, the dating of the first repricing), the
+  dataset records the disagreement in <code>confidence</code> and <code>note</code>
+  columns instead of resolving it silently.</p>
+</section>
+
+<footer>
+  <p>Interested in collaborating? Reach out —
+  <a class="contact" href="mailto:paschal@stanford.edu">paschal@stanford.edu</a></p>
+</footer>
+
+</body>
+</html>

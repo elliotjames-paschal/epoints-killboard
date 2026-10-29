@@ -1,0 +1,380 @@
+{
+ "success": true,
+ "data": {
+  "personnel": {
+   "killed": 6,
+   "wounded": 8
+  },
+  "computed": {
+   "monthlyAvgPersonnel": 0,
+   "monthlyAvgTotalTargets": 5
+  },
+  "flights": {
+   "strike": 783,
+   "recon": 894
+  },
+  "_id": "69a365b5e9679075a2e69beb",
+  "subdivision": {
+   "seo_title": {
+    "uk": "91 ОПТБ - статистика на онлайн-табло «Підрахуйка»",
+    "en": "91 SATB - statistics on the «Pidrakhuyka» online killboard"
+   },
+   "seo_description": {
+    "uk": "91 ОПТБ на Онлайн-табло «Підрахуйка». Уражені та знищені цілі ворога в режимі реального часу. Лише верифіковані ураження.",
+    "en": "91 SATB on the «Pidrakhuyka» online killboard. Enemy targets damaged and destroyed in real time. Verified hits only."
+   },
+   "emblem": {
+    "filename": null,
+    "originalName": null,
+    "mimetype": null,
+    "size": null,
+    "url": null
+   },
+   "_id": "6994ea5784e0316710db0494",
+   "division_id": "16",
+   "title": "91 ОПТБ",
+   "title_en": "91 SATB",
+   "color": "#FF7D0B",
+   "secondaryColor": "#C9A268",
+   "id": "6994ea5784e0316710db0494",
+   "name": "91 ОПТБ",
+   "backgroundColor": "#FF7D0B"
+  },
+  "period": {
+   "_id": "69a365b5e9679075a2e69be8",
+   "name": "Березень",
+   "name_en": "March",
+   "subdivision": "6994ea5784e0316710db0494",
+   "startDate": "2026-03-01T00:00:00.000Z",
+   "endDate": "2026-03-31T23:59:59.999Z",
+   "order": 12,
+   "isActive": true,
+   "dynamicEndDate": false,
+   "isDynamic": false,
+   "periodType": "monthly_3",
+   "dataType": "auto",
+   "createdBy": "68b0c85489944c4bfb2a5ed7",
+   "createdAt": "2026-02-28T22:01:25.496Z",
+   "updatedAt": "2026-06-02T21:18:50.061Z",
+   "__v": 0,
+   "duration": 31,
+   "displayEndDate": "2026-03-31T23:59:59.999Z",
+   "id": "69a365b5e9679075a2e69be8"
+  },
+  "status": "completed",
+  "targetsByType": [
+   {
+    "screenId": 1,
+    "targetClassId": 1,
+    "targetClass": "Танки",
+    "hit": 4,
+    "destroyed": 0
+   },
+   {
+    "screenId": 2,
+    "targetClassId": 2,
+    "targetClass": "ББМ, БМП, БТР",
+    "hit": 1,
+    "destroyed": 0
+   },
+   {
+    "screenId": 3,
+    "targetClassId": 3,
+    "targetClass": "Гармати, гаубиці",
+    "hit": 7,
+    "destroyed": 0
+   },
+   {
+    "screenId": 4,
+    "targetClassId": 4,
+    "targetClass": "САУ",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 5,
+    "targetClassId": 5,
+    "targetClass": "РСЗВ",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 6,
+    "targetClassId": 6,
+    "targetClass": "Міномети",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 7,
+    "targetClassId": 7,
+    "targetClass": "ЛАТ, ВАТ, спец. та інж. техніка, паливозапр.",
+    "hit": 2,
+    "destroyed": 1
+   },
+   {
+    "screenId": 8,
+    "targetClassId": 8,
+    "targetClass": "РЛС та ЗС (окопні)",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 9,
+    "targetClassId": 9,
+    "targetClass": "РЛС, РЕР та зв'язок (комплекси)",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 10,
+    "targetClassId": 10,
+    "targetClass": "РЕБ (окопні)",
+    "hit": 1,
+    "destroyed": 0
+   },
+   {
+    "screenId": 11,
+    "targetClassId": 11,
+    "targetClass": "РЕБ (техніка)",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 12,
+    "targetClassId": 12,
+    "targetClass": "РЕБ (авто)",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 13,
+    "targetClassId": 13,
+    "targetClass": "Антени",
+    "hit": 6,
+    "destroyed": 0
+   },
+   {
+    "screenId": 14,
+    "targetClassId": 14,
+    "targetClass": "Мережеве обладнання",
+    "hit": 1,
+    "destroyed": 0
+   },
+   {
+    "screenId": 15,
+    "targetClassId": 15,
+    "targetClass": "ОС РОВ",
+    "hit": 14,
+    "destroyed": 6
+   },
+   {
+    "screenId": 16,
+    "targetClassId": 16,
+    "targetClass": "Стратегічна інфраструктура",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 17,
+    "targetClassId": 17,
+    "targetClass": "Тактична інфраструктура",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 18,
+    "targetClassId": 18,
+    "targetClass": "Мотоцикли",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 19,
+    "targetClassId": 19,
+    "targetClass": "Військові баггі",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 20,
+    "targetClassId": 20,
+    "targetClass": "Склади",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 21,
+    "targetClassId": 21,
+    "targetClass": "Укриття",
+    "hit": 99,
+    "destroyed": 2
+   },
+   {
+    "screenId": 22,
+    "targetClassId": 22,
+    "targetClass": "Бліндажі",
+    "hit": 14,
+    "destroyed": 0
+   },
+   {
+    "screenId": 23,
+    "targetClassId": 23,
+    "targetClass": "Точки вильоту дронів",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 24,
+    "targetClassId": 24,
+    "targetClass": "Ворожі коптери",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 25,
+    "targetClassId": 25,
+    "targetClass": "Ворожі крила",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 26,
+    "targetClassId": 26,
+    "targetClass": "Ворожі НРК",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 27,
+    "targetClassId": 27,
+    "targetClass": "Камери",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 28,
+    "targetClassId": 28,
+    "targetClass": "Інше",
+    "hit": 2,
+    "destroyed": 0
+   },
+   {
+    "screenId": 29,
+    "targetClassId": 29,
+    "targetClass": "Гелікоптер",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 30,
+    "targetClassId": 30,
+    "targetClass": "Шахеди",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 31,
+    "targetClassId": 31,
+    "targetClass": "Гербери",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 32,
+    "targetClassId": 32,
+    "targetClass": "ЗРК, ЗГРК",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 33,
+    "targetClassId": 33,
+    "targetClass": "ЗУ",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 34,
+    "targetClassId": 34,
+    "targetClass": "ППО",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 35,
+    "targetClassId": 35,
+    "targetClass": "ЗПМ: БпАК",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 36,
+    "targetClassId": 36,
+    "targetClass": "РСЗВ: Портативний",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 37,
+    "targetClassId": 37,
+    "targetClass": "ПУ БпЛА",
+    "hit": 13,
+    "destroyed": 0
+   },
+   {
+    "screenId": 38,
+    "targetClassId": 38,
+    "targetClass": "ОТ Склад БК",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 39,
+    "targetClassId": 39,
+    "targetClass": "ОТ Склад ПММ",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 40,
+    "targetClassId": 40,
+    "targetClass": "ОТ Склад майна",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 41,
+    "targetClassId": 41,
+    "targetClass": "Літаки",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 42,
+    "targetClassId": 42,
+    "targetClass": "Флот",
+    "hit": 0,
+    "destroyed": 0
+   },
+   {
+    "screenId": 43,
+    "targetClassId": 43,
+    "targetClass": "Енерговузли",
+    "hit": 0,
+    "destroyed": 0
+   }
+  ],
+  "dataCollectedAt": "2026-10-29T01:31:00.015Z",
+  "lastUpdated": "2026-10-29T01:31:00.015Z",
+  "startDate": "2026-03-01T00:00:00.000Z",
+  "endDate": "2026-03-31T23:59:59.999Z",
+  "createdAt": "2026-02-28T22:01:25.535Z",
+  "updatedAt": "2026-10-29T01:31:46.795Z",
+  "__v": 69498,
+  "totalTargetsHit": 164,
+  "totalTargetsDestroyed": 9,
+  "totalPersonnelCasualties": 14,
+  "id": "69a365b5e9679075a2e69beb"
+ }
+}

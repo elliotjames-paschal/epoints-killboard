@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-Points &amp; the Killboard — Ukraine's market for verified military output</title>
+<meta name="description" content="A maintained dataset of Ukraine's e-points program: bounty prices by category over time, category introductions, and unit-month verified output from the USF killboard. Updated weekly.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>E-Points &amp; the Killboard</h1>
+  <p class="sub">A maintained dataset of Ukraine's marketplace for verified military
+  output: bounty prices by category over time, category introductions, and unit-month
+  verified output from the Unmanned Systems Forces killboard. Updated weekly.</p>
+  <nav>
+    <a class="here" href="./">Timeline</a>
+    <a href="glossary.html">Glossary</a>
+  </nav>
+</header>
+
+<section id="download">
+  <h2>Download the data</h2>
+  <div class="downloads">
+    <a href="data/prices.csv" download>prices.csv <span>price intervals by category</span></a>
+    <a href="data/events.csv" download>events.csv <span>timeline of changes</span></a>
+    <a href="data/categories.csv" download>categories.csv <span>category registry</span></a>
+    <a href="data/killboard_monthly.csv" download>killboard_monthly.csv <span>unit-month output</span></a>
+    <a href="data/killboard_reconstructed.csv" download>killboard_reconstructed.csv <span>Jun–Sep 2025 block</span></a>
+    <a href="data/target_classes.csv" download>target_classes.csv <span>killboard target key</span></a>
+  </div>
+</section>
+
+<section id="timeline">
+  <h2>The pricing of war, 2023 — present</h2>
+  <div class="tl" id="tl"></div>
+</section>
+
+<section id="prices">
+  <h2>Points by category over time</h2>
+  <p class="small muted">Every value sourced. Categories the killboard cannot observe
+  are flagged in the <a href="glossary.html">glossary</a>.</p>
+  <div id="pricetable"></div>
+</section>
+
+<section id="killboard">
+  <h2>Killboard — verified monthly hits, all USF units</h2>
+  <div class="chart" id="chart"></div>
+  <p class="chartnote" id="chartnote"></p>
+  <div id="unittable"></div>
+</section>
+
+<footer>
+  <p>Interested in collaborating? Reach out —
+  <a class="contact" href="mailto:paschal@stanford.edu">paschal@stanford.edu</a></p>
+  <p id="stamp"></p>
+</footer>
+
+<script src="app.js"></script>
+<script>
+(async () => {
+  const [events, prices, cats, kb, meta] = await Promise.all([
+    loadCSV("data/events.csv"), loadCSV("data/prices.csv"),
+    loadCSV("data/categories.csv"), loadCSV("data/killboard_monthly.csv"),
+    loadJSON("data/meta.json"),
+  ]);
+
+  /* ---- timeline ---- */
+  const MINOR = new Set(["platform", "proposal", "genesis"]);
+  const sorted = [...events].sort((a, b) =>
+    a.date.replace(/[^0-9-]/g, "").localeCompare(b.date.replace(/[^0-9-]/g, "")));
+  document.getElementById("tl").innerHTML = sorted.map(e => `
+    <div class="entry ${MINOR.has(e.type) ? "minor" : ""}">
+      <span class="date">${esc(e.date)}</span><span class="tag">${esc(e.type)}</span>
+      <div class="title">${esc(e.event)}</div>
+      <div class="detail">${esc(e.detail)}</div>
+      <a class="src" href="${esc(e.source)}" target="_blank" rel="noopener">${host(e.source)} ↗</a>
+      <span class="conf">confidence: ${esc(e.confidence)}</span>
+    </div>`).join("");
+
+  /* ---- price table ---- */
+  const nameOf = Object.fromEntries(cats.map(c => [c.category_id, c.name_en]));
+  const byCat = {};
+  prices.forEach(p => (byCat[p.category_id] ??= []).push(p));
+  const fmtPts = p => p.points && p.points_max && p.points !== p.points_max
+      ? `${p.points}–${p.points_max}` : p.points ? p.points : `up to ${p.points_max}`;
+  document.getElementById("pricetable").innerHTML = `
+    <table><thead><tr><th>Category</th><th>Points</th><th>Basis</th>
+    <th>In force</th><th>Conf.</th><th>Source</th></tr></thead><tbody>` +
+    Object.entries(byCat).map(([cid, rows]) =>
+      rows.sort((a, b) => a.valid_from.localeCompare(b.valid_from)).map((p, i) => `
+      <tr>
+        <td>${i === 0 ? esc(nameOf[cid] || cid) : ""}</td>
+        <td class="num pts">${esc(fmtPts(p))}</td>
+        <td class="muted">${esc(p.basis.replace(/_/g, " "))}</td>
+        <td class="num">${esc(p.valid_from)} → ${esc(p.valid_to || "current")}</td>
+        <td class="muted">${esc(p.confidence)}</td>
+        <td><a href="${esc(p.source)}" target="_blank" rel="noopener">${host(p.source)} ↗</a></td>
+      </tr>`).join("")).join("") + "</tbody></table>";
+
+  /* ---- killboard chart: USF grouping total hits per month ---- */
+  const grp = kb.filter(r => r.unit === "USF Grouping" && r.month)
+                .sort((a, b) => a.month.localeCompare(b.month));
+  if (grp.length) {
+    const W = 720, H = 180, PAD = 6;
+    const vals = grp.map(r => +r.total_hit || 0);
+    const max = Math.max(...vals);
+    const x = i => PAD + i * (W - 2 * PAD) / (grp.length - 1);
+    const y = v => H - PAD - v * (H - 2 * PAD - 14) / max;
+    const pts = vals.map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ");
+    document.getElementById("chart").innerHTML = `
+      <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Monthly verified hits">
+        <polyline fill="none" stroke="#800000" stroke-width="1.6" points="${pts}"/>
+        ${vals.map((v, i) => `<circle cx="${x(i)}" cy="${y(v)}" r="2.2" fill="#800000"/>`).join("")}
+        <text x="${PAD}" y="${H - 12}" font-size="10" fill="#737373">${grp[0].month}</text>
+        <text x="${W - PAD}" y="${H - 12}" font-size="10" fill="#737373" text-anchor="end">${grp[grp.length - 1].month}</text>
+        <text x="${PAD}" y="12" font-size="10" fill="#737373">peak ${max.toLocaleString()} verified hits / month</text>
+      </svg>`;
+    document.getElementById("chartnote").textContent =
+      "Force-wide total (“USF Grouping” row of the killboard). Unit-level detail in killboard_monthly.csv; 43 target classes per unit-month.";
+  }
+
+  /* ---- unit table ---- */
+  const units = {};
+  kb.filter(r => r.unit !== "USF Grouping").forEach(r => {
+    const u = (units[r.unit] ??= { months: 0, hit: 0, destroyed: 0, first: r.month, last: r.month });
+    u.months++; u.hit += +r.total_hit || 0; u.destroyed += +r.total_destroyed || 0;
+    if (r.month < u.first) u.first = r.month;
+    if (r.month > u.last) u.last = r.month;
+  });
+  document.getElementById("unittable").innerHTML = `
+    <table><thead><tr><th>Unit</th><th>Coverage</th><th>Months</th>
+    <th>Hits</th><th>Destroyed</th></tr></thead><tbody>` +
+    Object.entries(units).sort((a, b) => b[1].hit - a[1].hit).map(([u, s]) => `
+      <tr><td>${esc(u)}</td><td class="num muted">${s.first} → ${s.last}</td>
+      <td class="num">${s.months}</td><td class="num">${s.hit.toLocaleString()}</td>
+      <td class="num">${s.destroyed.toLocaleString()}</td></tr>`).join("") +
+    "</tbody></table>";
+
+  /* ---- footer stamp ---- */
+  document.getElementById("stamp").textContent =
+    `Data updated ${meta.built_at} · killboard ${meta.killboard.months} · ` +
+    `${meta.counts.price_rows} price rows · ${meta.counts.events} events`;
+})().catch(e => { document.getElementById("tl").textContent = "Failed to load data: " + e; });
+</script>
+</body>
+</html>

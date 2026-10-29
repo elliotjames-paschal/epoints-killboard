@@ -1,0 +1,44 @@
+tc_id,name_ua,name_en,group,translation_confidence
+tc01,Танки,Tanks,armor_artillery,high
+tc02,"ББМ, БМП, БТР","Armored fighting vehicles (IFV, APC)",armor_artillery,high
+tc03,"Гармати, гаубиці","Guns, howitzers",armor_artillery,high
+tc04,САУ,Self-propelled artillery,armor_artillery,high
+tc05,РСЗВ,Multiple launch rocket systems,armor_artillery,high
+tc06,Міномети,Mortars,armor_artillery,high
+tc07,"ЛАТ, ВАТ, спец. та інж. техніка, паливозапр.","Light/heavy vehicles, special & engineering equipment, fuel tankers",vehicles,high
+tc08,РЛС та ЗС (окопні),Radar & comms (trench-level),drone_infrastructure,medium
+tc09,"РЛС, РЕР та зв'язок (комплекси)","Radar, ELINT & communications (systems)",drone_infrastructure,medium
+tc10,РЕБ (окопні),Electronic warfare (trench-level),drone_infrastructure,high
+tc11,РЕБ (техніка),Electronic warfare (equipment),drone_infrastructure,high
+tc12,РЕБ (авто),Electronic warfare (vehicle-mounted),drone_infrastructure,high
+tc13,Антени,Antennas,drone_infrastructure,high
+tc14,Мережеве обладнання,Network equipment,drone_infrastructure,high
+tc15,ОС РОВ,Enemy personnel (Russian occupation forces),close_fight,high
+tc16,Стратегічна інфраструктура,Strategic infrastructure,rear_area,high
+tc17,Тактична інфраструктура,Tactical infrastructure,fortifications,high
+tc18,Мотоцикли,Motorcycles,close_fight,high
+tc19,Військові баггі,Military buggies,close_fight,high
+tc20,Склади,Depots/warehouses,rear_area,high
+tc21,Укриття,Shelters,close_fight,high
+tc22,Бліндажі,Dugouts,close_fight,high
+tc23,Точки вильоту дронів,Drone launch points,drone_infrastructure,high
+tc24,Ворожі коптери,Enemy copter drones,counter_drone,high
+tc25,Ворожі крила,Enemy fixed-wing drones,counter_drone,high
+tc26,Ворожі НРК,Enemy unmanned ground vehicles,counter_drone,high
+tc27,Камери,Cameras,drone_infrastructure,high
+tc28,Інше,Other,other,high
+tc29,Гелікоптер,Helicopter,aviation,high
+tc30,Шахеди,Shahed one-way attack drones,counter_drone,high
+tc31,Гербери,Gerbera decoy/attack drones,counter_drone,high
+tc32,"ЗРК, ЗГРК",Surface-to-air missile / gun-missile systems,air_defense,high
+tc33,ЗУ,Anti-aircraft guns,air_defense,high
+tc34,ППО,Air defense (other),air_defense,high
+tc35,ЗПМ: БпАК,Aerial monitoring: unmanned aircraft systems,drone_infrastructure,low
+tc36,РСЗВ: Портативний,MLRS: man-portable,armor_artillery,medium
+tc37,ПУ БпЛА,UAV launchers,drone_infrastructure,high
+tc38,ОТ Склад БК,Ammunition depot,rear_area,high
+tc39,ОТ Склад ПММ,Fuel & lubricants depot,rear_area,high
+tc40,ОТ Склад майна,Supply depot,rear_area,high
+tc41,Літаки,Airplanes,aviation,high
+tc42,Флот,Naval vessels,naval,high
+tc43,Енерговузли,Energy nodes,rear_area,high

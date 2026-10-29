@@ -1,0 +1,15 @@
+{
+ "built_at": "2026-10-29 01:47 UTC",
+ "killboard": {
+  "rows": 174,
+  "units": 16,
+  "months": "2025-06..2026-10",
+  "collected_at": "2026-10-29T01:37:28.300Z"
+ },
+ "counts": {
+  "categories": 16,
+  "price_rows": 14,
+  "events": 17,
+  "target_classes": 43
+ }
+}
