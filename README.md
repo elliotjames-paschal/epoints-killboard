@@ -19,6 +19,7 @@ and the killboard panel. See the glossary page for definitions and caveats.
 | `data/categories.csv` | Priced-category registry with killboard-observability flag (`yes`/`partial`/`no`) |
 | `data/killboard_monthly.csv` | One row per USF unit per month: casualties, missions, totals, 43 target classes (hit/destroyed) |
 | `data/killboard_reconstructed.csv` | Jun 11 – Sep 30 2025 per-unit block, reconstructed (method documented per row) |
+| `data/killboard_prehistory.csv` | Pre-killboard monthly series (Dec 2024 – Aug 2025) from USF commander Brovdi's public Telegram reports: force-wide verified personnel hits, 414th-brigade series, USF-grouping summer totals |
 | `data/target_classes.csv` | Killboard target-class key: Ukrainian original, English translation, analytic group |
 
 Design rule: **no source, no row.** `scripts/build.py` fails the build if any price

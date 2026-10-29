@@ -93,6 +93,12 @@ def main():
            r.get("precision") != "bracket":
             err(f"events.csv:{i}: bad date {r['date']!r}")
 
+    for i, r in enumerate(read("killboard_prehistory.csv"), 2):
+        if not re.match(r"^https?://", r.get("source", "")):
+            err(f"killboard_prehistory.csv:{i}: missing/invalid source URL")
+        if parse_date(r["month"]) is None or not r.get("value", "").isdigit():
+            err(f"killboard_prehistory.csv:{i}: bad month/value")
+
     for i, c in enumerate(cats, 2):
         if not re.match(r"^https?://", c.get("source", "")):
             err(f"categories.csv:{i}: missing/invalid source URL")

@@ -1,0 +1,20 @@
+month,scope,metric,value,source,note
+2024-12,all_sou_drones,personnel_hit,19551,https://t.me/robert_magyar/1094,"All Defense-Forces drone units (507 subdivisions), personnel killed+wounded, video-verified via Армія дронів.Бонус; reported by USF cdr Brovdi 2025-05-20"
+2025-01,all_sou_drones,personnel_hit,20947,https://t.me/robert_magyar/1094,
+2025-02,all_sou_drones,personnel_hit,15320,https://t.me/robert_magyar/1094,
+2025-03,all_sou_drones,personnel_hit,20658,https://t.me/robert_magyar/1094,
+2025-04,all_sou_drones,personnel_hit,17358,https://t.me/robert_magyar/1094,
+2024-12,unit_414,personnel_hit,1075,https://t.me/robert_magyar/1094,"414th 'Birds of Magyar' brigade share of the force-wide figure (5.5%)"
+2025-01,unit_414,personnel_hit,1298,https://t.me/robert_magyar/1094,
+2025-02,unit_414,personnel_hit,926,https://t.me/robert_magyar/1094,
+2025-03,unit_414,personnel_hit,1701,https://t.me/robert_magyar/1094,
+2025-04,unit_414,personnel_hit,1804,https://t.me/robert_magyar/1094,"Corroborated by the brigade's April report (t.me/robert_magyar/1084: 5,840 unique targets / 1,804 personnel)"
+2025-04,unit_414,targets_hit,5840,https://t.me/robert_magyar/1084,"Unique verified targets, April 2025 brigade report"
+2025-05,unit_414,targets_hit,6306,https://t.me/robert_magyar/1113,"May 2025 brigade report"
+2025-05,unit_414,personnel_hit,2221,https://t.me/robert_magyar/1113,
+2025-06,usf_grouping,targets_hit,19653,https://t.me/robert_magyar/1363,"USF grouping, unique targets; from the commander's 100-days report — cross-checks the killboard's reconstructed window"
+2025-07,usf_grouping,targets_hit,23433,https://t.me/robert_magyar/1363,
+2025-08,usf_grouping,targets_hit,21266,https://t.me/robert_magyar/1363,
+2025-06,all_sou_drones,targets_hit,62247,https://t.me/robert_magyar/1363,"All Defense-Forces verified targets — the denominator for the USF's 31.6% share"
+2025-07,all_sou_drones,targets_hit,64624,https://t.me/robert_magyar/1363,"USF share 36.3%"
+2025-08,all_sou_drones,targets_hit,60032,https://t.me/robert_magyar/1363,"USF share 35.4%"
