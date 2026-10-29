@@ -94,6 +94,8 @@ def main():
             err(f"events.csv:{i}: bad date {r['date']!r}")
 
     for i, c in enumerate(cats, 2):
+        if not re.match(r"^https?://", c.get("source", "")):
+            err(f"categories.csv:{i}: missing/invalid source URL")
         for fld in filter(None, (c.get("killboard_fields") or "").split(";")):
             if fld not in kb_cols:
                 err(f"categories.csv:{i}: unknown killboard field {fld!r}")

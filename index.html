@@ -43,8 +43,11 @@
 
 <section id="prices">
   <h2>Points by category over time</h2>
-  <p class="small muted">Every value sourced. Categories the killboard cannot observe
-  are flagged in the <a href="glossary.html">glossary</a>.</p>
+  <p class="small muted">All 16 categories confirmed to earn points, with every
+  publicly documented value and its source. "Not published" means the category is
+  confirmed priced but the Ministry of Defense has never released the value — the
+  full internal tariff is not public. Categories the killboard cannot observe are
+  flagged in the <a href="glossary.html">glossary</a>.</p>
   <div id="pricetable"></div>
 </section>
 
@@ -125,25 +128,39 @@
         <span class="conf">${esc(e.confidence)}</span>
       </div>`).join("") + "</div>";
 
-  /* ---- price table ---- */
-  const nameOf = Object.fromEntries(cats.map(c => [c.category_id, c.name_en]));
+  /* ---- price table: EVERY confirmed category, published value or not ---- */
   const byCat = {};
   prices.forEach(p => (byCat[p.category_id] ??= []).push(p));
   const fmtPts = p => p.points && p.points_max && p.points !== p.points_max
       ? `${p.points}–${p.points_max}` : p.points ? p.points : `up to ${p.points_max}`;
+  const catOrder = [...cats].sort((a, b) =>
+    (byCat[b.category_id] ? 1 : 0) - (byCat[a.category_id] ? 1 : 0) ||
+    a.priced_since.localeCompare(b.priced_since));
   document.getElementById("pricetable").innerHTML = `
     <table><thead><tr><th>Category</th><th>Points</th><th>Basis</th>
     <th>In force</th><th>Conf.</th><th>Source</th></tr></thead><tbody>` +
-    Object.entries(byCat).map(([cid, rows]) =>
-      rows.sort((a, b) => a.valid_from.localeCompare(b.valid_from)).map((p, i) => `
+    catOrder.map(c => {
+      const rows = (byCat[c.category_id] || [])
+        .sort((a, b) => a.valid_from.localeCompare(b.valid_from));
+      if (!rows.length) return `
       <tr>
-        <td>${i === 0 ? esc(nameOf[cid] || cid) : ""}</td>
+        <td>${esc(c.name_en)}</td>
+        <td class="muted">not published</td>
+        <td class="muted">${esc(c.task_family)}</td>
+        <td class="num">${esc(c.priced_since)} → current</td>
+        <td class="muted">—</td>
+        <td><a href="${esc(c.source)}" target="_blank" rel="noopener">${host(c.source)} ↗</a></td>
+      </tr>`;
+      return rows.map((p, i) => `
+      <tr>
+        <td>${i === 0 ? esc(c.name_en) : ""}</td>
         <td class="num pts">${esc(fmtPts(p))}</td>
         <td class="muted">${esc(p.basis.replace(/_/g, " "))}</td>
         <td class="num">${esc(p.valid_from)} → ${esc(p.valid_to || "current")}</td>
         <td class="muted">${esc(p.confidence)}</td>
         <td><a href="${esc(p.source)}" target="_blank" rel="noopener">${host(p.source)} ↗</a></td>
-      </tr>`).join("")).join("") + "</tbody></table>";
+      </tr>`).join("");
+    }).join("") + "</tbody></table>";
 
   /* ---- killboard chart: USF grouping total hits per month ---- */
   const grp = kb.filter(r => r.unit === "USF Grouping" && r.month)

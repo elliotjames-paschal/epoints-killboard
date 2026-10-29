@@ -88,8 +88,14 @@
     <tr><td><code>priced_since</code></td><td>When the category entered the marketplace (precision alongside).</td></tr>
     <tr><td><code>on_killboard</code></td><td><code>yes</code> — killboard reports a matching field; <code>partial</code> — related fields exist but do not cleanly match the priced category (see <code>notes</code>); <code>no</code> — not observable on the killboard.</td></tr>
     <tr><td><code>killboard_fields</code></td><td>Semicolon-separated columns of <code>killboard_monthly.csv</code> that measure this category.</td></tr>
+    <tr><td><code>source</code></td><td>URL documenting that this category earns points (used for categories whose values were never published).</td></tr>
     </tbody>
   </table>
+  <p class="small">Completeness: these 16 categories are the ones whose pricing is
+  publicly confirmed. The MOD's full internal tariff (reportedly covering most of the
+  killboard's 43 target classes) has never been published; published point values
+  exist for 9 of the 16. The dataset records the boundary of the public record
+  rather than guessing past it.</p>
 </section>
 
 <section>
