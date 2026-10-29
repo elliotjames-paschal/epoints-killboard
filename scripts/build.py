@@ -159,7 +159,7 @@ def main():
     # a category can have several live bases (operator: 25 per kill AND 15 per
     # wounded); the panel's `points` column reports the highest-priority one and
     # names it in `points_basis` — the full set stays in prices.csv
-    BASIS_PRIORITY = ["per_kill", "per_destroyed", "per_capture",
+    BASIS_PRIORITY = ["per_kill", "per_destroyed", "per_capture", "per_evacuation",
                       "per_mission", "per_event", "per_wounded"]
     price_rows = {}
     for r in prices:

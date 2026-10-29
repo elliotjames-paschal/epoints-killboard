@@ -58,7 +58,7 @@
   <table>
     <thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
     <tr><td><code>category_id</code></td><td>Key into <code>categories.csv</code>.</td></tr>
-    <tr><td><code>basis</code></td><td>What earns the award: <code>per_kill</code>, <code>per_wounded</code>, <code>per_destroyed</code>, <code>per_hit</code> (damaged, not destroyed), <code>per_capture</code>, <code>per_mission</code>, <code>per_event</code>.</td></tr>
+    <tr><td><code>basis</code></td><td>What earns the award: <code>per_kill</code>, <code>per_wounded</code>, <code>per_destroyed</code>, <code>per_hit</code> (damaged, not destroyed), <code>per_capture</code>, <code>per_evacuation</code>, <code>per_mission</code>, <code>per_event</code>.</td></tr>
     <tr><td><code>points</code>, <code>points_max</code></td><td>Point value. Only <code>points_max</code> set means the source reported "up to N". Both set means a documented range.</td></tr>
     <tr><td><code>valid_from</code>, <code>valid_to</code></td><td>Validity interval. Empty <code>valid_to</code> = in force as of the last update. Dates carry only the precision in <code>from_precision</code> (<code>day</code>, <code>month</code>, <code>snapshot</code>, <code>bracket</code>).</td></tr>
     <tr><td><code>confidence</code></td><td><code>high</code> = primary source (MOD, Fedorov, Brave1); <code>med</code> = reliable press, exact date unpinned; <code>low</code> = disputed between sources (see <code>note</code>).</td></tr>
@@ -91,11 +91,14 @@
     <tr><td><code>source</code></td><td>URL documenting that this category earns points (used for categories whose values were never published).</td></tr>
     </tbody>
   </table>
-  <p class="small">Completeness: these 16 categories are the ones whose pricing is
-  publicly confirmed. The MOD's full internal tariff (reportedly covering most of the
-  killboard's 43 target classes) has never been published; published point values
-  exist for 9 of the 16. The dataset records the boundary of the public record
-  rather than guessing past it.</p>
+  <p class="small">Completeness: these 20 categories are the ones whose pricing is
+  publicly confirmed. The MOD's full internal tariff (covering most of the killboard's
+  43 target classes) has never been published — targeted searches of ministry channels,
+  commander interviews, and the Ukrainian tech press indicate the omission is
+  deliberate. Published or credibly reported values exist for 14 of the 20; rows
+  sourced from soldier interviews rather than official announcements carry
+  <code>med</code>/<code>low</code> confidence. The dataset records the boundary of
+  the public record rather than guessing past it.</p>
 </section>
 
 <section>
