@@ -37,7 +37,13 @@ Local fallback if GitHub runner IPs are ever blocked by the API: run
 `python3 scripts/kb_collect.py && python3 scripts/build.py` locally and push
 (a `launchd`/cron job does this fine).
 
-## Citation
+## Sources & citation
 
-If you use this data, please cite the repository. Collaboration welcome:
-**paschal@stanford.edu**.
+Killboard data comes from [«Підрахуйка» (sbs-group.army)](https://sbs-group.army/en/),
+the official public killboard of Ukraine's Unmanned Systems Forces, via its public
+API; raw JSON snapshots are preserved under `data/raw/` and in git history. Price
+and event data are compiled from official announcements (MOD, Mintsifra/Fedorov,
+Brave1) and reliable press — every row carries its source URL.
+
+If you use this data, please cite the repository and credit the killboard as the
+underlying output source. Collaboration welcome: **paschal@stanford.edu**.
