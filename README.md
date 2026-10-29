@@ -13,6 +13,7 @@ and the killboard panel. See the glossary page for definitions and caveats.
 
 | File | Contents |
 |---|---|
+| `data/panel.csv` | **The merged analysis panel** (generated): unit × month × category — killboard output next to the price in force that month; blank output = unobservable on the killboard, blank points = unpriced or value unpublished |
 | `data/prices.csv` | Point values as validity intervals: category × basis × (from, to), confidence, source URL per row |
 | `data/events.csv` | Timeline: launches, repricings, category expansions, platform events, proposals — source per row |
 | `data/categories.csv` | Priced-category registry with killboard-observability flag (`yes`/`partial`/`no`) |

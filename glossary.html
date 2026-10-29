@@ -37,6 +37,22 @@
 </section>
 
 <section>
+  <h2>panel.csv — the merged analysis panel</h2>
+  <p class="small muted">One row per unit × month × priced category: killboard output
+  next to the price in force that month. Generated from the tables below on every
+  update — treat those as the source of truth and this as the convenience join.</p>
+  <table>
+    <thead><tr><th>Column</th><th>Definition</th></tr></thead><tbody>
+    <tr><td><code>output</code></td><td>Verified count for the category's primary basis that month (kills, destructions, captures, missions). <strong>Blank when <code>on_killboard</code> is <code>no</code></strong> — unobservable, not zero. For <code>partial</code> categories it sums the related target classes (see <code>categories.csv</code> notes).</td></tr>
+    <tr><td><code>output_damaged</code></td><td>Hit-but-not-necessarily-destroyed count, where the killboard reports it.</td></tr>
+    <tr><td><code>points</code>, <code>points_max</code>, <code>points_basis</code></td><td>Price in force on the 1st of the month for the basis named in <code>points_basis</code> (a category with several live bases reports the highest-priority one: kill &gt; destroyed &gt; capture &gt; mission &gt; event &gt; wounded; the full set is in <code>prices.csv</code>). Blank = not yet priced, or value never published.</td></tr>
+    <tr><td><code>points_damaged</code></td><td>Price in force for damage (<code>per_hit</code>), where one exists.</td></tr>
+    <tr><td><code>price_confidence</code></td><td>Carried from the matched <code>prices.csv</code> row. For bracket-dated repricings (the 2025 infantry doubling) the new price applies from the bracket's start.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
   <h2>prices.csv — price intervals</h2>
   <p class="small muted">One row per (category, basis, validity interval). Every row has a source.</p>
   <table>

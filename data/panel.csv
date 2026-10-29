@@ -1,0 +1,2785 @@
+unit,month,category_id,on_killboard,output,output_damaged,points,points_max,points_basis,points_damaged,price_confidence
+Flying Skull,2025-06,ad_ew,partial,0,0,,60,per_destroyed,,med
+Flying Skull,2025-06,artillery_strike,no,,,,,,,
+Flying Skull,2025-06,aviation,no,,,,,,,
+Flying Skull,2025-06,capture_alive,no,,,,,,,
+Flying Skull,2025-06,drone_operator,no,,,,,,,
+Flying Skull,2025-06,mlrs,yes,3,12,,50,per_destroyed,,med
+Flying Skull,2025-06,motorcycle,yes,0,0,,,,,
+Flying Skull,2025-06,personnel_kill,yes,54,,12,,per_kill,,high
+Flying Skull,2025-06,personnel_wound,yes,71,,,,,,
+Flying Skull,2025-06,recon_mission,yes,863,,,,,,
+Flying Skull,2025-06,remote_mining,no,,,,,,,
+Flying Skull,2025-06,small_ad,partial,0,0,,,,,
+Flying Skull,2025-06,sniper,no,,,,,,,
+Flying Skull,2025-06,suicide_video,no,,,,,,,
+Flying Skull,2025-06,tank,yes,0,0,40,,per_destroyed,20,high
+Flying Skull,2025-06,ugv_logistics,no,,,,,,,
+Flying Skull,2025-07,ad_ew,partial,0,0,,60,per_destroyed,,med
+Flying Skull,2025-07,artillery_strike,no,,,,,,,
+Flying Skull,2025-07,aviation,no,,,,,,,
+Flying Skull,2025-07,capture_alive,no,,,,,,,
+Flying Skull,2025-07,drone_operator,no,,,25,,per_kill,,high
+Flying Skull,2025-07,mlrs,yes,3,3,,50,per_destroyed,,med
+Flying Skull,2025-07,motorcycle,yes,0,0,,,,,
+Flying Skull,2025-07,personnel_kill,yes,17,,12,,per_kill,,high
+Flying Skull,2025-07,personnel_wound,yes,70,,8,,per_wounded,,high
+Flying Skull,2025-07,recon_mission,yes,1476,,,,,,
+Flying Skull,2025-07,remote_mining,no,,,,,,,
+Flying Skull,2025-07,small_ad,partial,0,0,,,,,
+Flying Skull,2025-07,sniper,no,,,,,,,
+Flying Skull,2025-07,suicide_video,no,,,,,,,
+Flying Skull,2025-07,tank,yes,0,0,40,,per_destroyed,20,high
+Flying Skull,2025-07,ugv_logistics,no,,,,,,,
+Flying Skull,2025-08,ad_ew,partial,0,1,,60,per_destroyed,,med
+Flying Skull,2025-08,artillery_strike,no,,,,,,,
+Flying Skull,2025-08,aviation,no,,,,,,,
+Flying Skull,2025-08,capture_alive,no,,,,,,,
+Flying Skull,2025-08,drone_operator,no,,,25,,per_kill,,high
+Flying Skull,2025-08,mlrs,yes,0,0,,50,per_destroyed,,med
+Flying Skull,2025-08,motorcycle,yes,11,52,,,,,
+Flying Skull,2025-08,personnel_kill,yes,14,,12,,per_kill,,high
+Flying Skull,2025-08,personnel_wound,yes,42,,8,,per_wounded,,high
+Flying Skull,2025-08,recon_mission,yes,1006,,,,,,
+Flying Skull,2025-08,remote_mining,no,,,,,,,
+Flying Skull,2025-08,small_ad,partial,0,0,,,,,
+Flying Skull,2025-08,sniper,no,,,,,,,
+Flying Skull,2025-08,suicide_video,no,,,,,,,
+Flying Skull,2025-08,tank,yes,0,3,40,,per_destroyed,20,high
+Flying Skull,2025-08,ugv_logistics,no,,,,,,,
+Flying Skull,2025-09,ad_ew,partial,3,3,,60,per_destroyed,,med
+Flying Skull,2025-09,artillery_strike,no,,,,,,,
+Flying Skull,2025-09,aviation,no,,,,,,,
+Flying Skull,2025-09,capture_alive,no,,,,,,,
+Flying Skull,2025-09,drone_operator,no,,,25,,per_kill,,high
+Flying Skull,2025-09,mlrs,yes,0,0,,50,per_destroyed,,med
+Flying Skull,2025-09,motorcycle,yes,30,106,,,,,
+Flying Skull,2025-09,personnel_kill,yes,75,,12,,per_kill,,high
+Flying Skull,2025-09,personnel_wound,yes,166,,8,,per_wounded,,high
+Flying Skull,2025-09,recon_mission,yes,1091,,,,,,
+Flying Skull,2025-09,remote_mining,no,,,,,,,
+Flying Skull,2025-09,small_ad,partial,0,0,,,,,
+Flying Skull,2025-09,sniper,no,,,,,,,
+Flying Skull,2025-09,suicide_video,no,,,,,,,
+Flying Skull,2025-09,tank,yes,0,4,40,,per_destroyed,20,high
+Flying Skull,2025-09,ugv_logistics,no,,,,,,,
+Flying Skull,2025-10,ad_ew,partial,1,10,,60,per_destroyed,,med
+Flying Skull,2025-10,artillery_strike,no,,,,,,,
+Flying Skull,2025-10,aviation,no,,,,,,,
+Flying Skull,2025-10,capture_alive,no,,,120,,per_capture,,high
+Flying Skull,2025-10,drone_operator,no,,,25,,per_kill,,high
+Flying Skull,2025-10,mlrs,yes,0,1,70,,per_destroyed,,high
+Flying Skull,2025-10,motorcycle,yes,22,75,24,,per_destroyed,,med
+Flying Skull,2025-10,personnel_kill,yes,80,,12,,per_kill,,high
+Flying Skull,2025-10,personnel_wound,yes,112,,8,,per_wounded,,high
+Flying Skull,2025-10,recon_mission,yes,761,,,,,,
+Flying Skull,2025-10,remote_mining,no,,,,,,,
+Flying Skull,2025-10,small_ad,partial,0,0,,,,,
+Flying Skull,2025-10,sniper,no,,,,,,,
+Flying Skull,2025-10,suicide_video,no,,,,,,,
+Flying Skull,2025-10,tank,yes,2,11,40,,per_destroyed,20,high
+Flying Skull,2025-10,ugv_logistics,no,,,,,,,
+9 SUSBr,2025-11,ad_ew,partial,0,0,,60,per_destroyed,,med
+9 SUSBr,2025-11,artillery_strike,no,,,,,,,
+9 SUSBr,2025-11,aviation,no,,,,,,,
+9 SUSBr,2025-11,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2025-11,drone_operator,no,,,25,,per_kill,,high
+9 SUSBr,2025-11,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2025-11,motorcycle,yes,0,0,24,,per_destroyed,,med
+9 SUSBr,2025-11,personnel_kill,yes,116,,12,,per_kill,,high
+9 SUSBr,2025-11,personnel_wound,yes,21,,8,,per_wounded,,high
+9 SUSBr,2025-11,recon_mission,yes,54,,,,,,
+9 SUSBr,2025-11,remote_mining,no,,,,,,,
+9 SUSBr,2025-11,small_ad,partial,0,0,,,,,
+9 SUSBr,2025-11,sniper,no,,,,,,,
+9 SUSBr,2025-11,suicide_video,no,,,,,,,
+9 SUSBr,2025-11,tank,yes,0,1,40,,per_destroyed,20,high
+9 SUSBr,2025-11,ugv_logistics,no,,,,,,,
+Achilles,2025-11,ad_ew,partial,1,3,,60,per_destroyed,,med
+Achilles,2025-11,artillery_strike,no,,,,,,,
+Achilles,2025-11,aviation,no,,,,,,,
+Achilles,2025-11,capture_alive,no,,,120,,per_capture,,high
+Achilles,2025-11,drone_operator,no,,,25,,per_kill,,high
+Achilles,2025-11,mlrs,yes,0,0,70,,per_destroyed,,high
+Achilles,2025-11,motorcycle,yes,3,7,24,,per_destroyed,,med
+Achilles,2025-11,personnel_kill,yes,282,,12,,per_kill,,high
+Achilles,2025-11,personnel_wound,yes,392,,8,,per_wounded,,high
+Achilles,2025-11,recon_mission,yes,9027,,,,,,
+Achilles,2025-11,remote_mining,no,,,,,,,
+Achilles,2025-11,small_ad,partial,66,66,,,,,
+Achilles,2025-11,sniper,no,,,,,,,
+Achilles,2025-11,suicide_video,no,,,,,,,
+Achilles,2025-11,tank,yes,1,6,40,,per_destroyed,20,high
+Achilles,2025-11,ugv_logistics,no,,,,,,,
+Fenix,2025-11,ad_ew,partial,7,32,,60,per_destroyed,,med
+Fenix,2025-11,artillery_strike,no,,,,,,,
+Fenix,2025-11,aviation,no,,,,,,,
+Fenix,2025-11,capture_alive,no,,,120,,per_capture,,high
+Fenix,2025-11,drone_operator,no,,,25,,per_kill,,high
+Fenix,2025-11,mlrs,yes,2,8,70,,per_destroyed,,high
+Fenix,2025-11,motorcycle,yes,22,101,24,,per_destroyed,,med
+Fenix,2025-11,personnel_kill,yes,1129,,12,,per_kill,,high
+Fenix,2025-11,personnel_wound,yes,582,,8,,per_wounded,,high
+Fenix,2025-11,recon_mission,yes,7453,,,,,,
+Fenix,2025-11,remote_mining,no,,,,,,,
+Fenix,2025-11,small_ad,partial,0,0,,,,,
+Fenix,2025-11,sniper,no,,,,,,,
+Fenix,2025-11,suicide_video,no,,,,,,,
+Fenix,2025-11,tank,yes,5,9,40,,per_destroyed,20,high
+Fenix,2025-11,ugv_logistics,no,,,,,,,
+Flying Skull,2025-11,ad_ew,partial,3,8,,60,per_destroyed,,med
+Flying Skull,2025-11,artillery_strike,no,,,,,,,
+Flying Skull,2025-11,aviation,no,,,,,,,
+Flying Skull,2025-11,capture_alive,no,,,120,,per_capture,,high
+Flying Skull,2025-11,drone_operator,no,,,25,,per_kill,,high
+Flying Skull,2025-11,mlrs,yes,0,1,70,,per_destroyed,,high
+Flying Skull,2025-11,motorcycle,yes,6,38,24,,per_destroyed,,med
+Flying Skull,2025-11,personnel_kill,yes,44,,12,,per_kill,,high
+Flying Skull,2025-11,personnel_wound,yes,65,,8,,per_wounded,,high
+Flying Skull,2025-11,recon_mission,yes,638,,,,,,
+Flying Skull,2025-11,remote_mining,no,,,,,,,
+Flying Skull,2025-11,small_ad,partial,0,0,,,,,
+Flying Skull,2025-11,sniper,no,,,,,,,
+Flying Skull,2025-11,suicide_video,no,,,,,,,
+Flying Skull,2025-11,tank,yes,0,0,40,,per_destroyed,20,high
+Flying Skull,2025-11,ugv_logistics,no,,,,,,,
+Hawks,2025-11,ad_ew,partial,8,20,,60,per_destroyed,,med
+Hawks,2025-11,artillery_strike,no,,,,,,,
+Hawks,2025-11,aviation,no,,,,,,,
+Hawks,2025-11,capture_alive,no,,,120,,per_capture,,high
+Hawks,2025-11,drone_operator,no,,,25,,per_kill,,high
+Hawks,2025-11,mlrs,yes,1,3,70,,per_destroyed,,high
+Hawks,2025-11,motorcycle,yes,5,25,24,,per_destroyed,,med
+Hawks,2025-11,personnel_kill,yes,89,,12,,per_kill,,high
+Hawks,2025-11,personnel_wound,yes,232,,8,,per_wounded,,high
+Hawks,2025-11,recon_mission,yes,866,,,,,,
+Hawks,2025-11,remote_mining,no,,,,,,,
+Hawks,2025-11,small_ad,partial,2,2,,,,,
+Hawks,2025-11,sniper,no,,,,,,,
+Hawks,2025-11,suicide_video,no,,,,,,,
+Hawks,2025-11,tank,yes,0,5,40,,per_destroyed,20,high
+Hawks,2025-11,ugv_logistics,no,,,,,,,
+K-2,2025-11,ad_ew,partial,0,0,,60,per_destroyed,,med
+K-2,2025-11,artillery_strike,no,,,,,,,
+K-2,2025-11,aviation,no,,,,,,,
+K-2,2025-11,capture_alive,no,,,120,,per_capture,,high
+K-2,2025-11,drone_operator,no,,,25,,per_kill,,high
+K-2,2025-11,mlrs,yes,1,1,70,,per_destroyed,,high
+K-2,2025-11,motorcycle,yes,7,11,24,,per_destroyed,,med
+K-2,2025-11,personnel_kill,yes,480,,12,,per_kill,,high
+K-2,2025-11,personnel_wound,yes,204,,8,,per_wounded,,high
+K-2,2025-11,recon_mission,yes,4616,,,,,,
+K-2,2025-11,remote_mining,no,,,,,,,
+K-2,2025-11,small_ad,partial,2,2,,,,,
+K-2,2025-11,sniper,no,,,,,,,
+K-2,2025-11,suicide_video,no,,,,,,,
+K-2,2025-11,tank,yes,0,2,40,,per_destroyed,20,high
+K-2,2025-11,ugv_logistics,no,,,,,,,
+Magyar's Birds,2025-11,ad_ew,partial,38,61,,60,per_destroyed,,med
+Magyar's Birds,2025-11,artillery_strike,no,,,,,,,
+Magyar's Birds,2025-11,aviation,no,,,,,,,
+Magyar's Birds,2025-11,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2025-11,drone_operator,no,,,25,,per_kill,,high
+Magyar's Birds,2025-11,mlrs,yes,1,4,70,,per_destroyed,,high
+Magyar's Birds,2025-11,motorcycle,yes,78,270,24,,per_destroyed,,med
+Magyar's Birds,2025-11,personnel_kill,yes,1860,,12,,per_kill,,high
+Magyar's Birds,2025-11,personnel_wound,yes,1151,,8,,per_wounded,,high
+Magyar's Birds,2025-11,recon_mission,yes,8885,,,,,,
+Magyar's Birds,2025-11,remote_mining,no,,,,,,,
+Magyar's Birds,2025-11,small_ad,partial,187,187,,,,,
+Magyar's Birds,2025-11,sniper,no,,,,,,,
+Magyar's Birds,2025-11,suicide_video,no,,,,,,,
+Magyar's Birds,2025-11,tank,yes,5,27,40,,per_destroyed,20,high
+Magyar's Birds,2025-11,ugv_logistics,no,,,,,,,
+Nemesis,2025-11,ad_ew,partial,3,23,,60,per_destroyed,,med
+Nemesis,2025-11,artillery_strike,no,,,,,,,
+Nemesis,2025-11,aviation,no,,,,,,,
+Nemesis,2025-11,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2025-11,drone_operator,no,,,25,,per_kill,,high
+Nemesis,2025-11,mlrs,yes,1,2,70,,per_destroyed,,high
+Nemesis,2025-11,motorcycle,yes,3,33,24,,per_destroyed,,med
+Nemesis,2025-11,personnel_kill,yes,498,,12,,per_kill,,high
+Nemesis,2025-11,personnel_wound,yes,334,,8,,per_wounded,,high
+Nemesis,2025-11,recon_mission,yes,200,,,,,,
+Nemesis,2025-11,remote_mining,no,,,,,,,
+Nemesis,2025-11,small_ad,partial,404,404,,,,,
+Nemesis,2025-11,sniper,no,,,,,,,
+Nemesis,2025-11,suicide_video,no,,,,,,,
+Nemesis,2025-11,tank,yes,0,7,40,,per_destroyed,20,high
+Nemesis,2025-11,ugv_logistics,no,,,,,,,
+Raid,2025-11,ad_ew,partial,1,4,,60,per_destroyed,,med
+Raid,2025-11,artillery_strike,no,,,,,,,
+Raid,2025-11,aviation,no,,,,,,,
+Raid,2025-11,capture_alive,no,,,120,,per_capture,,high
+Raid,2025-11,drone_operator,no,,,25,,per_kill,,high
+Raid,2025-11,mlrs,yes,0,0,70,,per_destroyed,,high
+Raid,2025-11,motorcycle,yes,4,32,24,,per_destroyed,,med
+Raid,2025-11,personnel_kill,yes,22,,12,,per_kill,,high
+Raid,2025-11,personnel_wound,yes,75,,8,,per_wounded,,high
+Raid,2025-11,recon_mission,yes,218,,,,,,
+Raid,2025-11,remote_mining,no,,,,,,,
+Raid,2025-11,small_ad,partial,0,0,,,,,
+Raid,2025-11,sniper,no,,,,,,,
+Raid,2025-11,suicide_video,no,,,,,,,
+Raid,2025-11,tank,yes,0,4,40,,per_destroyed,20,high
+Raid,2025-11,ugv_logistics,no,,,,,,,
+Rarog,2025-11,ad_ew,partial,6,13,,60,per_destroyed,,med
+Rarog,2025-11,artillery_strike,no,,,,,,,
+Rarog,2025-11,aviation,no,,,,,,,
+Rarog,2025-11,capture_alive,no,,,120,,per_capture,,high
+Rarog,2025-11,drone_operator,no,,,25,,per_kill,,high
+Rarog,2025-11,mlrs,yes,0,1,70,,per_destroyed,,high
+Rarog,2025-11,motorcycle,yes,11,45,24,,per_destroyed,,med
+Rarog,2025-11,personnel_kill,yes,265,,12,,per_kill,,high
+Rarog,2025-11,personnel_wound,yes,423,,8,,per_wounded,,high
+Rarog,2025-11,recon_mission,yes,5110,,,,,,
+Rarog,2025-11,remote_mining,no,,,,,,,
+Rarog,2025-11,small_ad,partial,0,0,,,,,
+Rarog,2025-11,sniper,no,,,,,,,
+Rarog,2025-11,suicide_video,no,,,,,,,
+Rarog,2025-11,tank,yes,1,5,40,,per_destroyed,20,high
+Rarog,2025-11,ugv_logistics,no,,,,,,,
+Steppe Predators,2025-11,ad_ew,partial,1,1,,60,per_destroyed,,med
+Steppe Predators,2025-11,artillery_strike,no,,,,,,,
+Steppe Predators,2025-11,aviation,no,,,,,,,
+Steppe Predators,2025-11,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2025-11,drone_operator,no,,,25,,per_kill,,high
+Steppe Predators,2025-11,mlrs,yes,0,2,70,,per_destroyed,,high
+Steppe Predators,2025-11,motorcycle,yes,6,20,24,,per_destroyed,,med
+Steppe Predators,2025-11,personnel_kill,yes,179,,12,,per_kill,,high
+Steppe Predators,2025-11,personnel_wound,yes,129,,8,,per_wounded,,high
+Steppe Predators,2025-11,recon_mission,yes,14848,,,,,,
+Steppe Predators,2025-11,remote_mining,no,,,,,,,
+Steppe Predators,2025-11,small_ad,partial,0,0,,,,,
+Steppe Predators,2025-11,sniper,no,,,,,,,
+Steppe Predators,2025-11,suicide_video,no,,,,,,,
+Steppe Predators,2025-11,tank,yes,0,3,40,,per_destroyed,20,high
+Steppe Predators,2025-11,ugv_logistics,no,,,,,,,
+Svarog,2025-11,ad_ew,partial,0,0,,60,per_destroyed,,med
+Svarog,2025-11,artillery_strike,no,,,,,,,
+Svarog,2025-11,aviation,no,,,,,,,
+Svarog,2025-11,capture_alive,no,,,120,,per_capture,,high
+Svarog,2025-11,drone_operator,no,,,25,,per_kill,,high
+Svarog,2025-11,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2025-11,motorcycle,yes,0,1,24,,per_destroyed,,med
+Svarog,2025-11,personnel_kill,yes,20,,12,,per_kill,,high
+Svarog,2025-11,personnel_wound,yes,18,,8,,per_wounded,,high
+Svarog,2025-11,recon_mission,yes,108,,,,,,
+Svarog,2025-11,remote_mining,no,,,,,,,
+Svarog,2025-11,small_ad,partial,0,0,,,,,
+Svarog,2025-11,sniper,no,,,,,,,
+Svarog,2025-11,suicide_video,no,,,,,,,
+Svarog,2025-11,tank,yes,0,0,40,,per_destroyed,20,high
+Svarog,2025-11,ugv_logistics,no,,,,,,,
+USF Grouping,2025-11,ad_ew,partial,68,165,,60,per_destroyed,,med
+USF Grouping,2025-11,artillery_strike,no,,,,,,,
+USF Grouping,2025-11,aviation,no,,,,,,,
+USF Grouping,2025-11,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2025-11,drone_operator,no,,,25,,per_kill,,high
+USF Grouping,2025-11,mlrs,yes,6,22,70,,per_destroyed,,high
+USF Grouping,2025-11,motorcycle,yes,145,583,24,,per_destroyed,,med
+USF Grouping,2025-11,personnel_kill,yes,4868,,12,,per_kill,,high
+USF Grouping,2025-11,personnel_wound,yes,3605,,8,,per_wounded,,high
+USF Grouping,2025-11,recon_mission,yes,52056,,,,,,
+USF Grouping,2025-11,remote_mining,no,,,,,,,
+USF Grouping,2025-11,small_ad,partial,661,661,,,,,
+USF Grouping,2025-11,sniper,no,,,,,,,
+USF Grouping,2025-11,suicide_video,no,,,,,,,
+USF Grouping,2025-11,tank,yes,12,68,40,,per_destroyed,20,high
+USF Grouping,2025-11,ugv_logistics,no,,,,,,,
+9 SUSBr,2025-12,ad_ew,partial,2,2,,60,per_destroyed,,med
+9 SUSBr,2025-12,artillery_strike,no,,,,,,,
+9 SUSBr,2025-12,aviation,no,,,,,,,
+9 SUSBr,2025-12,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2025-12,drone_operator,no,,,25,,per_kill,,high
+9 SUSBr,2025-12,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2025-12,motorcycle,yes,1,2,24,,per_destroyed,,med
+9 SUSBr,2025-12,personnel_kill,yes,124,,12,,per_kill,,high
+9 SUSBr,2025-12,personnel_wound,yes,19,,8,,per_wounded,,high
+9 SUSBr,2025-12,recon_mission,yes,4,,,,,,
+9 SUSBr,2025-12,remote_mining,no,,,,,,,
+9 SUSBr,2025-12,small_ad,partial,0,0,,,,,
+9 SUSBr,2025-12,sniper,no,,,,,,,
+9 SUSBr,2025-12,suicide_video,no,,,,,,,
+9 SUSBr,2025-12,tank,yes,0,1,40,,per_destroyed,20,high
+9 SUSBr,2025-12,ugv_logistics,no,,,,,,,
+Achilles,2025-12,ad_ew,partial,0,1,,60,per_destroyed,,med
+Achilles,2025-12,artillery_strike,no,,,,,,,
+Achilles,2025-12,aviation,no,,,,,,,
+Achilles,2025-12,capture_alive,no,,,120,,per_capture,,high
+Achilles,2025-12,drone_operator,no,,,25,,per_kill,,high
+Achilles,2025-12,mlrs,yes,0,0,70,,per_destroyed,,high
+Achilles,2025-12,motorcycle,yes,3,10,24,,per_destroyed,,med
+Achilles,2025-12,personnel_kill,yes,284,,12,,per_kill,,high
+Achilles,2025-12,personnel_wound,yes,327,,8,,per_wounded,,high
+Achilles,2025-12,recon_mission,yes,7775,,,,,,
+Achilles,2025-12,remote_mining,no,,,,,,,
+Achilles,2025-12,small_ad,partial,24,24,,,,,
+Achilles,2025-12,sniper,no,,,,,,,
+Achilles,2025-12,suicide_video,no,,,,,,,
+Achilles,2025-12,tank,yes,1,5,40,,per_destroyed,20,high
+Achilles,2025-12,ugv_logistics,no,,,,,,,
+Fenix,2025-12,ad_ew,partial,14,79,,60,per_destroyed,,med
+Fenix,2025-12,artillery_strike,no,,,,,,,
+Fenix,2025-12,aviation,no,,,,,,,
+Fenix,2025-12,capture_alive,no,,,120,,per_capture,,high
+Fenix,2025-12,drone_operator,no,,,25,,per_kill,,high
+Fenix,2025-12,mlrs,yes,3,6,70,,per_destroyed,,high
+Fenix,2025-12,motorcycle,yes,51,136,24,,per_destroyed,,med
+Fenix,2025-12,personnel_kill,yes,1152,,12,,per_kill,,high
+Fenix,2025-12,personnel_wound,yes,829,,8,,per_wounded,,high
+Fenix,2025-12,recon_mission,yes,8803,,,,,,
+Fenix,2025-12,remote_mining,no,,,,,,,
+Fenix,2025-12,small_ad,partial,14,16,,,,,
+Fenix,2025-12,sniper,no,,,,,,,
+Fenix,2025-12,suicide_video,no,,,,,,,
+Fenix,2025-12,tank,yes,5,12,40,,per_destroyed,20,high
+Fenix,2025-12,ugv_logistics,no,,,,,,,
+Flying Skull,2025-12,ad_ew,partial,1,12,,60,per_destroyed,,med
+Flying Skull,2025-12,artillery_strike,no,,,,,,,
+Flying Skull,2025-12,aviation,no,,,,,,,
+Flying Skull,2025-12,capture_alive,no,,,120,,per_capture,,high
+Flying Skull,2025-12,drone_operator,no,,,25,,per_kill,,high
+Flying Skull,2025-12,mlrs,yes,0,0,70,,per_destroyed,,high
+Flying Skull,2025-12,motorcycle,yes,10,21,24,,per_destroyed,,med
+Flying Skull,2025-12,personnel_kill,yes,54,,12,,per_kill,,high
+Flying Skull,2025-12,personnel_wound,yes,73,,8,,per_wounded,,high
+Flying Skull,2025-12,recon_mission,yes,456,,,,,,
+Flying Skull,2025-12,remote_mining,no,,,,,,,
+Flying Skull,2025-12,small_ad,partial,0,0,,,,,
+Flying Skull,2025-12,sniper,no,,,,,,,
+Flying Skull,2025-12,suicide_video,no,,,,,,,
+Flying Skull,2025-12,tank,yes,0,1,40,,per_destroyed,20,high
+Flying Skull,2025-12,ugv_logistics,no,,,,,,,
+Hawks,2025-12,ad_ew,partial,3,27,,60,per_destroyed,,med
+Hawks,2025-12,artillery_strike,no,,,,,,,
+Hawks,2025-12,aviation,no,,,,,,,
+Hawks,2025-12,capture_alive,no,,,120,,per_capture,,high
+Hawks,2025-12,drone_operator,no,,,25,,per_kill,,high
+Hawks,2025-12,mlrs,yes,0,2,70,,per_destroyed,,high
+Hawks,2025-12,motorcycle,yes,5,43,24,,per_destroyed,,med
+Hawks,2025-12,personnel_kill,yes,124,,12,,per_kill,,high
+Hawks,2025-12,personnel_wound,yes,841,,8,,per_wounded,,high
+Hawks,2025-12,recon_mission,yes,1335,,,,,,
+Hawks,2025-12,remote_mining,no,,,,,,,
+Hawks,2025-12,small_ad,partial,4,4,,,,,
+Hawks,2025-12,sniper,no,,,,,,,
+Hawks,2025-12,suicide_video,no,,,,,,,
+Hawks,2025-12,tank,yes,0,7,40,,per_destroyed,20,high
+Hawks,2025-12,ugv_logistics,no,,,,,,,
+K-2,2025-12,ad_ew,partial,0,0,,60,per_destroyed,,med
+K-2,2025-12,artillery_strike,no,,,,,,,
+K-2,2025-12,aviation,no,,,,,,,
+K-2,2025-12,capture_alive,no,,,120,,per_capture,,high
+K-2,2025-12,drone_operator,no,,,25,,per_kill,,high
+K-2,2025-12,mlrs,yes,1,1,70,,per_destroyed,,high
+K-2,2025-12,motorcycle,yes,13,16,24,,per_destroyed,,med
+K-2,2025-12,personnel_kill,yes,642,,12,,per_kill,,high
+K-2,2025-12,personnel_wound,yes,235,,8,,per_wounded,,high
+K-2,2025-12,recon_mission,yes,5148,,,,,,
+K-2,2025-12,remote_mining,no,,,,,,,
+K-2,2025-12,small_ad,partial,5,5,,,,,
+K-2,2025-12,sniper,no,,,,,,,
+K-2,2025-12,suicide_video,no,,,,,,,
+K-2,2025-12,tank,yes,2,4,40,,per_destroyed,20,high
+K-2,2025-12,ugv_logistics,no,,,,,,,
+Magyar's Birds,2025-12,ad_ew,partial,65,123,,60,per_destroyed,,med
+Magyar's Birds,2025-12,artillery_strike,no,,,,,,,
+Magyar's Birds,2025-12,aviation,no,,,,,,,
+Magyar's Birds,2025-12,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2025-12,drone_operator,no,,,25,,per_kill,,high
+Magyar's Birds,2025-12,mlrs,yes,1,4,70,,per_destroyed,,high
+Magyar's Birds,2025-12,motorcycle,yes,130,462,24,,per_destroyed,,med
+Magyar's Birds,2025-12,personnel_kill,yes,2824,,12,,per_kill,,high
+Magyar's Birds,2025-12,personnel_wound,yes,2058,,8,,per_wounded,,high
+Magyar's Birds,2025-12,recon_mission,yes,10728,,,,,,
+Magyar's Birds,2025-12,remote_mining,no,,,,,,,
+Magyar's Birds,2025-12,small_ad,partial,208,225,,,,,
+Magyar's Birds,2025-12,sniper,no,,,,,,,
+Magyar's Birds,2025-12,suicide_video,no,,,,,,,
+Magyar's Birds,2025-12,tank,yes,8,40,40,,per_destroyed,20,high
+Magyar's Birds,2025-12,ugv_logistics,no,,,,,,,
+Nemesis,2025-12,ad_ew,partial,8,23,,60,per_destroyed,,med
+Nemesis,2025-12,artillery_strike,no,,,,,,,
+Nemesis,2025-12,aviation,no,,,,,,,
+Nemesis,2025-12,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2025-12,drone_operator,no,,,25,,per_kill,,high
+Nemesis,2025-12,mlrs,yes,1,2,70,,per_destroyed,,high
+Nemesis,2025-12,motorcycle,yes,9,42,24,,per_destroyed,,med
+Nemesis,2025-12,personnel_kill,yes,610,,12,,per_kill,,high
+Nemesis,2025-12,personnel_wound,yes,458,,8,,per_wounded,,high
+Nemesis,2025-12,recon_mission,yes,23,,,,,,
+Nemesis,2025-12,remote_mining,no,,,,,,,
+Nemesis,2025-12,small_ad,partial,170,170,,,,,
+Nemesis,2025-12,sniper,no,,,,,,,
+Nemesis,2025-12,suicide_video,no,,,,,,,
+Nemesis,2025-12,tank,yes,0,6,40,,per_destroyed,20,high
+Nemesis,2025-12,ugv_logistics,no,,,,,,,
+Raid,2025-12,ad_ew,partial,2,2,,60,per_destroyed,,med
+Raid,2025-12,artillery_strike,no,,,,,,,
+Raid,2025-12,aviation,no,,,,,,,
+Raid,2025-12,capture_alive,no,,,120,,per_capture,,high
+Raid,2025-12,drone_operator,no,,,25,,per_kill,,high
+Raid,2025-12,mlrs,yes,0,0,70,,per_destroyed,,high
+Raid,2025-12,motorcycle,yes,17,57,24,,per_destroyed,,med
+Raid,2025-12,personnel_kill,yes,16,,12,,per_kill,,high
+Raid,2025-12,personnel_wound,yes,74,,8,,per_wounded,,high
+Raid,2025-12,recon_mission,yes,2,,,,,,
+Raid,2025-12,remote_mining,no,,,,,,,
+Raid,2025-12,small_ad,partial,0,0,,,,,
+Raid,2025-12,sniper,no,,,,,,,
+Raid,2025-12,suicide_video,no,,,,,,,
+Raid,2025-12,tank,yes,0,0,40,,per_destroyed,20,high
+Raid,2025-12,ugv_logistics,no,,,,,,,
+Rarog,2025-12,ad_ew,partial,5,7,,60,per_destroyed,,med
+Rarog,2025-12,artillery_strike,no,,,,,,,
+Rarog,2025-12,aviation,no,,,,,,,
+Rarog,2025-12,capture_alive,no,,,120,,per_capture,,high
+Rarog,2025-12,drone_operator,no,,,25,,per_kill,,high
+Rarog,2025-12,mlrs,yes,0,2,70,,per_destroyed,,high
+Rarog,2025-12,motorcycle,yes,16,44,24,,per_destroyed,,med
+Rarog,2025-12,personnel_kill,yes,405,,12,,per_kill,,high
+Rarog,2025-12,personnel_wound,yes,455,,8,,per_wounded,,high
+Rarog,2025-12,recon_mission,yes,4805,,,,,,
+Rarog,2025-12,remote_mining,no,,,,,,,
+Rarog,2025-12,small_ad,partial,0,0,,,,,
+Rarog,2025-12,sniper,no,,,,,,,
+Rarog,2025-12,suicide_video,no,,,,,,,
+Rarog,2025-12,tank,yes,1,7,40,,per_destroyed,20,high
+Rarog,2025-12,ugv_logistics,no,,,,,,,
+Steppe Predators,2025-12,ad_ew,partial,6,13,,60,per_destroyed,,med
+Steppe Predators,2025-12,artillery_strike,no,,,,,,,
+Steppe Predators,2025-12,aviation,no,,,,,,,
+Steppe Predators,2025-12,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2025-12,drone_operator,no,,,25,,per_kill,,high
+Steppe Predators,2025-12,mlrs,yes,0,1,70,,per_destroyed,,high
+Steppe Predators,2025-12,motorcycle,yes,3,15,24,,per_destroyed,,med
+Steppe Predators,2025-12,personnel_kill,yes,305,,12,,per_kill,,high
+Steppe Predators,2025-12,personnel_wound,yes,203,,8,,per_wounded,,high
+Steppe Predators,2025-12,recon_mission,yes,18902,,,,,,
+Steppe Predators,2025-12,remote_mining,no,,,,,,,
+Steppe Predators,2025-12,small_ad,partial,0,0,,,,,
+Steppe Predators,2025-12,sniper,no,,,,,,,
+Steppe Predators,2025-12,suicide_video,no,,,,,,,
+Steppe Predators,2025-12,tank,yes,2,4,40,,per_destroyed,20,high
+Steppe Predators,2025-12,ugv_logistics,no,,,,,,,
+Svarog,2025-12,ad_ew,partial,0,0,,60,per_destroyed,,med
+Svarog,2025-12,artillery_strike,no,,,,,,,
+Svarog,2025-12,aviation,no,,,,,,,
+Svarog,2025-12,capture_alive,no,,,120,,per_capture,,high
+Svarog,2025-12,drone_operator,no,,,25,,per_kill,,high
+Svarog,2025-12,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2025-12,motorcycle,yes,1,4,24,,per_destroyed,,med
+Svarog,2025-12,personnel_kill,yes,46,,12,,per_kill,,high
+Svarog,2025-12,personnel_wound,yes,22,,8,,per_wounded,,high
+Svarog,2025-12,recon_mission,yes,63,,,,,,
+Svarog,2025-12,remote_mining,no,,,,,,,
+Svarog,2025-12,small_ad,partial,0,0,,,,,
+Svarog,2025-12,sniper,no,,,,,,,
+Svarog,2025-12,suicide_video,no,,,,,,,
+Svarog,2025-12,tank,yes,0,1,40,,per_destroyed,20,high
+Svarog,2025-12,ugv_logistics,no,,,,,,,
+USF Grouping,2025-12,ad_ew,partial,104,287,,60,per_destroyed,,med
+USF Grouping,2025-12,artillery_strike,no,,,,,,,
+USF Grouping,2025-12,aviation,no,,,,,,,
+USF Grouping,2025-12,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2025-12,drone_operator,no,,,25,,per_kill,,high
+USF Grouping,2025-12,mlrs,yes,6,18,70,,per_destroyed,,high
+USF Grouping,2025-12,motorcycle,yes,258,850,24,,per_destroyed,,med
+USF Grouping,2025-12,personnel_kill,yes,6462,,12,,per_kill,,high
+USF Grouping,2025-12,personnel_wound,yes,5575,,8,,per_wounded,,high
+USF Grouping,2025-12,recon_mission,yes,58071,,,,,,
+USF Grouping,2025-12,remote_mining,no,,,,,,,
+USF Grouping,2025-12,small_ad,partial,425,444,,,,,
+USF Grouping,2025-12,sniper,no,,,,,,,
+USF Grouping,2025-12,suicide_video,no,,,,,,,
+USF Grouping,2025-12,tank,yes,19,87,40,,per_destroyed,20,high
+USF Grouping,2025-12,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-01,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-01,artillery_strike,no,,,,,,,
+194 SPBBr,2026-01,aviation,no,,,,,,,
+194 SPBBr,2026-01,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-01,drone_operator,no,,,25,,per_kill,,high
+194 SPBBr,2026-01,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-01,motorcycle,yes,0,2,24,,per_destroyed,,med
+194 SPBBr,2026-01,personnel_kill,yes,1,,12,,per_kill,,high
+194 SPBBr,2026-01,personnel_wound,yes,0,,8,,per_wounded,,high
+194 SPBBr,2026-01,recon_mission,yes,311,,,,,,
+194 SPBBr,2026-01,remote_mining,no,,,,,,,
+194 SPBBr,2026-01,small_ad,partial,2,2,,,,,
+194 SPBBr,2026-01,sniper,no,,,,,,,
+194 SPBBr,2026-01,suicide_video,no,,,,,,,
+194 SPBBr,2026-01,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-01,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-01,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-01,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-01,aviation,no,,,,,,,
+7 CUS STSS,2026-01,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-01,drone_operator,no,,,25,,per_kill,,high
+7 CUS STSS,2026-01,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-01,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-01,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-01,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-01,recon_mission,yes,0,,,,,,
+7 CUS STSS,2026-01,remote_mining,no,,,,,,,
+7 CUS STSS,2026-01,small_ad,partial,0,0,,,,,
+7 CUS STSS,2026-01,sniper,no,,,,,,,
+7 CUS STSS,2026-01,suicide_video,no,,,,,,,
+7 CUS STSS,2026-01,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-01,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-01,ad_ew,partial,0,0,,60,per_destroyed,,med
+9 SUSBr,2026-01,artillery_strike,no,,,,,,,
+9 SUSBr,2026-01,aviation,no,,,,,,,
+9 SUSBr,2026-01,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-01,drone_operator,no,,,25,,per_kill,,high
+9 SUSBr,2026-01,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2026-01,motorcycle,yes,0,3,24,,per_destroyed,,med
+9 SUSBr,2026-01,personnel_kill,yes,80,,12,,per_kill,,high
+9 SUSBr,2026-01,personnel_wound,yes,19,,8,,per_wounded,,high
+9 SUSBr,2026-01,recon_mission,yes,6,,,,,,
+9 SUSBr,2026-01,remote_mining,no,,,,,,,
+9 SUSBr,2026-01,small_ad,partial,0,0,,,,,
+9 SUSBr,2026-01,sniper,no,,,,,,,
+9 SUSBr,2026-01,suicide_video,no,,,,,,,
+9 SUSBr,2026-01,tank,yes,0,0,40,,per_destroyed,20,high
+9 SUSBr,2026-01,ugv_logistics,no,,,,,,,
+Achilles,2026-01,ad_ew,partial,5,12,,60,per_destroyed,,med
+Achilles,2026-01,artillery_strike,no,,,,,,,
+Achilles,2026-01,aviation,no,,,,,,,
+Achilles,2026-01,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-01,drone_operator,no,,,25,,per_kill,,high
+Achilles,2026-01,mlrs,yes,0,0,70,,per_destroyed,,high
+Achilles,2026-01,motorcycle,yes,3,11,24,,per_destroyed,,med
+Achilles,2026-01,personnel_kill,yes,263,,12,,per_kill,,high
+Achilles,2026-01,personnel_wound,yes,341,,8,,per_wounded,,high
+Achilles,2026-01,recon_mission,yes,6283,,,,,,
+Achilles,2026-01,remote_mining,no,,,,,,,
+Achilles,2026-01,small_ad,partial,14,17,,,,,
+Achilles,2026-01,sniper,no,,,,,,,
+Achilles,2026-01,suicide_video,no,,,,,,,
+Achilles,2026-01,tank,yes,0,5,40,,per_destroyed,20,high
+Achilles,2026-01,ugv_logistics,no,,,,,,,
+Fenix,2026-01,ad_ew,partial,19,85,,60,per_destroyed,,med
+Fenix,2026-01,artillery_strike,no,,,,,,,
+Fenix,2026-01,aviation,no,,,,,,,
+Fenix,2026-01,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-01,drone_operator,no,,,25,,per_kill,,high
+Fenix,2026-01,mlrs,yes,1,7,70,,per_destroyed,,high
+Fenix,2026-01,motorcycle,yes,40,114,24,,per_destroyed,,med
+Fenix,2026-01,personnel_kill,yes,912,,12,,per_kill,,high
+Fenix,2026-01,personnel_wound,yes,831,,8,,per_wounded,,high
+Fenix,2026-01,recon_mission,yes,11076,,,,,,
+Fenix,2026-01,remote_mining,no,,,,,,,
+Fenix,2026-01,small_ad,partial,21,21,,,,,
+Fenix,2026-01,sniper,no,,,,,,,
+Fenix,2026-01,suicide_video,no,,,,,,,
+Fenix,2026-01,tank,yes,1,17,40,,per_destroyed,20,high
+Fenix,2026-01,ugv_logistics,no,,,,,,,
+Hawks,2026-01,ad_ew,partial,4,10,,60,per_destroyed,,med
+Hawks,2026-01,artillery_strike,no,,,,,,,
+Hawks,2026-01,aviation,no,,,,,,,
+Hawks,2026-01,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-01,drone_operator,no,,,25,,per_kill,,high
+Hawks,2026-01,mlrs,yes,0,2,70,,per_destroyed,,high
+Hawks,2026-01,motorcycle,yes,2,13,24,,per_destroyed,,med
+Hawks,2026-01,personnel_kill,yes,91,,12,,per_kill,,high
+Hawks,2026-01,personnel_wound,yes,707,,8,,per_wounded,,high
+Hawks,2026-01,recon_mission,yes,1335,,,,,,
+Hawks,2026-01,remote_mining,no,,,,,,,
+Hawks,2026-01,small_ad,partial,8,9,,,,,
+Hawks,2026-01,sniper,no,,,,,,,
+Hawks,2026-01,suicide_video,no,,,,,,,
+Hawks,2026-01,tank,yes,0,8,40,,per_destroyed,20,high
+Hawks,2026-01,ugv_logistics,no,,,,,,,
+K-2,2026-01,ad_ew,partial,0,0,,60,per_destroyed,,med
+K-2,2026-01,artillery_strike,no,,,,,,,
+K-2,2026-01,aviation,no,,,,,,,
+K-2,2026-01,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-01,drone_operator,no,,,25,,per_kill,,high
+K-2,2026-01,mlrs,yes,0,0,70,,per_destroyed,,high
+K-2,2026-01,motorcycle,yes,9,13,24,,per_destroyed,,med
+K-2,2026-01,personnel_kill,yes,520,,12,,per_kill,,high
+K-2,2026-01,personnel_wound,yes,158,,8,,per_wounded,,high
+K-2,2026-01,recon_mission,yes,7878,,,,,,
+K-2,2026-01,remote_mining,no,,,,,,,
+K-2,2026-01,small_ad,partial,13,14,,,,,
+K-2,2026-01,sniper,no,,,,,,,
+K-2,2026-01,suicide_video,no,,,,,,,
+K-2,2026-01,tank,yes,1,3,40,,per_destroyed,20,high
+K-2,2026-01,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-01,ad_ew,partial,83,156,,60,per_destroyed,,med
+Magyar's Birds,2026-01,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-01,aviation,no,,,,,,,
+Magyar's Birds,2026-01,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-01,drone_operator,no,,,25,,per_kill,,high
+Magyar's Birds,2026-01,mlrs,yes,0,5,70,,per_destroyed,,high
+Magyar's Birds,2026-01,motorcycle,yes,60,227,24,,per_destroyed,,med
+Magyar's Birds,2026-01,personnel_kill,yes,2153,,12,,per_kill,,high
+Magyar's Birds,2026-01,personnel_wound,yes,1417,,8,,per_wounded,,high
+Magyar's Birds,2026-01,recon_mission,yes,11227,,,,,,
+Magyar's Birds,2026-01,remote_mining,no,,,,,,,
+Magyar's Birds,2026-01,small_ad,partial,149,173,,,,,
+Magyar's Birds,2026-01,sniper,no,,,,,,,
+Magyar's Birds,2026-01,suicide_video,no,,,,,,,
+Magyar's Birds,2026-01,tank,yes,4,23,40,,per_destroyed,20,high
+Magyar's Birds,2026-01,ugv_logistics,no,,,,,,,
+Nemesis,2026-01,ad_ew,partial,7,36,,60,per_destroyed,,med
+Nemesis,2026-01,artillery_strike,no,,,,,,,
+Nemesis,2026-01,aviation,no,,,,,,,
+Nemesis,2026-01,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-01,drone_operator,no,,,25,,per_kill,,high
+Nemesis,2026-01,mlrs,yes,1,9,70,,per_destroyed,,high
+Nemesis,2026-01,motorcycle,yes,8,41,24,,per_destroyed,,med
+Nemesis,2026-01,personnel_kill,yes,457,,12,,per_kill,,high
+Nemesis,2026-01,personnel_wound,yes,477,,8,,per_wounded,,high
+Nemesis,2026-01,recon_mission,yes,59,,,,,,
+Nemesis,2026-01,remote_mining,no,,,,,,,
+Nemesis,2026-01,small_ad,partial,323,323,,,,,
+Nemesis,2026-01,sniper,no,,,,,,,
+Nemesis,2026-01,suicide_video,no,,,,,,,
+Nemesis,2026-01,tank,yes,2,13,40,,per_destroyed,20,high
+Nemesis,2026-01,ugv_logistics,no,,,,,,,
+Raid,2026-01,ad_ew,partial,2,8,,60,per_destroyed,,med
+Raid,2026-01,artillery_strike,no,,,,,,,
+Raid,2026-01,aviation,no,,,,,,,
+Raid,2026-01,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-01,drone_operator,no,,,25,,per_kill,,high
+Raid,2026-01,mlrs,yes,0,1,70,,per_destroyed,,high
+Raid,2026-01,motorcycle,yes,8,14,24,,per_destroyed,,med
+Raid,2026-01,personnel_kill,yes,15,,12,,per_kill,,high
+Raid,2026-01,personnel_wound,yes,48,,8,,per_wounded,,high
+Raid,2026-01,recon_mission,yes,60,,,,,,
+Raid,2026-01,remote_mining,no,,,,,,,
+Raid,2026-01,small_ad,partial,4,4,,,,,
+Raid,2026-01,sniper,no,,,,,,,
+Raid,2026-01,suicide_video,no,,,,,,,
+Raid,2026-01,tank,yes,0,2,40,,per_destroyed,20,high
+Raid,2026-01,ugv_logistics,no,,,,,,,
+Rarog,2026-01,ad_ew,partial,8,20,,60,per_destroyed,,med
+Rarog,2026-01,artillery_strike,no,,,,,,,
+Rarog,2026-01,aviation,no,,,,,,,
+Rarog,2026-01,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-01,drone_operator,no,,,25,,per_kill,,high
+Rarog,2026-01,mlrs,yes,0,0,70,,per_destroyed,,high
+Rarog,2026-01,motorcycle,yes,17,43,24,,per_destroyed,,med
+Rarog,2026-01,personnel_kill,yes,251,,12,,per_kill,,high
+Rarog,2026-01,personnel_wound,yes,327,,8,,per_wounded,,high
+Rarog,2026-01,recon_mission,yes,5252,,,,,,
+Rarog,2026-01,remote_mining,no,,,,,,,
+Rarog,2026-01,small_ad,partial,6,7,,,,,
+Rarog,2026-01,sniper,no,,,,,,,
+Rarog,2026-01,suicide_video,no,,,,,,,
+Rarog,2026-01,tank,yes,0,1,40,,per_destroyed,20,high
+Rarog,2026-01,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-01,ad_ew,partial,3,11,,60,per_destroyed,,med
+Steppe Predators,2026-01,artillery_strike,no,,,,,,,
+Steppe Predators,2026-01,aviation,no,,,,,,,
+Steppe Predators,2026-01,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-01,drone_operator,no,,,25,,per_kill,,high
+Steppe Predators,2026-01,mlrs,yes,0,2,70,,per_destroyed,,high
+Steppe Predators,2026-01,motorcycle,yes,10,31,24,,per_destroyed,,med
+Steppe Predators,2026-01,personnel_kill,yes,156,,12,,per_kill,,high
+Steppe Predators,2026-01,personnel_wound,yes,148,,8,,per_wounded,,high
+Steppe Predators,2026-01,recon_mission,yes,18712,,,,,,
+Steppe Predators,2026-01,remote_mining,no,,,,,,,
+Steppe Predators,2026-01,small_ad,partial,14,14,,,,,
+Steppe Predators,2026-01,sniper,no,,,,,,,
+Steppe Predators,2026-01,suicide_video,no,,,,,,,
+Steppe Predators,2026-01,tank,yes,1,7,40,,per_destroyed,20,high
+Steppe Predators,2026-01,ugv_logistics,no,,,,,,,
+Svarog,2026-01,ad_ew,partial,0,0,,60,per_destroyed,,med
+Svarog,2026-01,artillery_strike,no,,,,,,,
+Svarog,2026-01,aviation,no,,,,,,,
+Svarog,2026-01,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-01,drone_operator,no,,,25,,per_kill,,high
+Svarog,2026-01,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2026-01,motorcycle,yes,0,0,24,,per_destroyed,,med
+Svarog,2026-01,personnel_kill,yes,66,,12,,per_kill,,high
+Svarog,2026-01,personnel_wound,yes,42,,8,,per_wounded,,high
+Svarog,2026-01,recon_mission,yes,89,,,,,,
+Svarog,2026-01,remote_mining,no,,,,,,,
+Svarog,2026-01,small_ad,partial,0,0,,,,,
+Svarog,2026-01,sniper,no,,,,,,,
+Svarog,2026-01,suicide_video,no,,,,,,,
+Svarog,2026-01,tank,yes,0,0,40,,per_destroyed,20,high
+Svarog,2026-01,ugv_logistics,no,,,,,,,
+USF Grouping,2026-01,ad_ew,partial,131,338,,60,per_destroyed,,med
+USF Grouping,2026-01,artillery_strike,no,,,,,,,
+USF Grouping,2026-01,aviation,no,,,,,,,
+USF Grouping,2026-01,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-01,drone_operator,no,,,25,,per_kill,,high
+USF Grouping,2026-01,mlrs,yes,2,27,70,,per_destroyed,,high
+USF Grouping,2026-01,motorcycle,yes,157,509,24,,per_destroyed,,med
+USF Grouping,2026-01,personnel_kill,yes,4885,,12,,per_kill,,high
+USF Grouping,2026-01,personnel_wound,yes,4496,,8,,per_wounded,,high
+USF Grouping,2026-01,recon_mission,yes,62367,,,,,,
+USF Grouping,2026-01,remote_mining,no,,,,,,,
+USF Grouping,2026-01,small_ad,partial,554,584,,,,,
+USF Grouping,2026-01,sniper,no,,,,,,,
+USF Grouping,2026-01,suicide_video,no,,,,,,,
+USF Grouping,2026-01,tank,yes,9,80,40,,per_destroyed,20,high
+USF Grouping,2026-01,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-02,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-02,artillery_strike,no,,,,,,,
+194 SPBBr,2026-02,aviation,no,,,,,,,
+194 SPBBr,2026-02,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-02,drone_operator,no,,,25,,per_kill,,high
+194 SPBBr,2026-02,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-02,motorcycle,yes,0,0,24,,per_destroyed,,med
+194 SPBBr,2026-02,personnel_kill,yes,0,,12,,per_kill,,high
+194 SPBBr,2026-02,personnel_wound,yes,1,,8,,per_wounded,,high
+194 SPBBr,2026-02,recon_mission,yes,182,,,,,,
+194 SPBBr,2026-02,remote_mining,no,,,,,,,
+194 SPBBr,2026-02,small_ad,partial,4,4,,,,,
+194 SPBBr,2026-02,sniper,no,,,,,,,
+194 SPBBr,2026-02,suicide_video,no,,,,,,,
+194 SPBBr,2026-02,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-02,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-02,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-02,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-02,aviation,no,,,,,,,
+7 CUS STSS,2026-02,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-02,drone_operator,no,,,25,,per_kill,,high
+7 CUS STSS,2026-02,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-02,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-02,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-02,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-02,recon_mission,yes,0,,,,,,
+7 CUS STSS,2026-02,remote_mining,no,,,,,,,
+7 CUS STSS,2026-02,small_ad,partial,0,0,,,,,
+7 CUS STSS,2026-02,sniper,no,,,,,,,
+7 CUS STSS,2026-02,suicide_video,no,,,,,,,
+7 CUS STSS,2026-02,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-02,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-02,ad_ew,partial,0,0,,60,per_destroyed,,med
+9 SUSBr,2026-02,artillery_strike,no,,,,,,,
+9 SUSBr,2026-02,aviation,no,,,,,,,
+9 SUSBr,2026-02,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-02,drone_operator,no,,,25,,per_kill,,high
+9 SUSBr,2026-02,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2026-02,motorcycle,yes,0,0,24,,per_destroyed,,med
+9 SUSBr,2026-02,personnel_kill,yes,0,,12,,per_kill,,high
+9 SUSBr,2026-02,personnel_wound,yes,0,,8,,per_wounded,,high
+9 SUSBr,2026-02,recon_mission,yes,0,,,,,,
+9 SUSBr,2026-02,remote_mining,no,,,,,,,
+9 SUSBr,2026-02,small_ad,partial,18,18,,,,,
+9 SUSBr,2026-02,sniper,no,,,,,,,
+9 SUSBr,2026-02,suicide_video,no,,,,,,,
+9 SUSBr,2026-02,tank,yes,0,0,40,,per_destroyed,20,high
+9 SUSBr,2026-02,ugv_logistics,no,,,,,,,
+91 SATB,2026-02,ad_ew,partial,0,0,,60,per_destroyed,,med
+91 SATB,2026-02,artillery_strike,no,,,,,,,
+91 SATB,2026-02,aviation,no,,,,,,,
+91 SATB,2026-02,capture_alive,no,,,120,,per_capture,,high
+91 SATB,2026-02,drone_operator,no,,,25,,per_kill,,high
+91 SATB,2026-02,mlrs,yes,0,0,70,,per_destroyed,,high
+91 SATB,2026-02,motorcycle,yes,0,0,24,,per_destroyed,,med
+91 SATB,2026-02,personnel_kill,yes,1,,12,,per_kill,,high
+91 SATB,2026-02,personnel_wound,yes,0,,8,,per_wounded,,high
+91 SATB,2026-02,recon_mission,yes,302,,,,,,
+91 SATB,2026-02,remote_mining,no,,,,,,,
+91 SATB,2026-02,small_ad,partial,0,0,,,,,
+91 SATB,2026-02,sniper,no,,,,,,,
+91 SATB,2026-02,suicide_video,no,,,,,,,
+91 SATB,2026-02,tank,yes,0,0,40,,per_destroyed,20,high
+91 SATB,2026-02,ugv_logistics,no,,,,,,,
+Achilles,2026-02,ad_ew,partial,2,6,,60,per_destroyed,,med
+Achilles,2026-02,artillery_strike,no,,,,,,,
+Achilles,2026-02,aviation,no,,,,,,,
+Achilles,2026-02,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-02,drone_operator,no,,,25,,per_kill,,high
+Achilles,2026-02,mlrs,yes,0,1,70,,per_destroyed,,high
+Achilles,2026-02,motorcycle,yes,4,21,24,,per_destroyed,,med
+Achilles,2026-02,personnel_kill,yes,384,,12,,per_kill,,high
+Achilles,2026-02,personnel_wound,yes,468,,8,,per_wounded,,high
+Achilles,2026-02,recon_mission,yes,5349,,,,,,
+Achilles,2026-02,remote_mining,no,,,,,,,
+Achilles,2026-02,small_ad,partial,42,49,,,,,
+Achilles,2026-02,sniper,no,,,,,,,
+Achilles,2026-02,suicide_video,no,,,,,,,
+Achilles,2026-02,tank,yes,0,7,40,,per_destroyed,20,high
+Achilles,2026-02,ugv_logistics,no,,,,,,,
+Fenix,2026-02,ad_ew,partial,19,51,,60,per_destroyed,,med
+Fenix,2026-02,artillery_strike,no,,,,,,,
+Fenix,2026-02,aviation,no,,,,,,,
+Fenix,2026-02,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-02,drone_operator,no,,,25,,per_kill,,high
+Fenix,2026-02,mlrs,yes,2,5,70,,per_destroyed,,high
+Fenix,2026-02,motorcycle,yes,29,88,24,,per_destroyed,,med
+Fenix,2026-02,personnel_kill,yes,1027,,12,,per_kill,,high
+Fenix,2026-02,personnel_wound,yes,647,,8,,per_wounded,,high
+Fenix,2026-02,recon_mission,yes,9801,,,,,,
+Fenix,2026-02,remote_mining,no,,,,,,,
+Fenix,2026-02,small_ad,partial,18,18,,,,,
+Fenix,2026-02,sniper,no,,,,,,,
+Fenix,2026-02,suicide_video,no,,,,,,,
+Fenix,2026-02,tank,yes,1,13,40,,per_destroyed,20,high
+Fenix,2026-02,ugv_logistics,no,,,,,,,
+Hawks,2026-02,ad_ew,partial,7,21,,60,per_destroyed,,med
+Hawks,2026-02,artillery_strike,no,,,,,,,
+Hawks,2026-02,aviation,no,,,,,,,
+Hawks,2026-02,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-02,drone_operator,no,,,25,,per_kill,,high
+Hawks,2026-02,mlrs,yes,1,5,70,,per_destroyed,,high
+Hawks,2026-02,motorcycle,yes,1,11,24,,per_destroyed,,med
+Hawks,2026-02,personnel_kill,yes,76,,12,,per_kill,,high
+Hawks,2026-02,personnel_wound,yes,304,,8,,per_wounded,,high
+Hawks,2026-02,recon_mission,yes,1567,,,,,,
+Hawks,2026-02,remote_mining,no,,,,,,,
+Hawks,2026-02,small_ad,partial,13,13,,,,,
+Hawks,2026-02,sniper,no,,,,,,,
+Hawks,2026-02,suicide_video,no,,,,,,,
+Hawks,2026-02,tank,yes,0,0,40,,per_destroyed,20,high
+Hawks,2026-02,ugv_logistics,no,,,,,,,
+K-2,2026-02,ad_ew,partial,1,1,,60,per_destroyed,,med
+K-2,2026-02,artillery_strike,no,,,,,,,
+K-2,2026-02,aviation,no,,,,,,,
+K-2,2026-02,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-02,drone_operator,no,,,25,,per_kill,,high
+K-2,2026-02,mlrs,yes,1,4,70,,per_destroyed,,high
+K-2,2026-02,motorcycle,yes,1,2,24,,per_destroyed,,med
+K-2,2026-02,personnel_kill,yes,573,,12,,per_kill,,high
+K-2,2026-02,personnel_wound,yes,124,,8,,per_wounded,,high
+K-2,2026-02,recon_mission,yes,7655,,,,,,
+K-2,2026-02,remote_mining,no,,,,,,,
+K-2,2026-02,small_ad,partial,47,47,,,,,
+K-2,2026-02,sniper,no,,,,,,,
+K-2,2026-02,suicide_video,no,,,,,,,
+K-2,2026-02,tank,yes,2,6,40,,per_destroyed,20,high
+K-2,2026-02,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-02,ad_ew,partial,90,157,,60,per_destroyed,,med
+Magyar's Birds,2026-02,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-02,aviation,no,,,,,,,
+Magyar's Birds,2026-02,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-02,drone_operator,no,,,25,,per_kill,,high
+Magyar's Birds,2026-02,mlrs,yes,3,5,70,,per_destroyed,,high
+Magyar's Birds,2026-02,motorcycle,yes,65,197,24,,per_destroyed,,med
+Magyar's Birds,2026-02,personnel_kill,yes,1842,,12,,per_kill,,high
+Magyar's Birds,2026-02,personnel_wound,yes,1427,,8,,per_wounded,,high
+Magyar's Birds,2026-02,recon_mission,yes,9886,,,,,,
+Magyar's Birds,2026-02,remote_mining,no,,,,,,,
+Magyar's Birds,2026-02,small_ad,partial,222,238,,,,,
+Magyar's Birds,2026-02,sniper,no,,,,,,,
+Magyar's Birds,2026-02,suicide_video,no,,,,,,,
+Magyar's Birds,2026-02,tank,yes,1,22,40,,per_destroyed,20,high
+Magyar's Birds,2026-02,ugv_logistics,no,,,,,,,
+Nemesis,2026-02,ad_ew,partial,15,37,,60,per_destroyed,,med
+Nemesis,2026-02,artillery_strike,no,,,,,,,
+Nemesis,2026-02,aviation,no,,,,,,,
+Nemesis,2026-02,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-02,drone_operator,no,,,25,,per_kill,,high
+Nemesis,2026-02,mlrs,yes,0,4,70,,per_destroyed,,high
+Nemesis,2026-02,motorcycle,yes,5,28,24,,per_destroyed,,med
+Nemesis,2026-02,personnel_kill,yes,344,,12,,per_kill,,high
+Nemesis,2026-02,personnel_wound,yes,291,,8,,per_wounded,,high
+Nemesis,2026-02,recon_mission,yes,109,,,,,,
+Nemesis,2026-02,remote_mining,no,,,,,,,
+Nemesis,2026-02,small_ad,partial,154,154,,,,,
+Nemesis,2026-02,sniper,no,,,,,,,
+Nemesis,2026-02,suicide_video,no,,,,,,,
+Nemesis,2026-02,tank,yes,0,8,40,,per_destroyed,20,high
+Nemesis,2026-02,ugv_logistics,no,,,,,,,
+Raid,2026-02,ad_ew,partial,5,12,,60,per_destroyed,,med
+Raid,2026-02,artillery_strike,no,,,,,,,
+Raid,2026-02,aviation,no,,,,,,,
+Raid,2026-02,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-02,drone_operator,no,,,25,,per_kill,,high
+Raid,2026-02,mlrs,yes,0,0,70,,per_destroyed,,high
+Raid,2026-02,motorcycle,yes,0,11,24,,per_destroyed,,med
+Raid,2026-02,personnel_kill,yes,16,,12,,per_kill,,high
+Raid,2026-02,personnel_wound,yes,67,,8,,per_wounded,,high
+Raid,2026-02,recon_mission,yes,157,,,,,,
+Raid,2026-02,remote_mining,no,,,,,,,
+Raid,2026-02,small_ad,partial,14,16,,,,,
+Raid,2026-02,sniper,no,,,,,,,
+Raid,2026-02,suicide_video,no,,,,,,,
+Raid,2026-02,tank,yes,0,2,40,,per_destroyed,20,high
+Raid,2026-02,ugv_logistics,no,,,,,,,
+Rarog,2026-02,ad_ew,partial,8,17,,60,per_destroyed,,med
+Rarog,2026-02,artillery_strike,no,,,,,,,
+Rarog,2026-02,aviation,no,,,,,,,
+Rarog,2026-02,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-02,drone_operator,no,,,25,,per_kill,,high
+Rarog,2026-02,mlrs,yes,0,0,70,,per_destroyed,,high
+Rarog,2026-02,motorcycle,yes,10,37,24,,per_destroyed,,med
+Rarog,2026-02,personnel_kill,yes,209,,12,,per_kill,,high
+Rarog,2026-02,personnel_wound,yes,262,,8,,per_wounded,,high
+Rarog,2026-02,recon_mission,yes,6109,,,,,,
+Rarog,2026-02,remote_mining,no,,,,,,,
+Rarog,2026-02,small_ad,partial,9,10,,,,,
+Rarog,2026-02,sniper,no,,,,,,,
+Rarog,2026-02,suicide_video,no,,,,,,,
+Rarog,2026-02,tank,yes,0,8,40,,per_destroyed,20,high
+Rarog,2026-02,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-02,ad_ew,partial,0,8,,60,per_destroyed,,med
+Steppe Predators,2026-02,artillery_strike,no,,,,,,,
+Steppe Predators,2026-02,aviation,no,,,,,,,
+Steppe Predators,2026-02,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-02,drone_operator,no,,,25,,per_kill,,high
+Steppe Predators,2026-02,mlrs,yes,0,1,70,,per_destroyed,,high
+Steppe Predators,2026-02,motorcycle,yes,11,58,24,,per_destroyed,,med
+Steppe Predators,2026-02,personnel_kill,yes,195,,12,,per_kill,,high
+Steppe Predators,2026-02,personnel_wound,yes,193,,8,,per_wounded,,high
+Steppe Predators,2026-02,recon_mission,yes,16861,,,,,,
+Steppe Predators,2026-02,remote_mining,no,,,,,,,
+Steppe Predators,2026-02,small_ad,partial,13,13,,,,,
+Steppe Predators,2026-02,sniper,no,,,,,,,
+Steppe Predators,2026-02,suicide_video,no,,,,,,,
+Steppe Predators,2026-02,tank,yes,0,7,40,,per_destroyed,20,high
+Steppe Predators,2026-02,ugv_logistics,no,,,,,,,
+Svarog,2026-02,ad_ew,partial,0,0,,60,per_destroyed,,med
+Svarog,2026-02,artillery_strike,no,,,,,,,
+Svarog,2026-02,aviation,no,,,,,,,
+Svarog,2026-02,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-02,drone_operator,no,,,25,,per_kill,,high
+Svarog,2026-02,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2026-02,motorcycle,yes,0,1,24,,per_destroyed,,med
+Svarog,2026-02,personnel_kill,yes,123,,12,,per_kill,,high
+Svarog,2026-02,personnel_wound,yes,92,,8,,per_wounded,,high
+Svarog,2026-02,recon_mission,yes,86,,,,,,
+Svarog,2026-02,remote_mining,no,,,,,,,
+Svarog,2026-02,small_ad,partial,3,3,,,,,
+Svarog,2026-02,sniper,no,,,,,,,
+Svarog,2026-02,suicide_video,no,,,,,,,
+Svarog,2026-02,tank,yes,0,2,40,,per_destroyed,20,high
+Svarog,2026-02,ugv_logistics,no,,,,,,,
+USF Grouping,2026-02,ad_ew,partial,150,319,,60,per_destroyed,,med
+USF Grouping,2026-02,artillery_strike,no,,,,,,,
+USF Grouping,2026-02,aviation,no,,,,,,,
+USF Grouping,2026-02,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-02,drone_operator,no,,,25,,per_kill,,high
+USF Grouping,2026-02,mlrs,yes,8,26,70,,per_destroyed,,high
+USF Grouping,2026-02,motorcycle,yes,126,454,24,,per_destroyed,,med
+USF Grouping,2026-02,personnel_kill,yes,4790,,12,,per_kill,,high
+USF Grouping,2026-02,personnel_wound,yes,3882,,8,,per_wounded,,high
+USF Grouping,2026-02,recon_mission,yes,58218,,,,,,
+USF Grouping,2026-02,remote_mining,no,,,,,,,
+USF Grouping,2026-02,small_ad,partial,575,601,,,,,
+USF Grouping,2026-02,sniper,no,,,,,,,
+USF Grouping,2026-02,suicide_video,no,,,,,,,
+USF Grouping,2026-02,tank,yes,4,76,40,,per_destroyed,20,high
+USF Grouping,2026-02,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-03,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-03,artillery_strike,no,,,,,,,
+194 SPBBr,2026-03,aviation,no,,,,,,,
+194 SPBBr,2026-03,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-03,drone_operator,no,,,25,,per_kill,,high
+194 SPBBr,2026-03,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-03,motorcycle,yes,0,0,24,,per_destroyed,,med
+194 SPBBr,2026-03,personnel_kill,yes,0,,12,,per_kill,,high
+194 SPBBr,2026-03,personnel_wound,yes,2,,8,,per_wounded,,high
+194 SPBBr,2026-03,recon_mission,yes,31,,,,,,
+194 SPBBr,2026-03,remote_mining,no,,,,,,,
+194 SPBBr,2026-03,small_ad,partial,0,0,,,,,
+194 SPBBr,2026-03,sniper,no,,,,,,,
+194 SPBBr,2026-03,suicide_video,no,,,,,,,
+194 SPBBr,2026-03,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-03,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-03,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-03,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-03,aviation,no,,,,,,,
+7 CUS STSS,2026-03,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-03,drone_operator,no,,,25,,per_kill,,high
+7 CUS STSS,2026-03,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-03,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-03,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-03,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-03,recon_mission,yes,0,,,,,,
+7 CUS STSS,2026-03,remote_mining,no,,,,,,,
+7 CUS STSS,2026-03,small_ad,partial,3,3,,,,,
+7 CUS STSS,2026-03,sniper,no,,,,,,,
+7 CUS STSS,2026-03,suicide_video,no,,,,,,,
+7 CUS STSS,2026-03,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-03,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-03,ad_ew,partial,0,1,,60,per_destroyed,,med
+9 SUSBr,2026-03,artillery_strike,no,,,,,,,
+9 SUSBr,2026-03,aviation,no,,,,,,,
+9 SUSBr,2026-03,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-03,drone_operator,no,,,25,,per_kill,,high
+9 SUSBr,2026-03,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2026-03,motorcycle,yes,0,1,24,,per_destroyed,,med
+9 SUSBr,2026-03,personnel_kill,yes,26,,12,,per_kill,,high
+9 SUSBr,2026-03,personnel_wound,yes,30,,8,,per_wounded,,high
+9 SUSBr,2026-03,recon_mission,yes,914,,,,,,
+9 SUSBr,2026-03,remote_mining,no,,,,,,,
+9 SUSBr,2026-03,small_ad,partial,43,55,,,,,
+9 SUSBr,2026-03,sniper,no,,,,,,,
+9 SUSBr,2026-03,suicide_video,no,,,,,,,
+9 SUSBr,2026-03,tank,yes,0,0,40,,per_destroyed,20,high
+9 SUSBr,2026-03,ugv_logistics,no,,,,,,,
+91 SATB,2026-03,ad_ew,partial,0,1,,60,per_destroyed,,med
+91 SATB,2026-03,artillery_strike,no,,,,,,,
+91 SATB,2026-03,aviation,no,,,,,,,
+91 SATB,2026-03,capture_alive,no,,,120,,per_capture,,high
+91 SATB,2026-03,drone_operator,no,,,25,,per_kill,,high
+91 SATB,2026-03,mlrs,yes,0,0,70,,per_destroyed,,high
+91 SATB,2026-03,motorcycle,yes,0,0,24,,per_destroyed,,med
+91 SATB,2026-03,personnel_kill,yes,6,,12,,per_kill,,high
+91 SATB,2026-03,personnel_wound,yes,8,,8,,per_wounded,,high
+91 SATB,2026-03,recon_mission,yes,894,,,,,,
+91 SATB,2026-03,remote_mining,no,,,,,,,
+91 SATB,2026-03,small_ad,partial,0,0,,,,,
+91 SATB,2026-03,sniper,no,,,,,,,
+91 SATB,2026-03,suicide_video,no,,,,,,,
+91 SATB,2026-03,tank,yes,0,4,40,,per_destroyed,20,high
+91 SATB,2026-03,ugv_logistics,no,,,,,,,
+Achilles,2026-03,ad_ew,partial,1,8,,60,per_destroyed,,med
+Achilles,2026-03,artillery_strike,no,,,,,,,
+Achilles,2026-03,aviation,no,,,,,,,
+Achilles,2026-03,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-03,drone_operator,no,,,25,,per_kill,,high
+Achilles,2026-03,mlrs,yes,0,1,70,,per_destroyed,,high
+Achilles,2026-03,motorcycle,yes,11,19,24,,per_destroyed,,med
+Achilles,2026-03,personnel_kill,yes,504,,12,,per_kill,,high
+Achilles,2026-03,personnel_wound,yes,652,,8,,per_wounded,,high
+Achilles,2026-03,recon_mission,yes,7994,,,,,,
+Achilles,2026-03,remote_mining,no,,,,,,,
+Achilles,2026-03,small_ad,partial,57,65,,,,,
+Achilles,2026-03,sniper,no,,,,,,,
+Achilles,2026-03,suicide_video,no,,,,,,,
+Achilles,2026-03,tank,yes,0,4,40,,per_destroyed,20,high
+Achilles,2026-03,ugv_logistics,no,,,,,,,
+Fenix,2026-03,ad_ew,partial,24,86,,60,per_destroyed,,med
+Fenix,2026-03,artillery_strike,no,,,,,,,
+Fenix,2026-03,aviation,no,,,,,,,
+Fenix,2026-03,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-03,drone_operator,no,,,25,,per_kill,,high
+Fenix,2026-03,mlrs,yes,1,4,70,,per_destroyed,,high
+Fenix,2026-03,motorcycle,yes,61,160,24,,per_destroyed,,med
+Fenix,2026-03,personnel_kill,yes,1072,,12,,per_kill,,high
+Fenix,2026-03,personnel_wound,yes,1041,,8,,per_wounded,,high
+Fenix,2026-03,recon_mission,yes,11843,,,,,,
+Fenix,2026-03,remote_mining,no,,,,,,,
+Fenix,2026-03,small_ad,partial,29,29,,,,,
+Fenix,2026-03,sniper,no,,,,,,,
+Fenix,2026-03,suicide_video,no,,,,,,,
+Fenix,2026-03,tank,yes,0,9,40,,per_destroyed,20,high
+Fenix,2026-03,ugv_logistics,no,,,,,,,
+Hawks,2026-03,ad_ew,partial,4,21,,60,per_destroyed,,med
+Hawks,2026-03,artillery_strike,no,,,,,,,
+Hawks,2026-03,aviation,no,,,,,,,
+Hawks,2026-03,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-03,drone_operator,no,,,25,,per_kill,,high
+Hawks,2026-03,mlrs,yes,0,3,70,,per_destroyed,,high
+Hawks,2026-03,motorcycle,yes,5,29,24,,per_destroyed,,med
+Hawks,2026-03,personnel_kill,yes,47,,12,,per_kill,,high
+Hawks,2026-03,personnel_wound,yes,219,,8,,per_wounded,,high
+Hawks,2026-03,recon_mission,yes,2168,,,,,,
+Hawks,2026-03,remote_mining,no,,,,,,,
+Hawks,2026-03,small_ad,partial,16,17,,,,,
+Hawks,2026-03,sniper,no,,,,,,,
+Hawks,2026-03,suicide_video,no,,,,,,,
+Hawks,2026-03,tank,yes,0,2,40,,per_destroyed,20,high
+Hawks,2026-03,ugv_logistics,no,,,,,,,
+K-2,2026-03,ad_ew,partial,3,4,,60,per_destroyed,,med
+K-2,2026-03,artillery_strike,no,,,,,,,
+K-2,2026-03,aviation,no,,,,,,,
+K-2,2026-03,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-03,drone_operator,no,,,25,,per_kill,,high
+K-2,2026-03,mlrs,yes,0,0,70,,per_destroyed,,high
+K-2,2026-03,motorcycle,yes,12,16,24,,per_destroyed,,med
+K-2,2026-03,personnel_kill,yes,587,,12,,per_kill,,high
+K-2,2026-03,personnel_wound,yes,200,,8,,per_wounded,,high
+K-2,2026-03,recon_mission,yes,9829,,,,,,
+K-2,2026-03,remote_mining,no,,,,,,,
+K-2,2026-03,small_ad,partial,81,83,,,,,
+K-2,2026-03,sniper,no,,,,,,,
+K-2,2026-03,suicide_video,no,,,,,,,
+K-2,2026-03,tank,yes,1,4,40,,per_destroyed,20,high
+K-2,2026-03,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-03,ad_ew,partial,104,251,,60,per_destroyed,,med
+Magyar's Birds,2026-03,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-03,aviation,no,,,,,,,
+Magyar's Birds,2026-03,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-03,drone_operator,no,,,25,,per_kill,,high
+Magyar's Birds,2026-03,mlrs,yes,2,10,70,,per_destroyed,,high
+Magyar's Birds,2026-03,motorcycle,yes,119,377,24,,per_destroyed,,med
+Magyar's Birds,2026-03,personnel_kill,yes,2197,,12,,per_kill,,high
+Magyar's Birds,2026-03,personnel_wound,yes,2114,,8,,per_wounded,,high
+Magyar's Birds,2026-03,recon_mission,yes,11279,,,,,,
+Magyar's Birds,2026-03,remote_mining,no,,,,,,,
+Magyar's Birds,2026-03,small_ad,partial,324,354,,,,,
+Magyar's Birds,2026-03,sniper,no,,,,,,,
+Magyar's Birds,2026-03,suicide_video,no,,,,,,,
+Magyar's Birds,2026-03,tank,yes,4,26,40,,per_destroyed,20,high
+Magyar's Birds,2026-03,ugv_logistics,no,,,,,,,
+Nemesis,2026-03,ad_ew,partial,21,74,,60,per_destroyed,,med
+Nemesis,2026-03,artillery_strike,no,,,,,,,
+Nemesis,2026-03,aviation,no,,,,,,,
+Nemesis,2026-03,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-03,drone_operator,no,,,25,,per_kill,,high
+Nemesis,2026-03,mlrs,yes,0,1,70,,per_destroyed,,high
+Nemesis,2026-03,motorcycle,yes,18,106,24,,per_destroyed,,med
+Nemesis,2026-03,personnel_kill,yes,245,,12,,per_kill,,high
+Nemesis,2026-03,personnel_wound,yes,309,,8,,per_wounded,,high
+Nemesis,2026-03,recon_mission,yes,156,,,,,,
+Nemesis,2026-03,remote_mining,no,,,,,,,
+Nemesis,2026-03,small_ad,partial,272,272,,,,,
+Nemesis,2026-03,sniper,no,,,,,,,
+Nemesis,2026-03,suicide_video,no,,,,,,,
+Nemesis,2026-03,tank,yes,0,3,40,,per_destroyed,20,high
+Nemesis,2026-03,ugv_logistics,no,,,,,,,
+Raid,2026-03,ad_ew,partial,10,33,,60,per_destroyed,,med
+Raid,2026-03,artillery_strike,no,,,,,,,
+Raid,2026-03,aviation,no,,,,,,,
+Raid,2026-03,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-03,drone_operator,no,,,25,,per_kill,,high
+Raid,2026-03,mlrs,yes,1,3,70,,per_destroyed,,high
+Raid,2026-03,motorcycle,yes,5,15,24,,per_destroyed,,med
+Raid,2026-03,personnel_kill,yes,60,,12,,per_kill,,high
+Raid,2026-03,personnel_wound,yes,106,,8,,per_wounded,,high
+Raid,2026-03,recon_mission,yes,317,,,,,,
+Raid,2026-03,remote_mining,no,,,,,,,
+Raid,2026-03,small_ad,partial,11,13,,,,,
+Raid,2026-03,sniper,no,,,,,,,
+Raid,2026-03,suicide_video,no,,,,,,,
+Raid,2026-03,tank,yes,0,2,40,,per_destroyed,20,high
+Raid,2026-03,ugv_logistics,no,,,,,,,
+Rarog,2026-03,ad_ew,partial,14,30,,60,per_destroyed,,med
+Rarog,2026-03,artillery_strike,no,,,,,,,
+Rarog,2026-03,aviation,no,,,,,,,
+Rarog,2026-03,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-03,drone_operator,no,,,25,,per_kill,,high
+Rarog,2026-03,mlrs,yes,0,2,70,,per_destroyed,,high
+Rarog,2026-03,motorcycle,yes,10,42,24,,per_destroyed,,med
+Rarog,2026-03,personnel_kill,yes,235,,12,,per_kill,,high
+Rarog,2026-03,personnel_wound,yes,324,,8,,per_wounded,,high
+Rarog,2026-03,recon_mission,yes,9885,,,,,,
+Rarog,2026-03,remote_mining,no,,,,,,,
+Rarog,2026-03,small_ad,partial,54,55,,,,,
+Rarog,2026-03,sniper,no,,,,,,,
+Rarog,2026-03,suicide_video,no,,,,,,,
+Rarog,2026-03,tank,yes,1,3,40,,per_destroyed,20,high
+Rarog,2026-03,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-03,ad_ew,partial,0,2,,60,per_destroyed,,med
+Steppe Predators,2026-03,artillery_strike,no,,,,,,,
+Steppe Predators,2026-03,aviation,no,,,,,,,
+Steppe Predators,2026-03,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-03,drone_operator,no,,,25,,per_kill,,high
+Steppe Predators,2026-03,mlrs,yes,0,1,70,,per_destroyed,,high
+Steppe Predators,2026-03,motorcycle,yes,3,22,24,,per_destroyed,,med
+Steppe Predators,2026-03,personnel_kill,yes,202,,12,,per_kill,,high
+Steppe Predators,2026-03,personnel_wound,yes,261,,8,,per_wounded,,high
+Steppe Predators,2026-03,recon_mission,yes,23073,,,,,,
+Steppe Predators,2026-03,remote_mining,no,,,,,,,
+Steppe Predators,2026-03,small_ad,partial,11,12,,,,,
+Steppe Predators,2026-03,sniper,no,,,,,,,
+Steppe Predators,2026-03,suicide_video,no,,,,,,,
+Steppe Predators,2026-03,tank,yes,0,11,40,,per_destroyed,20,high
+Steppe Predators,2026-03,ugv_logistics,no,,,,,,,
+Svarog,2026-03,ad_ew,partial,0,0,,60,per_destroyed,,med
+Svarog,2026-03,artillery_strike,no,,,,,,,
+Svarog,2026-03,aviation,no,,,,,,,
+Svarog,2026-03,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-03,drone_operator,no,,,25,,per_kill,,high
+Svarog,2026-03,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2026-03,motorcycle,yes,0,3,24,,per_destroyed,,med
+Svarog,2026-03,personnel_kill,yes,31,,12,,per_kill,,high
+Svarog,2026-03,personnel_wound,yes,31,,8,,per_wounded,,high
+Svarog,2026-03,recon_mission,yes,87,,,,,,
+Svarog,2026-03,remote_mining,no,,,,,,,
+Svarog,2026-03,small_ad,partial,2,2,,,,,
+Svarog,2026-03,sniper,no,,,,,,,
+Svarog,2026-03,suicide_video,no,,,,,,,
+Svarog,2026-03,tank,yes,0,0,40,,per_destroyed,20,high
+Svarog,2026-03,ugv_logistics,no,,,,,,,
+USF Grouping,2026-03,ad_ew,partial,183,518,,60,per_destroyed,,med
+USF Grouping,2026-03,artillery_strike,no,,,,,,,
+USF Grouping,2026-03,aviation,no,,,,,,,
+USF Grouping,2026-03,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-03,drone_operator,no,,,25,,per_kill,,high
+USF Grouping,2026-03,mlrs,yes,4,28,70,,per_destroyed,,high
+USF Grouping,2026-03,motorcycle,yes,244,791,24,,per_destroyed,,med
+USF Grouping,2026-03,personnel_kill,yes,5216,,12,,per_kill,,high
+USF Grouping,2026-03,personnel_wound,yes,5297,,8,,per_wounded,,high
+USF Grouping,2026-03,recon_mission,yes,78810,,,,,,
+USF Grouping,2026-03,remote_mining,no,,,,,,,
+USF Grouping,2026-03,small_ad,partial,903,960,,,,,
+USF Grouping,2026-03,sniper,no,,,,,,,
+USF Grouping,2026-03,suicide_video,no,,,,,,,
+USF Grouping,2026-03,tank,yes,6,70,40,,per_destroyed,20,high
+USF Grouping,2026-03,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-04,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-04,artillery_strike,no,,,,,,,
+194 SPBBr,2026-04,aviation,no,,,,,,,
+194 SPBBr,2026-04,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-04,drone_operator,no,,,25,,per_kill,,high
+194 SPBBr,2026-04,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-04,motorcycle,yes,0,0,24,,per_destroyed,,med
+194 SPBBr,2026-04,personnel_kill,yes,0,,12,,per_kill,,high
+194 SPBBr,2026-04,personnel_wound,yes,0,,8,,per_wounded,,high
+194 SPBBr,2026-04,recon_mission,yes,0,,,,,,
+194 SPBBr,2026-04,remote_mining,no,,,,,,,
+194 SPBBr,2026-04,small_ad,partial,0,0,,,,,
+194 SPBBr,2026-04,sniper,no,,,,,,,
+194 SPBBr,2026-04,suicide_video,no,,,,,,,
+194 SPBBr,2026-04,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-04,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-04,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-04,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-04,aviation,no,,,,,,,
+7 CUS STSS,2026-04,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-04,drone_operator,no,,,25,,per_kill,,high
+7 CUS STSS,2026-04,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-04,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-04,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-04,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-04,recon_mission,yes,0,,,,,,
+7 CUS STSS,2026-04,remote_mining,no,,,,,,,
+7 CUS STSS,2026-04,small_ad,partial,14,14,,,,,
+7 CUS STSS,2026-04,sniper,no,,,,,,,
+7 CUS STSS,2026-04,suicide_video,no,,,,,,,
+7 CUS STSS,2026-04,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-04,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-04,ad_ew,partial,1,1,,60,per_destroyed,,med
+9 SUSBr,2026-04,artillery_strike,no,,,,,,,
+9 SUSBr,2026-04,aviation,no,,,,,,,
+9 SUSBr,2026-04,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-04,drone_operator,no,,,25,,per_kill,,high
+9 SUSBr,2026-04,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2026-04,motorcycle,yes,0,0,24,,per_destroyed,,med
+9 SUSBr,2026-04,personnel_kill,yes,32,,12,,per_kill,,high
+9 SUSBr,2026-04,personnel_wound,yes,34,,8,,per_wounded,,high
+9 SUSBr,2026-04,recon_mission,yes,1018,,,,,,
+9 SUSBr,2026-04,remote_mining,no,,,,,,,
+9 SUSBr,2026-04,small_ad,partial,90,92,,,,,
+9 SUSBr,2026-04,sniper,no,,,,,,,
+9 SUSBr,2026-04,suicide_video,no,,,,,,,
+9 SUSBr,2026-04,tank,yes,0,1,40,,per_destroyed,20,high
+9 SUSBr,2026-04,ugv_logistics,no,,,,,,,
+91 SATB,2026-04,ad_ew,partial,0,0,,60,per_destroyed,,med
+91 SATB,2026-04,artillery_strike,no,,,,,,,
+91 SATB,2026-04,aviation,no,,,,,,,
+91 SATB,2026-04,capture_alive,no,,,120,,per_capture,,high
+91 SATB,2026-04,drone_operator,no,,,25,,per_kill,,high
+91 SATB,2026-04,mlrs,yes,0,0,70,,per_destroyed,,high
+91 SATB,2026-04,motorcycle,yes,4,6,24,,per_destroyed,,med
+91 SATB,2026-04,personnel_kill,yes,3,,12,,per_kill,,high
+91 SATB,2026-04,personnel_wound,yes,6,,8,,per_wounded,,high
+91 SATB,2026-04,recon_mission,yes,570,,,,,,
+91 SATB,2026-04,remote_mining,no,,,,,,,
+91 SATB,2026-04,small_ad,partial,0,0,,,,,
+91 SATB,2026-04,sniper,no,,,,,,,
+91 SATB,2026-04,suicide_video,no,,,,,,,
+91 SATB,2026-04,tank,yes,0,0,40,,per_destroyed,20,high
+91 SATB,2026-04,ugv_logistics,no,,,,,,,
+Achilles,2026-04,ad_ew,partial,2,9,,60,per_destroyed,,med
+Achilles,2026-04,artillery_strike,no,,,,,,,
+Achilles,2026-04,aviation,no,,,,,,,
+Achilles,2026-04,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-04,drone_operator,no,,,25,,per_kill,,high
+Achilles,2026-04,mlrs,yes,0,2,70,,per_destroyed,,high
+Achilles,2026-04,motorcycle,yes,17,41,24,,per_destroyed,,med
+Achilles,2026-04,personnel_kill,yes,544,,12,,per_kill,,high
+Achilles,2026-04,personnel_wound,yes,612,,8,,per_wounded,,high
+Achilles,2026-04,recon_mission,yes,7947,,,,,,
+Achilles,2026-04,remote_mining,no,,,,,,,
+Achilles,2026-04,small_ad,partial,79,89,,,,,
+Achilles,2026-04,sniper,no,,,,,,,
+Achilles,2026-04,suicide_video,no,,,,,,,
+Achilles,2026-04,tank,yes,1,3,40,,per_destroyed,20,high
+Achilles,2026-04,ugv_logistics,no,,,,,,,
+Fenix,2026-04,ad_ew,partial,9,71,,60,per_destroyed,,med
+Fenix,2026-04,artillery_strike,no,,,,,,,
+Fenix,2026-04,aviation,no,,,,,,,
+Fenix,2026-04,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-04,drone_operator,no,,,25,,per_kill,,high
+Fenix,2026-04,mlrs,yes,2,9,70,,per_destroyed,,high
+Fenix,2026-04,motorcycle,yes,53,168,24,,per_destroyed,,med
+Fenix,2026-04,personnel_kill,yes,769,,12,,per_kill,,high
+Fenix,2026-04,personnel_wound,yes,970,,8,,per_wounded,,high
+Fenix,2026-04,recon_mission,yes,12805,,,,,,
+Fenix,2026-04,remote_mining,no,,,,,,,
+Fenix,2026-04,small_ad,partial,40,40,,,,,
+Fenix,2026-04,sniper,no,,,,,,,
+Fenix,2026-04,suicide_video,no,,,,,,,
+Fenix,2026-04,tank,yes,1,5,40,,per_destroyed,20,high
+Fenix,2026-04,ugv_logistics,no,,,,,,,
+Hawks,2026-04,ad_ew,partial,5,14,,60,per_destroyed,,med
+Hawks,2026-04,artillery_strike,no,,,,,,,
+Hawks,2026-04,aviation,no,,,,,,,
+Hawks,2026-04,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-04,drone_operator,no,,,25,,per_kill,,high
+Hawks,2026-04,mlrs,yes,0,1,70,,per_destroyed,,high
+Hawks,2026-04,motorcycle,yes,12,44,24,,per_destroyed,,med
+Hawks,2026-04,personnel_kill,yes,65,,12,,per_kill,,high
+Hawks,2026-04,personnel_wound,yes,312,,8,,per_wounded,,high
+Hawks,2026-04,recon_mission,yes,1834,,,,,,
+Hawks,2026-04,remote_mining,no,,,,,,,
+Hawks,2026-04,small_ad,partial,9,11,,,,,
+Hawks,2026-04,sniper,no,,,,,,,
+Hawks,2026-04,suicide_video,no,,,,,,,
+Hawks,2026-04,tank,yes,0,1,40,,per_destroyed,20,high
+Hawks,2026-04,ugv_logistics,no,,,,,,,
+K-2,2026-04,ad_ew,partial,4,15,,60,per_destroyed,,med
+K-2,2026-04,artillery_strike,no,,,,,,,
+K-2,2026-04,aviation,no,,,,,,,
+K-2,2026-04,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-04,drone_operator,no,,,25,,per_kill,,high
+K-2,2026-04,mlrs,yes,0,3,70,,per_destroyed,,high
+K-2,2026-04,motorcycle,yes,14,32,24,,per_destroyed,,med
+K-2,2026-04,personnel_kill,yes,741,,12,,per_kill,,high
+K-2,2026-04,personnel_wound,yes,492,,8,,per_wounded,,high
+K-2,2026-04,recon_mission,yes,11361,,,,,,
+K-2,2026-04,remote_mining,no,,,,,,,
+K-2,2026-04,small_ad,partial,136,138,,,,,
+K-2,2026-04,sniper,no,,,,,,,
+K-2,2026-04,suicide_video,no,,,,,,,
+K-2,2026-04,tank,yes,0,4,40,,per_destroyed,20,high
+K-2,2026-04,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-04,ad_ew,partial,96,249,,60,per_destroyed,,med
+Magyar's Birds,2026-04,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-04,aviation,no,,,,,,,
+Magyar's Birds,2026-04,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-04,drone_operator,no,,,25,,per_kill,,high
+Magyar's Birds,2026-04,mlrs,yes,1,9,70,,per_destroyed,,high
+Magyar's Birds,2026-04,motorcycle,yes,133,374,24,,per_destroyed,,med
+Magyar's Birds,2026-04,personnel_kill,yes,1996,,12,,per_kill,,high
+Magyar's Birds,2026-04,personnel_wound,yes,2011,,8,,per_wounded,,high
+Magyar's Birds,2026-04,recon_mission,yes,8370,,,,,,
+Magyar's Birds,2026-04,remote_mining,no,,,,,,,
+Magyar's Birds,2026-04,small_ad,partial,362,378,,,,,
+Magyar's Birds,2026-04,sniper,no,,,,,,,
+Magyar's Birds,2026-04,suicide_video,no,,,,,,,
+Magyar's Birds,2026-04,tank,yes,2,17,40,,per_destroyed,20,high
+Magyar's Birds,2026-04,ugv_logistics,no,,,,,,,
+Nemesis,2026-04,ad_ew,partial,9,45,,60,per_destroyed,,med
+Nemesis,2026-04,artillery_strike,no,,,,,,,
+Nemesis,2026-04,aviation,no,,,,,,,
+Nemesis,2026-04,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-04,drone_operator,no,,,25,,per_kill,,high
+Nemesis,2026-04,mlrs,yes,1,4,70,,per_destroyed,,high
+Nemesis,2026-04,motorcycle,yes,37,232,24,,per_destroyed,,med
+Nemesis,2026-04,personnel_kill,yes,105,,12,,per_kill,,high
+Nemesis,2026-04,personnel_wound,yes,317,,8,,per_wounded,,high
+Nemesis,2026-04,recon_mission,yes,410,,,,,,
+Nemesis,2026-04,remote_mining,no,,,,,,,
+Nemesis,2026-04,small_ad,partial,176,176,,,,,
+Nemesis,2026-04,sniper,no,,,,,,,
+Nemesis,2026-04,suicide_video,no,,,,,,,
+Nemesis,2026-04,tank,yes,0,3,40,,per_destroyed,20,high
+Nemesis,2026-04,ugv_logistics,no,,,,,,,
+Raid,2026-04,ad_ew,partial,1,17,,60,per_destroyed,,med
+Raid,2026-04,artillery_strike,no,,,,,,,
+Raid,2026-04,aviation,no,,,,,,,
+Raid,2026-04,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-04,drone_operator,no,,,25,,per_kill,,high
+Raid,2026-04,mlrs,yes,0,0,70,,per_destroyed,,high
+Raid,2026-04,motorcycle,yes,5,13,24,,per_destroyed,,med
+Raid,2026-04,personnel_kill,yes,17,,12,,per_kill,,high
+Raid,2026-04,personnel_wound,yes,91,,8,,per_wounded,,high
+Raid,2026-04,recon_mission,yes,290,,,,,,
+Raid,2026-04,remote_mining,no,,,,,,,
+Raid,2026-04,small_ad,partial,17,18,,,,,
+Raid,2026-04,sniper,no,,,,,,,
+Raid,2026-04,suicide_video,no,,,,,,,
+Raid,2026-04,tank,yes,0,0,40,,per_destroyed,20,high
+Raid,2026-04,ugv_logistics,no,,,,,,,
+Rarog,2026-04,ad_ew,partial,9,25,,60,per_destroyed,,med
+Rarog,2026-04,artillery_strike,no,,,,,,,
+Rarog,2026-04,aviation,no,,,,,,,
+Rarog,2026-04,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-04,drone_operator,no,,,25,,per_kill,,high
+Rarog,2026-04,mlrs,yes,0,1,70,,per_destroyed,,high
+Rarog,2026-04,motorcycle,yes,9,54,24,,per_destroyed,,med
+Rarog,2026-04,personnel_kill,yes,274,,12,,per_kill,,high
+Rarog,2026-04,personnel_wound,yes,605,,8,,per_wounded,,high
+Rarog,2026-04,recon_mission,yes,9112,,,,,,
+Rarog,2026-04,remote_mining,no,,,,,,,
+Rarog,2026-04,small_ad,partial,93,100,,,,,
+Rarog,2026-04,sniper,no,,,,,,,
+Rarog,2026-04,suicide_video,no,,,,,,,
+Rarog,2026-04,tank,yes,2,7,40,,per_destroyed,20,high
+Rarog,2026-04,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-04,ad_ew,partial,0,3,,60,per_destroyed,,med
+Steppe Predators,2026-04,artillery_strike,no,,,,,,,
+Steppe Predators,2026-04,aviation,no,,,,,,,
+Steppe Predators,2026-04,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-04,drone_operator,no,,,25,,per_kill,,high
+Steppe Predators,2026-04,mlrs,yes,0,0,70,,per_destroyed,,high
+Steppe Predators,2026-04,motorcycle,yes,4,19,24,,per_destroyed,,med
+Steppe Predators,2026-04,personnel_kill,yes,325,,12,,per_kill,,high
+Steppe Predators,2026-04,personnel_wound,yes,246,,8,,per_wounded,,high
+Steppe Predators,2026-04,recon_mission,yes,22314,,,,,,
+Steppe Predators,2026-04,remote_mining,no,,,,,,,
+Steppe Predators,2026-04,small_ad,partial,30,30,,,,,
+Steppe Predators,2026-04,sniper,no,,,,,,,
+Steppe Predators,2026-04,suicide_video,no,,,,,,,
+Steppe Predators,2026-04,tank,yes,0,5,40,,per_destroyed,20,high
+Steppe Predators,2026-04,ugv_logistics,no,,,,,,,
+Svarog,2026-04,ad_ew,partial,0,0,,60,per_destroyed,,med
+Svarog,2026-04,artillery_strike,no,,,,,,,
+Svarog,2026-04,aviation,no,,,,,,,
+Svarog,2026-04,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-04,drone_operator,no,,,25,,per_kill,,high
+Svarog,2026-04,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2026-04,motorcycle,yes,1,2,24,,per_destroyed,,med
+Svarog,2026-04,personnel_kill,yes,5,,12,,per_kill,,high
+Svarog,2026-04,personnel_wound,yes,9,,8,,per_wounded,,high
+Svarog,2026-04,recon_mission,yes,50,,,,,,
+Svarog,2026-04,remote_mining,no,,,,,,,
+Svarog,2026-04,small_ad,partial,1,2,,,,,
+Svarog,2026-04,sniper,no,,,,,,,
+Svarog,2026-04,suicide_video,no,,,,,,,
+Svarog,2026-04,tank,yes,0,0,40,,per_destroyed,20,high
+Svarog,2026-04,ugv_logistics,no,,,,,,,
+USF Grouping,2026-04,ad_ew,partial,137,461,,60,per_destroyed,,med
+USF Grouping,2026-04,artillery_strike,no,,,,,,,
+USF Grouping,2026-04,aviation,no,,,,,,,
+USF Grouping,2026-04,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-04,drone_operator,no,,,25,,per_kill,,high
+USF Grouping,2026-04,mlrs,yes,6,31,70,,per_destroyed,,high
+USF Grouping,2026-04,motorcycle,yes,289,986,24,,per_destroyed,,med
+USF Grouping,2026-04,personnel_kill,yes,4876,,12,,per_kill,,high
+USF Grouping,2026-04,personnel_wound,yes,5705,,8,,per_wounded,,high
+USF Grouping,2026-04,recon_mission,yes,76224,,,,,,
+USF Grouping,2026-04,remote_mining,no,,,,,,,
+USF Grouping,2026-04,small_ad,partial,1047,1088,,,,,
+USF Grouping,2026-04,sniper,no,,,,,,,
+USF Grouping,2026-04,suicide_video,no,,,,,,,
+USF Grouping,2026-04,tank,yes,6,46,40,,per_destroyed,20,high
+USF Grouping,2026-04,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-05,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-05,artillery_strike,no,,,,,,,
+194 SPBBr,2026-05,aviation,no,,,,,,,
+194 SPBBr,2026-05,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-05,drone_operator,no,,,24,,per_kill,,high
+194 SPBBr,2026-05,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-05,motorcycle,yes,0,0,24,,per_destroyed,,med
+194 SPBBr,2026-05,personnel_kill,yes,0,,12,,per_kill,,high
+194 SPBBr,2026-05,personnel_wound,yes,0,,8,,per_wounded,,high
+194 SPBBr,2026-05,recon_mission,yes,0,,,,,,
+194 SPBBr,2026-05,remote_mining,no,,,,,,,
+194 SPBBr,2026-05,small_ad,partial,0,0,,,,,
+194 SPBBr,2026-05,sniper,no,,,,,,,
+194 SPBBr,2026-05,suicide_video,no,,,,,,,
+194 SPBBr,2026-05,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-05,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-05,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-05,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-05,aviation,no,,,,,,,
+7 CUS STSS,2026-05,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-05,drone_operator,no,,,24,,per_kill,,high
+7 CUS STSS,2026-05,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-05,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-05,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-05,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-05,recon_mission,yes,0,,,,,,
+7 CUS STSS,2026-05,remote_mining,no,,,,,,,
+7 CUS STSS,2026-05,small_ad,partial,42,43,,,,,
+7 CUS STSS,2026-05,sniper,no,,,,,,,
+7 CUS STSS,2026-05,suicide_video,no,,,,,,,
+7 CUS STSS,2026-05,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-05,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-05,ad_ew,partial,2,2,,60,per_destroyed,,med
+9 SUSBr,2026-05,artillery_strike,no,,,,,,,
+9 SUSBr,2026-05,aviation,no,,,,,,,
+9 SUSBr,2026-05,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-05,drone_operator,no,,,24,,per_kill,,high
+9 SUSBr,2026-05,mlrs,yes,0,1,70,,per_destroyed,,high
+9 SUSBr,2026-05,motorcycle,yes,4,4,24,,per_destroyed,,med
+9 SUSBr,2026-05,personnel_kill,yes,28,,12,,per_kill,,high
+9 SUSBr,2026-05,personnel_wound,yes,34,,8,,per_wounded,,high
+9 SUSBr,2026-05,recon_mission,yes,3754,,,,,,
+9 SUSBr,2026-05,remote_mining,no,,,,,,,
+9 SUSBr,2026-05,small_ad,partial,93,98,,,,,
+9 SUSBr,2026-05,sniper,no,,,,,,,
+9 SUSBr,2026-05,suicide_video,no,,,,,,,
+9 SUSBr,2026-05,tank,yes,1,1,40,,per_destroyed,20,high
+9 SUSBr,2026-05,ugv_logistics,no,,,,,,,
+Achilles,2026-05,ad_ew,partial,3,7,,60,per_destroyed,,med
+Achilles,2026-05,artillery_strike,no,,,,,,,
+Achilles,2026-05,aviation,no,,,,,,,
+Achilles,2026-05,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-05,drone_operator,no,,,24,,per_kill,,high
+Achilles,2026-05,mlrs,yes,0,0,70,,per_destroyed,,high
+Achilles,2026-05,motorcycle,yes,15,31,24,,per_destroyed,,med
+Achilles,2026-05,personnel_kill,yes,460,,12,,per_kill,,high
+Achilles,2026-05,personnel_wound,yes,520,,8,,per_wounded,,high
+Achilles,2026-05,recon_mission,yes,14242,,,,,,
+Achilles,2026-05,remote_mining,no,,,,,,,
+Achilles,2026-05,small_ad,partial,102,118,,,,,
+Achilles,2026-05,sniper,no,,,,,,,
+Achilles,2026-05,suicide_video,no,,,,,,,
+Achilles,2026-05,tank,yes,0,0,40,,per_destroyed,20,high
+Achilles,2026-05,ugv_logistics,no,,,,,,,
+Fenix,2026-05,ad_ew,partial,25,79,,60,per_destroyed,,med
+Fenix,2026-05,artillery_strike,no,,,,,,,
+Fenix,2026-05,aviation,no,,,,,,,
+Fenix,2026-05,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-05,drone_operator,no,,,24,,per_kill,,high
+Fenix,2026-05,mlrs,yes,1,4,70,,per_destroyed,,high
+Fenix,2026-05,motorcycle,yes,76,249,24,,per_destroyed,,med
+Fenix,2026-05,personnel_kill,yes,847,,12,,per_kill,,high
+Fenix,2026-05,personnel_wound,yes,788,,8,,per_wounded,,high
+Fenix,2026-05,recon_mission,yes,14738,,,,,,
+Fenix,2026-05,remote_mining,no,,,,,,,
+Fenix,2026-05,small_ad,partial,105,105,,,,,
+Fenix,2026-05,sniper,no,,,,,,,
+Fenix,2026-05,suicide_video,no,,,,,,,
+Fenix,2026-05,tank,yes,1,1,40,,per_destroyed,20,high
+Fenix,2026-05,ugv_logistics,no,,,,,,,
+Hawks,2026-05,ad_ew,partial,1,7,,60,per_destroyed,,med
+Hawks,2026-05,artillery_strike,no,,,,,,,
+Hawks,2026-05,aviation,no,,,,,,,
+Hawks,2026-05,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-05,drone_operator,no,,,24,,per_kill,,high
+Hawks,2026-05,mlrs,yes,0,2,70,,per_destroyed,,high
+Hawks,2026-05,motorcycle,yes,20,82,24,,per_destroyed,,med
+Hawks,2026-05,personnel_kill,yes,105,,12,,per_kill,,high
+Hawks,2026-05,personnel_wound,yes,272,,8,,per_wounded,,high
+Hawks,2026-05,recon_mission,yes,2161,,,,,,
+Hawks,2026-05,remote_mining,no,,,,,,,
+Hawks,2026-05,small_ad,partial,24,25,,,,,
+Hawks,2026-05,sniper,no,,,,,,,
+Hawks,2026-05,suicide_video,no,,,,,,,
+Hawks,2026-05,tank,yes,0,0,40,,per_destroyed,20,high
+Hawks,2026-05,ugv_logistics,no,,,,,,,
+K-2,2026-05,ad_ew,partial,13,72,,60,per_destroyed,,med
+K-2,2026-05,artillery_strike,no,,,,,,,
+K-2,2026-05,aviation,no,,,,,,,
+K-2,2026-05,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-05,drone_operator,no,,,24,,per_kill,,high
+K-2,2026-05,mlrs,yes,3,5,70,,per_destroyed,,high
+K-2,2026-05,motorcycle,yes,22,50,24,,per_destroyed,,med
+K-2,2026-05,personnel_kill,yes,850,,12,,per_kill,,high
+K-2,2026-05,personnel_wound,yes,534,,8,,per_wounded,,high
+K-2,2026-05,recon_mission,yes,13519,,,,,,
+K-2,2026-05,remote_mining,no,,,,,,,
+K-2,2026-05,small_ad,partial,139,141,,,,,
+K-2,2026-05,sniper,no,,,,,,,
+K-2,2026-05,suicide_video,no,,,,,,,
+K-2,2026-05,tank,yes,1,5,40,,per_destroyed,20,high
+K-2,2026-05,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-05,ad_ew,partial,110,212,,60,per_destroyed,,med
+Magyar's Birds,2026-05,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-05,aviation,no,,,,,,,
+Magyar's Birds,2026-05,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-05,drone_operator,no,,,24,,per_kill,,high
+Magyar's Birds,2026-05,mlrs,yes,0,8,70,,per_destroyed,,high
+Magyar's Birds,2026-05,motorcycle,yes,114,328,24,,per_destroyed,,med
+Magyar's Birds,2026-05,personnel_kill,yes,1697,,12,,per_kill,,high
+Magyar's Birds,2026-05,personnel_wound,yes,1624,,8,,per_wounded,,high
+Magyar's Birds,2026-05,recon_mission,yes,9432,,,,,,
+Magyar's Birds,2026-05,remote_mining,no,,,,,,,
+Magyar's Birds,2026-05,small_ad,partial,337,359,,,,,
+Magyar's Birds,2026-05,sniper,no,,,,,,,
+Magyar's Birds,2026-05,suicide_video,no,,,,,,,
+Magyar's Birds,2026-05,tank,yes,1,7,40,,per_destroyed,20,high
+Magyar's Birds,2026-05,ugv_logistics,no,,,,,,,
+Nemesis,2026-05,ad_ew,partial,6,39,,60,per_destroyed,,med
+Nemesis,2026-05,artillery_strike,no,,,,,,,
+Nemesis,2026-05,aviation,no,,,,,,,
+Nemesis,2026-05,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-05,drone_operator,no,,,24,,per_kill,,high
+Nemesis,2026-05,mlrs,yes,0,1,70,,per_destroyed,,high
+Nemesis,2026-05,motorcycle,yes,43,233,24,,per_destroyed,,med
+Nemesis,2026-05,personnel_kill,yes,109,,12,,per_kill,,high
+Nemesis,2026-05,personnel_wound,yes,331,,8,,per_wounded,,high
+Nemesis,2026-05,recon_mission,yes,1257,,,,,,
+Nemesis,2026-05,remote_mining,no,,,,,,,
+Nemesis,2026-05,small_ad,partial,214,214,,,,,
+Nemesis,2026-05,sniper,no,,,,,,,
+Nemesis,2026-05,suicide_video,no,,,,,,,
+Nemesis,2026-05,tank,yes,0,0,40,,per_destroyed,20,high
+Nemesis,2026-05,ugv_logistics,no,,,,,,,
+Raid,2026-05,ad_ew,partial,8,28,,60,per_destroyed,,med
+Raid,2026-05,artillery_strike,no,,,,,,,
+Raid,2026-05,aviation,no,,,,,,,
+Raid,2026-05,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-05,drone_operator,no,,,24,,per_kill,,high
+Raid,2026-05,mlrs,yes,0,0,70,,per_destroyed,,high
+Raid,2026-05,motorcycle,yes,8,32,24,,per_destroyed,,med
+Raid,2026-05,personnel_kill,yes,60,,12,,per_kill,,high
+Raid,2026-05,personnel_wound,yes,123,,8,,per_wounded,,high
+Raid,2026-05,recon_mission,yes,608,,,,,,
+Raid,2026-05,remote_mining,no,,,,,,,
+Raid,2026-05,small_ad,partial,17,18,,,,,
+Raid,2026-05,sniper,no,,,,,,,
+Raid,2026-05,suicide_video,no,,,,,,,
+Raid,2026-05,tank,yes,0,1,40,,per_destroyed,20,high
+Raid,2026-05,ugv_logistics,no,,,,,,,
+Rarog,2026-05,ad_ew,partial,15,33,,60,per_destroyed,,med
+Rarog,2026-05,artillery_strike,no,,,,,,,
+Rarog,2026-05,aviation,no,,,,,,,
+Rarog,2026-05,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-05,drone_operator,no,,,24,,per_kill,,high
+Rarog,2026-05,mlrs,yes,1,2,70,,per_destroyed,,high
+Rarog,2026-05,motorcycle,yes,18,68,24,,per_destroyed,,med
+Rarog,2026-05,personnel_kill,yes,184,,12,,per_kill,,high
+Rarog,2026-05,personnel_wound,yes,519,,8,,per_wounded,,high
+Rarog,2026-05,recon_mission,yes,13653,,,,,,
+Rarog,2026-05,remote_mining,no,,,,,,,
+Rarog,2026-05,small_ad,partial,129,136,,,,,
+Rarog,2026-05,sniper,no,,,,,,,
+Rarog,2026-05,suicide_video,no,,,,,,,
+Rarog,2026-05,tank,yes,0,0,40,,per_destroyed,20,high
+Rarog,2026-05,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-05,ad_ew,partial,3,8,,60,per_destroyed,,med
+Steppe Predators,2026-05,artillery_strike,no,,,,,,,
+Steppe Predators,2026-05,aviation,no,,,,,,,
+Steppe Predators,2026-05,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-05,drone_operator,no,,,24,,per_kill,,high
+Steppe Predators,2026-05,mlrs,yes,1,3,70,,per_destroyed,,high
+Steppe Predators,2026-05,motorcycle,yes,8,29,24,,per_destroyed,,med
+Steppe Predators,2026-05,personnel_kill,yes,258,,12,,per_kill,,high
+Steppe Predators,2026-05,personnel_wound,yes,215,,8,,per_wounded,,high
+Steppe Predators,2026-05,recon_mission,yes,29067,,,,,,
+Steppe Predators,2026-05,remote_mining,no,,,,,,,
+Steppe Predators,2026-05,small_ad,partial,43,43,,,,,
+Steppe Predators,2026-05,sniper,no,,,,,,,
+Steppe Predators,2026-05,suicide_video,no,,,,,,,
+Steppe Predators,2026-05,tank,yes,0,2,40,,per_destroyed,20,high
+Steppe Predators,2026-05,ugv_logistics,no,,,,,,,
+Svarog,2026-05,ad_ew,partial,1,1,,60,per_destroyed,,med
+Svarog,2026-05,artillery_strike,no,,,,,,,
+Svarog,2026-05,aviation,no,,,,,,,
+Svarog,2026-05,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-05,drone_operator,no,,,24,,per_kill,,high
+Svarog,2026-05,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2026-05,motorcycle,yes,2,6,24,,per_destroyed,,med
+Svarog,2026-05,personnel_kill,yes,21,,12,,per_kill,,high
+Svarog,2026-05,personnel_wound,yes,38,,8,,per_wounded,,high
+Svarog,2026-05,recon_mission,yes,327,,,,,,
+Svarog,2026-05,remote_mining,no,,,,,,,
+Svarog,2026-05,small_ad,partial,5,5,,,,,
+Svarog,2026-05,sniper,no,,,,,,,
+Svarog,2026-05,suicide_video,no,,,,,,,
+Svarog,2026-05,tank,yes,0,2,40,,per_destroyed,20,high
+Svarog,2026-05,ugv_logistics,no,,,,,,,
+USF Grouping,2026-05,ad_ew,partial,188,501,,60,per_destroyed,,med
+USF Grouping,2026-05,artillery_strike,no,,,,,,,
+USF Grouping,2026-05,aviation,no,,,,,,,
+USF Grouping,2026-05,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-05,drone_operator,no,,,24,,per_kill,,high
+USF Grouping,2026-05,mlrs,yes,8,28,70,,per_destroyed,,high
+USF Grouping,2026-05,motorcycle,yes,330,1112,24,,per_destroyed,,med
+USF Grouping,2026-05,personnel_kill,yes,4619,,12,,per_kill,,high
+USF Grouping,2026-05,personnel_wound,yes,4998,,8,,per_wounded,,high
+USF Grouping,2026-05,recon_mission,yes,102876,,,,,,
+USF Grouping,2026-05,remote_mining,no,,,,,,,
+USF Grouping,2026-05,small_ad,partial,1250,1305,,,,,
+USF Grouping,2026-05,sniper,no,,,,,,,
+USF Grouping,2026-05,suicide_video,no,,,,,,,
+USF Grouping,2026-05,tank,yes,4,19,40,,per_destroyed,20,high
+USF Grouping,2026-05,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-06,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-06,artillery_strike,no,,,,,,,
+194 SPBBr,2026-06,aviation,no,,,,,,,
+194 SPBBr,2026-06,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-06,drone_operator,no,,,24,,per_kill,,high
+194 SPBBr,2026-06,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-06,motorcycle,yes,0,0,24,,per_destroyed,,med
+194 SPBBr,2026-06,personnel_kill,yes,0,,12,,per_kill,,high
+194 SPBBr,2026-06,personnel_wound,yes,0,,8,,per_wounded,,high
+194 SPBBr,2026-06,recon_mission,yes,0,,,,,,
+194 SPBBr,2026-06,remote_mining,no,,,,,,,
+194 SPBBr,2026-06,small_ad,partial,0,0,,,,,
+194 SPBBr,2026-06,sniper,no,,,,,,,
+194 SPBBr,2026-06,suicide_video,no,,,,,,,
+194 SPBBr,2026-06,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-06,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-06,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-06,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-06,aviation,no,,,,,,,
+7 CUS STSS,2026-06,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-06,drone_operator,no,,,24,,per_kill,,high
+7 CUS STSS,2026-06,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-06,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-06,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-06,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-06,recon_mission,yes,0,,,,,,
+7 CUS STSS,2026-06,remote_mining,no,,,,,,,
+7 CUS STSS,2026-06,small_ad,partial,16,18,,,,,
+7 CUS STSS,2026-06,sniper,no,,,,,,,
+7 CUS STSS,2026-06,suicide_video,no,,,,,,,
+7 CUS STSS,2026-06,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-06,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-06,ad_ew,partial,2,2,,60,per_destroyed,,med
+9 SUSBr,2026-06,artillery_strike,no,,,,,,,
+9 SUSBr,2026-06,aviation,no,,,,,,,
+9 SUSBr,2026-06,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-06,drone_operator,no,,,24,,per_kill,,high
+9 SUSBr,2026-06,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2026-06,motorcycle,yes,7,9,24,,per_destroyed,,med
+9 SUSBr,2026-06,personnel_kill,yes,32,,12,,per_kill,,high
+9 SUSBr,2026-06,personnel_wound,yes,22,,8,,per_wounded,,high
+9 SUSBr,2026-06,recon_mission,yes,3602,,,,,,
+9 SUSBr,2026-06,remote_mining,no,,,,,,,
+9 SUSBr,2026-06,small_ad,partial,80,97,,,,,
+9 SUSBr,2026-06,sniper,no,,,,,,,
+9 SUSBr,2026-06,suicide_video,no,,,,,,,
+9 SUSBr,2026-06,tank,yes,0,0,40,,per_destroyed,20,high
+9 SUSBr,2026-06,ugv_logistics,no,,,,,,,
+Achilles,2026-06,ad_ew,partial,4,13,,60,per_destroyed,,med
+Achilles,2026-06,artillery_strike,no,,,,,,,
+Achilles,2026-06,aviation,no,,,,,,,
+Achilles,2026-06,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-06,drone_operator,no,,,24,,per_kill,,high
+Achilles,2026-06,mlrs,yes,0,1,70,,per_destroyed,,high
+Achilles,2026-06,motorcycle,yes,16,35,24,,per_destroyed,,med
+Achilles,2026-06,personnel_kill,yes,505,,12,,per_kill,,high
+Achilles,2026-06,personnel_wound,yes,354,,8,,per_wounded,,high
+Achilles,2026-06,recon_mission,yes,13819,,,,,,
+Achilles,2026-06,remote_mining,no,,,,,,,
+Achilles,2026-06,small_ad,partial,92,105,,,,,
+Achilles,2026-06,sniper,no,,,,,,,
+Achilles,2026-06,suicide_video,no,,,,,,,
+Achilles,2026-06,tank,yes,0,0,40,,per_destroyed,20,high
+Achilles,2026-06,ugv_logistics,no,,,,,,,
+Fenix,2026-06,ad_ew,partial,46,122,,60,per_destroyed,,med
+Fenix,2026-06,artillery_strike,no,,,,,,,
+Fenix,2026-06,aviation,no,,,,,,,
+Fenix,2026-06,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-06,drone_operator,no,,,24,,per_kill,,high
+Fenix,2026-06,mlrs,yes,5,9,70,,per_destroyed,,high
+Fenix,2026-06,motorcycle,yes,78,282,24,,per_destroyed,,med
+Fenix,2026-06,personnel_kill,yes,861,,12,,per_kill,,high
+Fenix,2026-06,personnel_wound,yes,1046,,8,,per_wounded,,high
+Fenix,2026-06,recon_mission,yes,15272,,,,,,
+Fenix,2026-06,remote_mining,no,,,,,,,
+Fenix,2026-06,small_ad,partial,52,52,,,,,
+Fenix,2026-06,sniper,no,,,,,,,
+Fenix,2026-06,suicide_video,no,,,,,,,
+Fenix,2026-06,tank,yes,1,3,40,,per_destroyed,20,high
+Fenix,2026-06,ugv_logistics,no,,,,,,,
+Hawks,2026-06,ad_ew,partial,6,20,,60,per_destroyed,,med
+Hawks,2026-06,artillery_strike,no,,,,,,,
+Hawks,2026-06,aviation,no,,,,,,,
+Hawks,2026-06,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-06,drone_operator,no,,,24,,per_kill,,high
+Hawks,2026-06,mlrs,yes,0,1,70,,per_destroyed,,high
+Hawks,2026-06,motorcycle,yes,17,147,24,,per_destroyed,,med
+Hawks,2026-06,personnel_kill,yes,121,,12,,per_kill,,high
+Hawks,2026-06,personnel_wound,yes,490,,8,,per_wounded,,high
+Hawks,2026-06,recon_mission,yes,2918,,,,,,
+Hawks,2026-06,remote_mining,no,,,,,,,
+Hawks,2026-06,small_ad,partial,24,24,,,,,
+Hawks,2026-06,sniper,no,,,,,,,
+Hawks,2026-06,suicide_video,no,,,,,,,
+Hawks,2026-06,tank,yes,1,3,40,,per_destroyed,20,high
+Hawks,2026-06,ugv_logistics,no,,,,,,,
+K-2,2026-06,ad_ew,partial,34,155,,60,per_destroyed,,med
+K-2,2026-06,artillery_strike,no,,,,,,,
+K-2,2026-06,aviation,no,,,,,,,
+K-2,2026-06,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-06,drone_operator,no,,,24,,per_kill,,high
+K-2,2026-06,mlrs,yes,1,1,70,,per_destroyed,,high
+K-2,2026-06,motorcycle,yes,57,101,24,,per_destroyed,,med
+K-2,2026-06,personnel_kill,yes,896,,12,,per_kill,,high
+K-2,2026-06,personnel_wound,yes,711,,8,,per_wounded,,high
+K-2,2026-06,recon_mission,yes,14471,,,,,,
+K-2,2026-06,remote_mining,no,,,,,,,
+K-2,2026-06,small_ad,partial,93,95,,,,,
+K-2,2026-06,sniper,no,,,,,,,
+K-2,2026-06,suicide_video,no,,,,,,,
+K-2,2026-06,tank,yes,0,4,40,,per_destroyed,20,high
+K-2,2026-06,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-06,ad_ew,partial,75,204,,60,per_destroyed,,med
+Magyar's Birds,2026-06,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-06,aviation,no,,,,,,,
+Magyar's Birds,2026-06,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-06,drone_operator,no,,,24,,per_kill,,high
+Magyar's Birds,2026-06,mlrs,yes,1,7,70,,per_destroyed,,high
+Magyar's Birds,2026-06,motorcycle,yes,157,417,24,,per_destroyed,,med
+Magyar's Birds,2026-06,personnel_kill,yes,1666,,12,,per_kill,,high
+Magyar's Birds,2026-06,personnel_wound,yes,1338,,8,,per_wounded,,high
+Magyar's Birds,2026-06,recon_mission,yes,11585,,,,,,
+Magyar's Birds,2026-06,remote_mining,no,,,,,,,
+Magyar's Birds,2026-06,small_ad,partial,237,254,,,,,
+Magyar's Birds,2026-06,sniper,no,,,,,,,
+Magyar's Birds,2026-06,suicide_video,no,,,,,,,
+Magyar's Birds,2026-06,tank,yes,0,11,40,,per_destroyed,20,high
+Magyar's Birds,2026-06,ugv_logistics,no,,,,,,,
+Nemesis,2026-06,ad_ew,partial,24,57,,60,per_destroyed,,med
+Nemesis,2026-06,artillery_strike,no,,,,,,,
+Nemesis,2026-06,aviation,no,,,,,,,
+Nemesis,2026-06,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-06,drone_operator,no,,,24,,per_kill,,high
+Nemesis,2026-06,mlrs,yes,0,2,70,,per_destroyed,,high
+Nemesis,2026-06,motorcycle,yes,61,289,24,,per_destroyed,,med
+Nemesis,2026-06,personnel_kill,yes,131,,12,,per_kill,,high
+Nemesis,2026-06,personnel_wound,yes,431,,8,,per_wounded,,high
+Nemesis,2026-06,recon_mission,yes,1959,,,,,,
+Nemesis,2026-06,remote_mining,no,,,,,,,
+Nemesis,2026-06,small_ad,partial,195,195,,,,,
+Nemesis,2026-06,sniper,no,,,,,,,
+Nemesis,2026-06,suicide_video,no,,,,,,,
+Nemesis,2026-06,tank,yes,1,3,40,,per_destroyed,20,high
+Nemesis,2026-06,ugv_logistics,no,,,,,,,
+Raid,2026-06,ad_ew,partial,3,14,,60,per_destroyed,,med
+Raid,2026-06,artillery_strike,no,,,,,,,
+Raid,2026-06,aviation,no,,,,,,,
+Raid,2026-06,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-06,drone_operator,no,,,24,,per_kill,,high
+Raid,2026-06,mlrs,yes,0,0,70,,per_destroyed,,high
+Raid,2026-06,motorcycle,yes,11,32,24,,per_destroyed,,med
+Raid,2026-06,personnel_kill,yes,103,,12,,per_kill,,high
+Raid,2026-06,personnel_wound,yes,147,,8,,per_wounded,,high
+Raid,2026-06,recon_mission,yes,1290,,,,,,
+Raid,2026-06,remote_mining,no,,,,,,,
+Raid,2026-06,small_ad,partial,19,20,,,,,
+Raid,2026-06,sniper,no,,,,,,,
+Raid,2026-06,suicide_video,no,,,,,,,
+Raid,2026-06,tank,yes,0,1,40,,per_destroyed,20,high
+Raid,2026-06,ugv_logistics,no,,,,,,,
+Rarog,2026-06,ad_ew,partial,8,24,,60,per_destroyed,,med
+Rarog,2026-06,artillery_strike,no,,,,,,,
+Rarog,2026-06,aviation,no,,,,,,,
+Rarog,2026-06,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-06,drone_operator,no,,,24,,per_kill,,high
+Rarog,2026-06,mlrs,yes,0,3,70,,per_destroyed,,high
+Rarog,2026-06,motorcycle,yes,26,98,24,,per_destroyed,,med
+Rarog,2026-06,personnel_kill,yes,117,,12,,per_kill,,high
+Rarog,2026-06,personnel_wound,yes,446,,8,,per_wounded,,high
+Rarog,2026-06,recon_mission,yes,12150,,,,,,
+Rarog,2026-06,remote_mining,no,,,,,,,
+Rarog,2026-06,small_ad,partial,40,43,,,,,
+Rarog,2026-06,sniper,no,,,,,,,
+Rarog,2026-06,suicide_video,no,,,,,,,
+Rarog,2026-06,tank,yes,0,0,40,,per_destroyed,20,high
+Rarog,2026-06,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-06,ad_ew,partial,1,4,,60,per_destroyed,,med
+Steppe Predators,2026-06,artillery_strike,no,,,,,,,
+Steppe Predators,2026-06,aviation,no,,,,,,,
+Steppe Predators,2026-06,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-06,drone_operator,no,,,24,,per_kill,,high
+Steppe Predators,2026-06,mlrs,yes,0,0,70,,per_destroyed,,high
+Steppe Predators,2026-06,motorcycle,yes,15,36,24,,per_destroyed,,med
+Steppe Predators,2026-06,personnel_kill,yes,271,,12,,per_kill,,high
+Steppe Predators,2026-06,personnel_wound,yes,128,,8,,per_wounded,,high
+Steppe Predators,2026-06,recon_mission,yes,30887,,,,,,
+Steppe Predators,2026-06,remote_mining,no,,,,,,,
+Steppe Predators,2026-06,small_ad,partial,13,13,,,,,
+Steppe Predators,2026-06,sniper,no,,,,,,,
+Steppe Predators,2026-06,suicide_video,no,,,,,,,
+Steppe Predators,2026-06,tank,yes,0,1,40,,per_destroyed,20,high
+Steppe Predators,2026-06,ugv_logistics,no,,,,,,,
+Svarog,2026-06,ad_ew,partial,1,1,,60,per_destroyed,,med
+Svarog,2026-06,artillery_strike,no,,,,,,,
+Svarog,2026-06,aviation,no,,,,,,,
+Svarog,2026-06,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-06,drone_operator,no,,,24,,per_kill,,high
+Svarog,2026-06,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2026-06,motorcycle,yes,2,8,24,,per_destroyed,,med
+Svarog,2026-06,personnel_kill,yes,17,,12,,per_kill,,high
+Svarog,2026-06,personnel_wound,yes,33,,8,,per_wounded,,high
+Svarog,2026-06,recon_mission,yes,447,,,,,,
+Svarog,2026-06,remote_mining,no,,,,,,,
+Svarog,2026-06,small_ad,partial,21,24,,,,,
+Svarog,2026-06,sniper,no,,,,,,,
+Svarog,2026-06,suicide_video,no,,,,,,,
+Svarog,2026-06,tank,yes,0,0,40,,per_destroyed,20,high
+Svarog,2026-06,ugv_logistics,no,,,,,,,
+USF Grouping,2026-06,ad_ew,partial,204,634,,60,per_destroyed,,med
+USF Grouping,2026-06,artillery_strike,no,,,,,,,
+USF Grouping,2026-06,aviation,no,,,,,,,
+USF Grouping,2026-06,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-06,drone_operator,no,,,24,,per_kill,,high
+USF Grouping,2026-06,mlrs,yes,7,24,70,,per_destroyed,,high
+USF Grouping,2026-06,motorcycle,yes,447,1454,24,,per_destroyed,,med
+USF Grouping,2026-06,personnel_kill,yes,4720,,12,,per_kill,,high
+USF Grouping,2026-06,personnel_wound,yes,5146,,8,,per_wounded,,high
+USF Grouping,2026-06,recon_mission,yes,108545,,,,,,
+USF Grouping,2026-06,remote_mining,no,,,,,,,
+USF Grouping,2026-06,small_ad,partial,882,940,,,,,
+USF Grouping,2026-06,sniper,no,,,,,,,
+USF Grouping,2026-06,suicide_video,no,,,,,,,
+USF Grouping,2026-06,tank,yes,3,26,40,,per_destroyed,20,high
+USF Grouping,2026-06,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-07,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-07,artillery_strike,no,,,,,,,
+194 SPBBr,2026-07,aviation,no,,,,,,,
+194 SPBBr,2026-07,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-07,drone_operator,no,,,24,,per_kill,,high
+194 SPBBr,2026-07,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-07,motorcycle,yes,0,0,24,,per_destroyed,,med
+194 SPBBr,2026-07,personnel_kill,yes,0,,12,,per_kill,,high
+194 SPBBr,2026-07,personnel_wound,yes,0,,8,,per_wounded,,high
+194 SPBBr,2026-07,recon_mission,yes,0,,,,,,
+194 SPBBr,2026-07,remote_mining,no,,,,,,,
+194 SPBBr,2026-07,small_ad,partial,0,0,,,,,
+194 SPBBr,2026-07,sniper,no,,,,,,,
+194 SPBBr,2026-07,suicide_video,no,,,,,,,
+194 SPBBr,2026-07,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-07,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-07,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-07,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-07,aviation,no,,,,,,,
+7 CUS STSS,2026-07,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-07,drone_operator,no,,,24,,per_kill,,high
+7 CUS STSS,2026-07,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-07,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-07,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-07,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-07,recon_mission,yes,0,,,,,,
+7 CUS STSS,2026-07,remote_mining,no,,,,,,,
+7 CUS STSS,2026-07,small_ad,partial,30,30,,,,,
+7 CUS STSS,2026-07,sniper,no,,,,,,,
+7 CUS STSS,2026-07,suicide_video,no,,,,,,,
+7 CUS STSS,2026-07,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-07,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-07,ad_ew,partial,4,5,,60,per_destroyed,,med
+9 SUSBr,2026-07,artillery_strike,no,,,,,,,
+9 SUSBr,2026-07,aviation,no,,,,,,,
+9 SUSBr,2026-07,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-07,drone_operator,no,,,24,,per_kill,,high
+9 SUSBr,2026-07,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2026-07,motorcycle,yes,25,26,24,,per_destroyed,,med
+9 SUSBr,2026-07,personnel_kill,yes,53,,12,,per_kill,,high
+9 SUSBr,2026-07,personnel_wound,yes,41,,8,,per_wounded,,high
+9 SUSBr,2026-07,recon_mission,yes,4227,,,,,,
+9 SUSBr,2026-07,remote_mining,no,,,,,,,
+9 SUSBr,2026-07,small_ad,partial,49,54,,,,,
+9 SUSBr,2026-07,sniper,no,,,,,,,
+9 SUSBr,2026-07,suicide_video,no,,,,,,,
+9 SUSBr,2026-07,tank,yes,0,1,40,,per_destroyed,20,high
+9 SUSBr,2026-07,ugv_logistics,no,,,,,,,
+Achilles,2026-07,ad_ew,partial,7,9,,60,per_destroyed,,med
+Achilles,2026-07,artillery_strike,no,,,,,,,
+Achilles,2026-07,aviation,no,,,,,,,
+Achilles,2026-07,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-07,drone_operator,no,,,24,,per_kill,,high
+Achilles,2026-07,mlrs,yes,0,1,70,,per_destroyed,,high
+Achilles,2026-07,motorcycle,yes,7,23,24,,per_destroyed,,med
+Achilles,2026-07,personnel_kill,yes,458,,12,,per_kill,,high
+Achilles,2026-07,personnel_wound,yes,335,,8,,per_wounded,,high
+Achilles,2026-07,recon_mission,yes,9772,,,,,,
+Achilles,2026-07,remote_mining,no,,,,,,,
+Achilles,2026-07,small_ad,partial,39,43,,,,,
+Achilles,2026-07,sniper,no,,,,,,,
+Achilles,2026-07,suicide_video,no,,,,,,,
+Achilles,2026-07,tank,yes,0,4,40,,per_destroyed,20,high
+Achilles,2026-07,ugv_logistics,no,,,,,,,
+Fenix,2026-07,ad_ew,partial,51,149,,60,per_destroyed,,med
+Fenix,2026-07,artillery_strike,no,,,,,,,
+Fenix,2026-07,aviation,no,,,,,,,
+Fenix,2026-07,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-07,drone_operator,no,,,24,,per_kill,,high
+Fenix,2026-07,mlrs,yes,3,6,70,,per_destroyed,,high
+Fenix,2026-07,motorcycle,yes,87,357,24,,per_destroyed,,med
+Fenix,2026-07,personnel_kill,yes,943,,12,,per_kill,,high
+Fenix,2026-07,personnel_wound,yes,1159,,8,,per_wounded,,high
+Fenix,2026-07,recon_mission,yes,11663,,,,,,
+Fenix,2026-07,remote_mining,no,,,,,,,
+Fenix,2026-07,small_ad,partial,81,81,,,,,
+Fenix,2026-07,sniper,no,,,,,,,
+Fenix,2026-07,suicide_video,no,,,,,,,
+Fenix,2026-07,tank,yes,9,17,40,,per_destroyed,20,high
+Fenix,2026-07,ugv_logistics,no,,,,,,,
+Hawks,2026-07,ad_ew,partial,5,13,,60,per_destroyed,,med
+Hawks,2026-07,artillery_strike,no,,,,,,,
+Hawks,2026-07,aviation,no,,,,,,,
+Hawks,2026-07,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-07,drone_operator,no,,,24,,per_kill,,high
+Hawks,2026-07,mlrs,yes,0,0,70,,per_destroyed,,high
+Hawks,2026-07,motorcycle,yes,11,79,24,,per_destroyed,,med
+Hawks,2026-07,personnel_kill,yes,153,,12,,per_kill,,high
+Hawks,2026-07,personnel_wound,yes,465,,8,,per_wounded,,high
+Hawks,2026-07,recon_mission,yes,3508,,,,,,
+Hawks,2026-07,remote_mining,no,,,,,,,
+Hawks,2026-07,small_ad,partial,2,2,,,,,
+Hawks,2026-07,sniper,no,,,,,,,
+Hawks,2026-07,suicide_video,no,,,,,,,
+Hawks,2026-07,tank,yes,0,5,40,,per_destroyed,20,high
+Hawks,2026-07,ugv_logistics,no,,,,,,,
+K-2,2026-07,ad_ew,partial,28,120,,60,per_destroyed,,med
+K-2,2026-07,artillery_strike,no,,,,,,,
+K-2,2026-07,aviation,no,,,,,,,
+K-2,2026-07,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-07,drone_operator,no,,,24,,per_kill,,high
+K-2,2026-07,mlrs,yes,0,1,70,,per_destroyed,,high
+K-2,2026-07,motorcycle,yes,46,89,24,,per_destroyed,,med
+K-2,2026-07,personnel_kill,yes,915,,12,,per_kill,,high
+K-2,2026-07,personnel_wound,yes,641,,8,,per_wounded,,high
+K-2,2026-07,recon_mission,yes,16177,,,,,,
+K-2,2026-07,remote_mining,no,,,,,,,
+K-2,2026-07,small_ad,partial,71,72,,,,,
+K-2,2026-07,sniper,no,,,,,,,
+K-2,2026-07,suicide_video,no,,,,,,,
+K-2,2026-07,tank,yes,0,5,40,,per_destroyed,20,high
+K-2,2026-07,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-07,ad_ew,partial,84,210,,60,per_destroyed,,med
+Magyar's Birds,2026-07,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-07,aviation,no,,,,,,,
+Magyar's Birds,2026-07,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-07,drone_operator,no,,,24,,per_kill,,high
+Magyar's Birds,2026-07,mlrs,yes,2,7,70,,per_destroyed,,high
+Magyar's Birds,2026-07,motorcycle,yes,210,450,24,,per_destroyed,,med
+Magyar's Birds,2026-07,personnel_kill,yes,2034,,12,,per_kill,,high
+Magyar's Birds,2026-07,personnel_wound,yes,1817,,8,,per_wounded,,high
+Magyar's Birds,2026-07,recon_mission,yes,12685,,,,,,
+Magyar's Birds,2026-07,remote_mining,no,,,,,,,
+Magyar's Birds,2026-07,small_ad,partial,351,367,,,,,
+Magyar's Birds,2026-07,sniper,no,,,,,,,
+Magyar's Birds,2026-07,suicide_video,no,,,,,,,
+Magyar's Birds,2026-07,tank,yes,7,22,40,,per_destroyed,20,high
+Magyar's Birds,2026-07,ugv_logistics,no,,,,,,,
+Nemesis,2026-07,ad_ew,partial,19,68,,60,per_destroyed,,med
+Nemesis,2026-07,artillery_strike,no,,,,,,,
+Nemesis,2026-07,aviation,no,,,,,,,
+Nemesis,2026-07,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-07,drone_operator,no,,,24,,per_kill,,high
+Nemesis,2026-07,mlrs,yes,1,1,70,,per_destroyed,,high
+Nemesis,2026-07,motorcycle,yes,60,405,24,,per_destroyed,,med
+Nemesis,2026-07,personnel_kill,yes,369,,12,,per_kill,,high
+Nemesis,2026-07,personnel_wound,yes,939,,8,,per_wounded,,high
+Nemesis,2026-07,recon_mission,yes,2080,,,,,,
+Nemesis,2026-07,remote_mining,no,,,,,,,
+Nemesis,2026-07,small_ad,partial,129,129,,,,,
+Nemesis,2026-07,sniper,no,,,,,,,
+Nemesis,2026-07,suicide_video,no,,,,,,,
+Nemesis,2026-07,tank,yes,1,5,40,,per_destroyed,20,high
+Nemesis,2026-07,ugv_logistics,no,,,,,,,
+Raid,2026-07,ad_ew,partial,7,12,,60,per_destroyed,,med
+Raid,2026-07,artillery_strike,no,,,,,,,
+Raid,2026-07,aviation,no,,,,,,,
+Raid,2026-07,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-07,drone_operator,no,,,24,,per_kill,,high
+Raid,2026-07,mlrs,yes,0,0,70,,per_destroyed,,high
+Raid,2026-07,motorcycle,yes,8,30,24,,per_destroyed,,med
+Raid,2026-07,personnel_kill,yes,97,,12,,per_kill,,high
+Raid,2026-07,personnel_wound,yes,213,,8,,per_wounded,,high
+Raid,2026-07,recon_mission,yes,472,,,,,,
+Raid,2026-07,remote_mining,no,,,,,,,
+Raid,2026-07,small_ad,partial,11,12,,,,,
+Raid,2026-07,sniper,no,,,,,,,
+Raid,2026-07,suicide_video,no,,,,,,,
+Raid,2026-07,tank,yes,0,2,40,,per_destroyed,20,high
+Raid,2026-07,ugv_logistics,no,,,,,,,
+Rarog,2026-07,ad_ew,partial,9,17,,60,per_destroyed,,med
+Rarog,2026-07,artillery_strike,no,,,,,,,
+Rarog,2026-07,aviation,no,,,,,,,
+Rarog,2026-07,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-07,drone_operator,no,,,24,,per_kill,,high
+Rarog,2026-07,mlrs,yes,0,1,70,,per_destroyed,,high
+Rarog,2026-07,motorcycle,yes,10,41,24,,per_destroyed,,med
+Rarog,2026-07,personnel_kill,yes,111,,12,,per_kill,,high
+Rarog,2026-07,personnel_wound,yes,256,,8,,per_wounded,,high
+Rarog,2026-07,recon_mission,yes,9075,,,,,,
+Rarog,2026-07,remote_mining,no,,,,,,,
+Rarog,2026-07,small_ad,partial,63,74,,,,,
+Rarog,2026-07,sniper,no,,,,,,,
+Rarog,2026-07,suicide_video,no,,,,,,,
+Rarog,2026-07,tank,yes,1,5,40,,per_destroyed,20,high
+Rarog,2026-07,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-07,ad_ew,partial,3,15,,60,per_destroyed,,med
+Steppe Predators,2026-07,artillery_strike,no,,,,,,,
+Steppe Predators,2026-07,aviation,no,,,,,,,
+Steppe Predators,2026-07,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-07,drone_operator,no,,,24,,per_kill,,high
+Steppe Predators,2026-07,mlrs,yes,0,1,70,,per_destroyed,,high
+Steppe Predators,2026-07,motorcycle,yes,6,43,24,,per_destroyed,,med
+Steppe Predators,2026-07,personnel_kill,yes,323,,12,,per_kill,,high
+Steppe Predators,2026-07,personnel_wound,yes,234,,8,,per_wounded,,high
+Steppe Predators,2026-07,recon_mission,yes,32408,,,,,,
+Steppe Predators,2026-07,remote_mining,no,,,,,,,
+Steppe Predators,2026-07,small_ad,partial,17,18,,,,,
+Steppe Predators,2026-07,sniper,no,,,,,,,
+Steppe Predators,2026-07,suicide_video,no,,,,,,,
+Steppe Predators,2026-07,tank,yes,1,3,40,,per_destroyed,20,high
+Steppe Predators,2026-07,ugv_logistics,no,,,,,,,
+Svarog,2026-07,ad_ew,partial,3,6,,60,per_destroyed,,med
+Svarog,2026-07,artillery_strike,no,,,,,,,
+Svarog,2026-07,aviation,no,,,,,,,
+Svarog,2026-07,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-07,drone_operator,no,,,24,,per_kill,,high
+Svarog,2026-07,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2026-07,motorcycle,yes,0,1,24,,per_destroyed,,med
+Svarog,2026-07,personnel_kill,yes,27,,12,,per_kill,,high
+Svarog,2026-07,personnel_wound,yes,26,,8,,per_wounded,,high
+Svarog,2026-07,recon_mission,yes,325,,,,,,
+Svarog,2026-07,remote_mining,no,,,,,,,
+Svarog,2026-07,small_ad,partial,6,9,,,,,
+Svarog,2026-07,sniper,no,,,,,,,
+Svarog,2026-07,suicide_video,no,,,,,,,
+Svarog,2026-07,tank,yes,0,0,40,,per_destroyed,20,high
+Svarog,2026-07,ugv_logistics,no,,,,,,,
+USF Grouping,2026-07,ad_ew,partial,220,629,,60,per_destroyed,,med
+USF Grouping,2026-07,artillery_strike,no,,,,,,,
+USF Grouping,2026-07,aviation,no,,,,,,,
+USF Grouping,2026-07,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-07,drone_operator,no,,,24,,per_kill,,high
+USF Grouping,2026-07,mlrs,yes,6,18,70,,per_destroyed,,high
+USF Grouping,2026-07,motorcycle,yes,470,1544,24,,per_destroyed,,med
+USF Grouping,2026-07,personnel_kill,yes,5483,,12,,per_kill,,high
+USF Grouping,2026-07,personnel_wound,yes,6126,,8,,per_wounded,,high
+USF Grouping,2026-07,recon_mission,yes,102589,,,,,,
+USF Grouping,2026-07,remote_mining,no,,,,,,,
+USF Grouping,2026-07,small_ad,partial,849,891,,,,,
+USF Grouping,2026-07,sniper,no,,,,,,,
+USF Grouping,2026-07,suicide_video,no,,,,,,,
+USF Grouping,2026-07,tank,yes,19,65,40,,per_destroyed,20,high
+USF Grouping,2026-07,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-08,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-08,artillery_strike,no,,,,,,,
+194 SPBBr,2026-08,aviation,no,,,,,,,
+194 SPBBr,2026-08,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-08,drone_operator,no,,,24,,per_kill,,high
+194 SPBBr,2026-08,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-08,motorcycle,yes,0,0,24,,per_destroyed,,med
+194 SPBBr,2026-08,personnel_kill,yes,0,,12,,per_kill,,high
+194 SPBBr,2026-08,personnel_wound,yes,0,,8,,per_wounded,,high
+194 SPBBr,2026-08,recon_mission,yes,0,,,,,,
+194 SPBBr,2026-08,remote_mining,no,,,,,,,
+194 SPBBr,2026-08,small_ad,partial,0,0,,,,,
+194 SPBBr,2026-08,sniper,no,,,,,,,
+194 SPBBr,2026-08,suicide_video,no,,,,,,,
+194 SPBBr,2026-08,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-08,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-08,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-08,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-08,aviation,no,,,,,,,
+7 CUS STSS,2026-08,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-08,drone_operator,no,,,24,,per_kill,,high
+7 CUS STSS,2026-08,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-08,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-08,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-08,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-08,recon_mission,yes,0,,,,,,
+7 CUS STSS,2026-08,remote_mining,no,,,,,,,
+7 CUS STSS,2026-08,small_ad,partial,10,10,,,,,
+7 CUS STSS,2026-08,sniper,no,,,,,,,
+7 CUS STSS,2026-08,suicide_video,no,,,,,,,
+7 CUS STSS,2026-08,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-08,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-08,ad_ew,partial,4,5,,60,per_destroyed,,med
+9 SUSBr,2026-08,artillery_strike,no,,,,,,,
+9 SUSBr,2026-08,aviation,no,,,,,,,
+9 SUSBr,2026-08,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-08,drone_operator,no,,,24,,per_kill,,high
+9 SUSBr,2026-08,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2026-08,motorcycle,yes,18,21,24,,per_destroyed,,med
+9 SUSBr,2026-08,personnel_kill,yes,36,,12,,per_kill,,high
+9 SUSBr,2026-08,personnel_wound,yes,65,,8,,per_wounded,,high
+9 SUSBr,2026-08,recon_mission,yes,4623,,,,,,
+9 SUSBr,2026-08,remote_mining,no,,,,,,,
+9 SUSBr,2026-08,small_ad,partial,70,82,,,,,
+9 SUSBr,2026-08,sniper,no,,,,,,,
+9 SUSBr,2026-08,suicide_video,no,,,,,,,
+9 SUSBr,2026-08,tank,yes,0,0,40,,per_destroyed,20,high
+9 SUSBr,2026-08,ugv_logistics,no,,,,,,,
+Achilles,2026-08,ad_ew,partial,14,27,,60,per_destroyed,,med
+Achilles,2026-08,artillery_strike,no,,,,,,,
+Achilles,2026-08,aviation,no,,,,,,,
+Achilles,2026-08,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-08,drone_operator,no,,,24,,per_kill,,high
+Achilles,2026-08,mlrs,yes,0,0,70,,per_destroyed,,high
+Achilles,2026-08,motorcycle,yes,16,36,24,,per_destroyed,,med
+Achilles,2026-08,personnel_kill,yes,260,,12,,per_kill,,high
+Achilles,2026-08,personnel_wound,yes,279,,8,,per_wounded,,high
+Achilles,2026-08,recon_mission,yes,7437,,,,,,
+Achilles,2026-08,remote_mining,no,,,,,,,
+Achilles,2026-08,small_ad,partial,25,31,,,,,
+Achilles,2026-08,sniper,no,,,,,,,
+Achilles,2026-08,suicide_video,no,,,,,,,
+Achilles,2026-08,tank,yes,0,2,40,,per_destroyed,20,high
+Achilles,2026-08,ugv_logistics,no,,,,,,,
+Fenix,2026-08,ad_ew,partial,38,130,,60,per_destroyed,,med
+Fenix,2026-08,artillery_strike,no,,,,,,,
+Fenix,2026-08,aviation,no,,,,,,,
+Fenix,2026-08,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-08,drone_operator,no,,,24,,per_kill,,high
+Fenix,2026-08,mlrs,yes,1,2,70,,per_destroyed,,high
+Fenix,2026-08,motorcycle,yes,91,370,24,,per_destroyed,,med
+Fenix,2026-08,personnel_kill,yes,863,,12,,per_kill,,high
+Fenix,2026-08,personnel_wound,yes,1143,,8,,per_wounded,,high
+Fenix,2026-08,recon_mission,yes,15566,,,,,,
+Fenix,2026-08,remote_mining,no,,,,,,,
+Fenix,2026-08,small_ad,partial,71,71,,,,,
+Fenix,2026-08,sniper,no,,,,,,,
+Fenix,2026-08,suicide_video,no,,,,,,,
+Fenix,2026-08,tank,yes,1,7,40,,per_destroyed,20,high
+Fenix,2026-08,ugv_logistics,no,,,,,,,
+Hawks,2026-08,ad_ew,partial,2,5,,60,per_destroyed,,med
+Hawks,2026-08,artillery_strike,no,,,,,,,
+Hawks,2026-08,aviation,no,,,,,,,
+Hawks,2026-08,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-08,drone_operator,no,,,24,,per_kill,,high
+Hawks,2026-08,mlrs,yes,0,0,70,,per_destroyed,,high
+Hawks,2026-08,motorcycle,yes,15,85,24,,per_destroyed,,med
+Hawks,2026-08,personnel_kill,yes,167,,12,,per_kill,,high
+Hawks,2026-08,personnel_wound,yes,623,,8,,per_wounded,,high
+Hawks,2026-08,recon_mission,yes,4300,,,,,,
+Hawks,2026-08,remote_mining,no,,,,,,,
+Hawks,2026-08,small_ad,partial,2,3,,,,,
+Hawks,2026-08,sniper,no,,,,,,,
+Hawks,2026-08,suicide_video,no,,,,,,,
+Hawks,2026-08,tank,yes,0,1,40,,per_destroyed,20,high
+Hawks,2026-08,ugv_logistics,no,,,,,,,
+K-2,2026-08,ad_ew,partial,4,42,,60,per_destroyed,,med
+K-2,2026-08,artillery_strike,no,,,,,,,
+K-2,2026-08,aviation,no,,,,,,,
+K-2,2026-08,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-08,drone_operator,no,,,24,,per_kill,,high
+K-2,2026-08,mlrs,yes,0,3,70,,per_destroyed,,high
+K-2,2026-08,motorcycle,yes,52,88,24,,per_destroyed,,med
+K-2,2026-08,personnel_kill,yes,643,,12,,per_kill,,high
+K-2,2026-08,personnel_wound,yes,387,,8,,per_wounded,,high
+K-2,2026-08,recon_mission,yes,16605,,,,,,
+K-2,2026-08,remote_mining,no,,,,,,,
+K-2,2026-08,small_ad,partial,39,42,,,,,
+K-2,2026-08,sniper,no,,,,,,,
+K-2,2026-08,suicide_video,no,,,,,,,
+K-2,2026-08,tank,yes,0,2,40,,per_destroyed,20,high
+K-2,2026-08,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-08,ad_ew,partial,83,138,,60,per_destroyed,,med
+Magyar's Birds,2026-08,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-08,aviation,no,,,,,,,
+Magyar's Birds,2026-08,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-08,drone_operator,no,,,24,,per_kill,,high
+Magyar's Birds,2026-08,mlrs,yes,0,1,70,,per_destroyed,,high
+Magyar's Birds,2026-08,motorcycle,yes,152,412,24,,per_destroyed,,med
+Magyar's Birds,2026-08,personnel_kill,yes,2004,,12,,per_kill,,high
+Magyar's Birds,2026-08,personnel_wound,yes,1569,,8,,per_wounded,,high
+Magyar's Birds,2026-08,recon_mission,yes,10279,,,,,,
+Magyar's Birds,2026-08,remote_mining,no,,,,,,,
+Magyar's Birds,2026-08,small_ad,partial,212,218,,,,,
+Magyar's Birds,2026-08,sniper,no,,,,,,,
+Magyar's Birds,2026-08,suicide_video,no,,,,,,,
+Magyar's Birds,2026-08,tank,yes,3,10,40,,per_destroyed,20,high
+Magyar's Birds,2026-08,ugv_logistics,no,,,,,,,
+Nemesis,2026-08,ad_ew,partial,16,40,,60,per_destroyed,,med
+Nemesis,2026-08,artillery_strike,no,,,,,,,
+Nemesis,2026-08,aviation,no,,,,,,,
+Nemesis,2026-08,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-08,drone_operator,no,,,24,,per_kill,,high
+Nemesis,2026-08,mlrs,yes,0,0,70,,per_destroyed,,high
+Nemesis,2026-08,motorcycle,yes,79,401,24,,per_destroyed,,med
+Nemesis,2026-08,personnel_kill,yes,539,,12,,per_kill,,high
+Nemesis,2026-08,personnel_wound,yes,1056,,8,,per_wounded,,high
+Nemesis,2026-08,recon_mission,yes,2219,,,,,,
+Nemesis,2026-08,remote_mining,no,,,,,,,
+Nemesis,2026-08,small_ad,partial,60,60,,,,,
+Nemesis,2026-08,sniper,no,,,,,,,
+Nemesis,2026-08,suicide_video,no,,,,,,,
+Nemesis,2026-08,tank,yes,0,5,40,,per_destroyed,20,high
+Nemesis,2026-08,ugv_logistics,no,,,,,,,
+Raid,2026-08,ad_ew,partial,9,16,,60,per_destroyed,,med
+Raid,2026-08,artillery_strike,no,,,,,,,
+Raid,2026-08,aviation,no,,,,,,,
+Raid,2026-08,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-08,drone_operator,no,,,24,,per_kill,,high
+Raid,2026-08,mlrs,yes,0,0,70,,per_destroyed,,high
+Raid,2026-08,motorcycle,yes,4,26,24,,per_destroyed,,med
+Raid,2026-08,personnel_kill,yes,104,,12,,per_kill,,high
+Raid,2026-08,personnel_wound,yes,227,,8,,per_wounded,,high
+Raid,2026-08,recon_mission,yes,545,,,,,,
+Raid,2026-08,remote_mining,no,,,,,,,
+Raid,2026-08,small_ad,partial,11,11,,,,,
+Raid,2026-08,sniper,no,,,,,,,
+Raid,2026-08,suicide_video,no,,,,,,,
+Raid,2026-08,tank,yes,0,0,40,,per_destroyed,20,high
+Raid,2026-08,ugv_logistics,no,,,,,,,
+Rarog,2026-08,ad_ew,partial,4,25,,60,per_destroyed,,med
+Rarog,2026-08,artillery_strike,no,,,,,,,
+Rarog,2026-08,aviation,no,,,,,,,
+Rarog,2026-08,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-08,drone_operator,no,,,24,,per_kill,,high
+Rarog,2026-08,mlrs,yes,0,2,70,,per_destroyed,,high
+Rarog,2026-08,motorcycle,yes,9,62,24,,per_destroyed,,med
+Rarog,2026-08,personnel_kill,yes,112,,12,,per_kill,,high
+Rarog,2026-08,personnel_wound,yes,308,,8,,per_wounded,,high
+Rarog,2026-08,recon_mission,yes,12067,,,,,,
+Rarog,2026-08,remote_mining,no,,,,,,,
+Rarog,2026-08,small_ad,partial,50,63,,,,,
+Rarog,2026-08,sniper,no,,,,,,,
+Rarog,2026-08,suicide_video,no,,,,,,,
+Rarog,2026-08,tank,yes,0,1,40,,per_destroyed,20,high
+Rarog,2026-08,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-08,ad_ew,partial,7,22,,60,per_destroyed,,med
+Steppe Predators,2026-08,artillery_strike,no,,,,,,,
+Steppe Predators,2026-08,aviation,no,,,,,,,
+Steppe Predators,2026-08,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-08,drone_operator,no,,,24,,per_kill,,high
+Steppe Predators,2026-08,mlrs,yes,0,1,70,,per_destroyed,,high
+Steppe Predators,2026-08,motorcycle,yes,24,56,24,,per_destroyed,,med
+Steppe Predators,2026-08,personnel_kill,yes,305,,12,,per_kill,,high
+Steppe Predators,2026-08,personnel_wound,yes,245,,8,,per_wounded,,high
+Steppe Predators,2026-08,recon_mission,yes,35593,,,,,,
+Steppe Predators,2026-08,remote_mining,no,,,,,,,
+Steppe Predators,2026-08,small_ad,partial,14,14,,,,,
+Steppe Predators,2026-08,sniper,no,,,,,,,
+Steppe Predators,2026-08,suicide_video,no,,,,,,,
+Steppe Predators,2026-08,tank,yes,0,1,40,,per_destroyed,20,high
+Steppe Predators,2026-08,ugv_logistics,no,,,,,,,
+Svarog,2026-08,ad_ew,partial,4,9,,60,per_destroyed,,med
+Svarog,2026-08,artillery_strike,no,,,,,,,
+Svarog,2026-08,aviation,no,,,,,,,
+Svarog,2026-08,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-08,drone_operator,no,,,24,,per_kill,,high
+Svarog,2026-08,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2026-08,motorcycle,yes,0,5,24,,per_destroyed,,med
+Svarog,2026-08,personnel_kill,yes,22,,12,,per_kill,,high
+Svarog,2026-08,personnel_wound,yes,53,,8,,per_wounded,,high
+Svarog,2026-08,recon_mission,yes,429,,,,,,
+Svarog,2026-08,remote_mining,no,,,,,,,
+Svarog,2026-08,small_ad,partial,6,7,,,,,
+Svarog,2026-08,sniper,no,,,,,,,
+Svarog,2026-08,suicide_video,no,,,,,,,
+Svarog,2026-08,tank,yes,0,0,40,,per_destroyed,20,high
+Svarog,2026-08,ugv_logistics,no,,,,,,,
+USF Grouping,2026-08,ad_ew,partial,185,464,,60,per_destroyed,,med
+USF Grouping,2026-08,artillery_strike,no,,,,,,,
+USF Grouping,2026-08,aviation,no,,,,,,,
+USF Grouping,2026-08,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-08,drone_operator,no,,,24,,per_kill,,high
+USF Grouping,2026-08,mlrs,yes,1,9,70,,per_destroyed,,high
+USF Grouping,2026-08,motorcycle,yes,460,1562,24,,per_destroyed,,med
+USF Grouping,2026-08,personnel_kill,yes,5055,,12,,per_kill,,high
+USF Grouping,2026-08,personnel_wound,yes,5955,,8,,per_wounded,,high
+USF Grouping,2026-08,recon_mission,yes,109910,,,,,,
+USF Grouping,2026-08,remote_mining,no,,,,,,,
+USF Grouping,2026-08,small_ad,partial,570,612,,,,,
+USF Grouping,2026-08,sniper,no,,,,,,,
+USF Grouping,2026-08,suicide_video,no,,,,,,,
+USF Grouping,2026-08,tank,yes,4,29,40,,per_destroyed,20,high
+USF Grouping,2026-08,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-09,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-09,artillery_strike,no,,,,,,,
+194 SPBBr,2026-09,aviation,no,,,,,,,
+194 SPBBr,2026-09,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-09,drone_operator,no,,,24,,per_kill,,high
+194 SPBBr,2026-09,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-09,motorcycle,yes,0,0,24,,per_destroyed,,med
+194 SPBBr,2026-09,personnel_kill,yes,0,,12,,per_kill,,high
+194 SPBBr,2026-09,personnel_wound,yes,0,,8,,per_wounded,,high
+194 SPBBr,2026-09,recon_mission,yes,0,,,,,,
+194 SPBBr,2026-09,remote_mining,no,,,,,,,
+194 SPBBr,2026-09,small_ad,partial,0,0,,,,,
+194 SPBBr,2026-09,sniper,no,,,,,,,
+194 SPBBr,2026-09,suicide_video,no,,,,,,,
+194 SPBBr,2026-09,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-09,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-09,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-09,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-09,aviation,no,,,,,,,
+7 CUS STSS,2026-09,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-09,drone_operator,no,,,24,,per_kill,,high
+7 CUS STSS,2026-09,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-09,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-09,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-09,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-09,recon_mission,yes,1,,,,,,
+7 CUS STSS,2026-09,remote_mining,no,,,,,,,
+7 CUS STSS,2026-09,small_ad,partial,13,13,,,,,
+7 CUS STSS,2026-09,sniper,no,,,,,,,
+7 CUS STSS,2026-09,suicide_video,no,,,,,,,
+7 CUS STSS,2026-09,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-09,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-09,ad_ew,partial,4,5,,60,per_destroyed,,med
+9 SUSBr,2026-09,artillery_strike,no,,,,,,,
+9 SUSBr,2026-09,aviation,no,,,,,,,
+9 SUSBr,2026-09,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-09,drone_operator,no,,,24,,per_kill,,high
+9 SUSBr,2026-09,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2026-09,motorcycle,yes,17,26,24,,per_destroyed,,med
+9 SUSBr,2026-09,personnel_kill,yes,59,,12,,per_kill,,high
+9 SUSBr,2026-09,personnel_wound,yes,77,,8,,per_wounded,,high
+9 SUSBr,2026-09,recon_mission,yes,3924,,,,,,
+9 SUSBr,2026-09,remote_mining,no,,,,,,,
+9 SUSBr,2026-09,small_ad,partial,68,76,,,,,
+9 SUSBr,2026-09,sniper,no,,,,,,,
+9 SUSBr,2026-09,suicide_video,no,,,,,,,
+9 SUSBr,2026-09,tank,yes,0,0,40,,per_destroyed,20,high
+9 SUSBr,2026-09,ugv_logistics,no,,,,,,,
+Achilles,2026-09,ad_ew,partial,11,25,,60,per_destroyed,,med
+Achilles,2026-09,artillery_strike,no,,,,,,,
+Achilles,2026-09,aviation,no,,,,,,,
+Achilles,2026-09,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-09,drone_operator,no,,,24,,per_kill,,high
+Achilles,2026-09,mlrs,yes,0,0,70,,per_destroyed,,high
+Achilles,2026-09,motorcycle,yes,6,28,24,,per_destroyed,,med
+Achilles,2026-09,personnel_kill,yes,258,,12,,per_kill,,high
+Achilles,2026-09,personnel_wound,yes,312,,8,,per_wounded,,high
+Achilles,2026-09,recon_mission,yes,8823,,,,,,
+Achilles,2026-09,remote_mining,no,,,,,,,
+Achilles,2026-09,small_ad,partial,115,147,,,,,
+Achilles,2026-09,sniper,no,,,,,,,
+Achilles,2026-09,suicide_video,no,,,,,,,
+Achilles,2026-09,tank,yes,1,3,40,,per_destroyed,20,high
+Achilles,2026-09,ugv_logistics,no,,,,,,,
+Fenix,2026-09,ad_ew,partial,32,128,,60,per_destroyed,,med
+Fenix,2026-09,artillery_strike,no,,,,,,,
+Fenix,2026-09,aviation,no,,,,,,,
+Fenix,2026-09,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-09,drone_operator,no,,,24,,per_kill,,high
+Fenix,2026-09,mlrs,yes,0,3,70,,per_destroyed,,high
+Fenix,2026-09,motorcycle,yes,61,297,24,,per_destroyed,,med
+Fenix,2026-09,personnel_kill,yes,1135,,12,,per_kill,,high
+Fenix,2026-09,personnel_wound,yes,1400,,8,,per_wounded,,high
+Fenix,2026-09,recon_mission,yes,11819,,,,,,
+Fenix,2026-09,remote_mining,no,,,,,,,
+Fenix,2026-09,small_ad,partial,89,89,,,,,
+Fenix,2026-09,sniper,no,,,,,,,
+Fenix,2026-09,suicide_video,no,,,,,,,
+Fenix,2026-09,tank,yes,0,1,40,,per_destroyed,20,high
+Fenix,2026-09,ugv_logistics,no,,,,,,,
+Hawks,2026-09,ad_ew,partial,2,6,,60,per_destroyed,,med
+Hawks,2026-09,artillery_strike,no,,,,,,,
+Hawks,2026-09,aviation,no,,,,,,,
+Hawks,2026-09,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-09,drone_operator,no,,,24,,per_kill,,high
+Hawks,2026-09,mlrs,yes,0,0,70,,per_destroyed,,high
+Hawks,2026-09,motorcycle,yes,9,62,24,,per_destroyed,,med
+Hawks,2026-09,personnel_kill,yes,218,,12,,per_kill,,high
+Hawks,2026-09,personnel_wound,yes,796,,8,,per_wounded,,high
+Hawks,2026-09,recon_mission,yes,4311,,,,,,
+Hawks,2026-09,remote_mining,no,,,,,,,
+Hawks,2026-09,small_ad,partial,10,10,,,,,
+Hawks,2026-09,sniper,no,,,,,,,
+Hawks,2026-09,suicide_video,no,,,,,,,
+Hawks,2026-09,tank,yes,1,2,40,,per_destroyed,20,high
+Hawks,2026-09,ugv_logistics,no,,,,,,,
+K-2,2026-09,ad_ew,partial,4,21,,60,per_destroyed,,med
+K-2,2026-09,artillery_strike,no,,,,,,,
+K-2,2026-09,aviation,no,,,,,,,
+K-2,2026-09,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-09,drone_operator,no,,,24,,per_kill,,high
+K-2,2026-09,mlrs,yes,1,1,70,,per_destroyed,,high
+K-2,2026-09,motorcycle,yes,54,101,24,,per_destroyed,,med
+K-2,2026-09,personnel_kill,yes,905,,12,,per_kill,,high
+K-2,2026-09,personnel_wound,yes,420,,8,,per_wounded,,high
+K-2,2026-09,recon_mission,yes,17534,,,,,,
+K-2,2026-09,remote_mining,no,,,,,,,
+K-2,2026-09,small_ad,partial,60,65,,,,,
+K-2,2026-09,sniper,no,,,,,,,
+K-2,2026-09,suicide_video,no,,,,,,,
+K-2,2026-09,tank,yes,1,4,40,,per_destroyed,20,high
+K-2,2026-09,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-09,ad_ew,partial,88,206,,60,per_destroyed,,med
+Magyar's Birds,2026-09,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-09,aviation,no,,,,,,,
+Magyar's Birds,2026-09,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-09,drone_operator,no,,,24,,per_kill,,high
+Magyar's Birds,2026-09,mlrs,yes,6,9,70,,per_destroyed,,high
+Magyar's Birds,2026-09,motorcycle,yes,188,465,24,,per_destroyed,,med
+Magyar's Birds,2026-09,personnel_kill,yes,2713,,12,,per_kill,,high
+Magyar's Birds,2026-09,personnel_wound,yes,1933,,8,,per_wounded,,high
+Magyar's Birds,2026-09,recon_mission,yes,9615,,,,,,
+Magyar's Birds,2026-09,remote_mining,no,,,,,,,
+Magyar's Birds,2026-09,small_ad,partial,234,248,,,,,
+Magyar's Birds,2026-09,sniper,no,,,,,,,
+Magyar's Birds,2026-09,suicide_video,no,,,,,,,
+Magyar's Birds,2026-09,tank,yes,1,3,40,,per_destroyed,20,high
+Magyar's Birds,2026-09,ugv_logistics,no,,,,,,,
+Nemesis,2026-09,ad_ew,partial,18,56,,60,per_destroyed,,med
+Nemesis,2026-09,artillery_strike,no,,,,,,,
+Nemesis,2026-09,aviation,no,,,,,,,
+Nemesis,2026-09,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-09,drone_operator,no,,,24,,per_kill,,high
+Nemesis,2026-09,mlrs,yes,0,0,70,,per_destroyed,,high
+Nemesis,2026-09,motorcycle,yes,67,385,24,,per_destroyed,,med
+Nemesis,2026-09,personnel_kill,yes,520,,12,,per_kill,,high
+Nemesis,2026-09,personnel_wound,yes,1018,,8,,per_wounded,,high
+Nemesis,2026-09,recon_mission,yes,2125,,,,,,
+Nemesis,2026-09,remote_mining,no,,,,,,,
+Nemesis,2026-09,small_ad,partial,192,192,,,,,
+Nemesis,2026-09,sniper,no,,,,,,,
+Nemesis,2026-09,suicide_video,no,,,,,,,
+Nemesis,2026-09,tank,yes,2,5,40,,per_destroyed,20,high
+Nemesis,2026-09,ugv_logistics,no,,,,,,,
+Raid,2026-09,ad_ew,partial,5,12,,60,per_destroyed,,med
+Raid,2026-09,artillery_strike,no,,,,,,,
+Raid,2026-09,aviation,no,,,,,,,
+Raid,2026-09,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-09,drone_operator,no,,,24,,per_kill,,high
+Raid,2026-09,mlrs,yes,0,1,70,,per_destroyed,,high
+Raid,2026-09,motorcycle,yes,11,25,24,,per_destroyed,,med
+Raid,2026-09,personnel_kill,yes,57,,12,,per_kill,,high
+Raid,2026-09,personnel_wound,yes,117,,8,,per_wounded,,high
+Raid,2026-09,recon_mission,yes,545,,,,,,
+Raid,2026-09,remote_mining,no,,,,,,,
+Raid,2026-09,small_ad,partial,10,12,,,,,
+Raid,2026-09,sniper,no,,,,,,,
+Raid,2026-09,suicide_video,no,,,,,,,
+Raid,2026-09,tank,yes,0,0,40,,per_destroyed,20,high
+Raid,2026-09,ugv_logistics,no,,,,,,,
+Rarog,2026-09,ad_ew,partial,5,19,,60,per_destroyed,,med
+Rarog,2026-09,artillery_strike,no,,,,,,,
+Rarog,2026-09,aviation,no,,,,,,,
+Rarog,2026-09,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-09,drone_operator,no,,,24,,per_kill,,high
+Rarog,2026-09,mlrs,yes,2,2,70,,per_destroyed,,high
+Rarog,2026-09,motorcycle,yes,24,95,24,,per_destroyed,,med
+Rarog,2026-09,personnel_kill,yes,233,,12,,per_kill,,high
+Rarog,2026-09,personnel_wound,yes,631,,8,,per_wounded,,high
+Rarog,2026-09,recon_mission,yes,12498,,,,,,
+Rarog,2026-09,remote_mining,no,,,,,,,
+Rarog,2026-09,small_ad,partial,77,95,,,,,
+Rarog,2026-09,sniper,no,,,,,,,
+Rarog,2026-09,suicide_video,no,,,,,,,
+Rarog,2026-09,tank,yes,0,1,40,,per_destroyed,20,high
+Rarog,2026-09,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-09,ad_ew,partial,2,8,,60,per_destroyed,,med
+Steppe Predators,2026-09,artillery_strike,no,,,,,,,
+Steppe Predators,2026-09,aviation,no,,,,,,,
+Steppe Predators,2026-09,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-09,drone_operator,no,,,24,,per_kill,,high
+Steppe Predators,2026-09,mlrs,yes,1,2,70,,per_destroyed,,high
+Steppe Predators,2026-09,motorcycle,yes,23,62,24,,per_destroyed,,med
+Steppe Predators,2026-09,personnel_kill,yes,316,,12,,per_kill,,high
+Steppe Predators,2026-09,personnel_wound,yes,223,,8,,per_wounded,,high
+Steppe Predators,2026-09,recon_mission,yes,34677,,,,,,
+Steppe Predators,2026-09,remote_mining,no,,,,,,,
+Steppe Predators,2026-09,small_ad,partial,14,14,,,,,
+Steppe Predators,2026-09,sniper,no,,,,,,,
+Steppe Predators,2026-09,suicide_video,no,,,,,,,
+Steppe Predators,2026-09,tank,yes,1,4,40,,per_destroyed,20,high
+Steppe Predators,2026-09,ugv_logistics,no,,,,,,,
+Svarog,2026-09,ad_ew,partial,5,17,,60,per_destroyed,,med
+Svarog,2026-09,artillery_strike,no,,,,,,,
+Svarog,2026-09,aviation,no,,,,,,,
+Svarog,2026-09,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-09,drone_operator,no,,,24,,per_kill,,high
+Svarog,2026-09,mlrs,yes,0,1,70,,per_destroyed,,high
+Svarog,2026-09,motorcycle,yes,2,7,24,,per_destroyed,,med
+Svarog,2026-09,personnel_kill,yes,39,,12,,per_kill,,high
+Svarog,2026-09,personnel_wound,yes,88,,8,,per_wounded,,high
+Svarog,2026-09,recon_mission,yes,394,,,,,,
+Svarog,2026-09,remote_mining,no,,,,,,,
+Svarog,2026-09,small_ad,partial,1,3,,,,,
+Svarog,2026-09,sniper,no,,,,,,,
+Svarog,2026-09,suicide_video,no,,,,,,,
+Svarog,2026-09,tank,yes,0,1,40,,per_destroyed,20,high
+Svarog,2026-09,ugv_logistics,no,,,,,,,
+USF Grouping,2026-09,ad_ew,partial,177,507,,60,per_destroyed,,med
+USF Grouping,2026-09,artillery_strike,no,,,,,,,
+USF Grouping,2026-09,aviation,no,,,,,,,
+USF Grouping,2026-09,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-09,drone_operator,no,,,24,,per_kill,,high
+USF Grouping,2026-09,mlrs,yes,10,19,70,,per_destroyed,,high
+USF Grouping,2026-09,motorcycle,yes,462,1553,24,,per_destroyed,,med
+USF Grouping,2026-09,personnel_kill,yes,6453,,12,,per_kill,,high
+USF Grouping,2026-09,personnel_wound,yes,7015,,8,,per_wounded,,high
+USF Grouping,2026-09,recon_mission,yes,106507,,,,,,
+USF Grouping,2026-09,remote_mining,no,,,,,,,
+USF Grouping,2026-09,small_ad,partial,883,964,,,,,
+USF Grouping,2026-09,sniper,no,,,,,,,
+USF Grouping,2026-09,suicide_video,no,,,,,,,
+USF Grouping,2026-09,tank,yes,7,25,40,,per_destroyed,20,high
+USF Grouping,2026-09,ugv_logistics,no,,,,,,,
+194 SPBBr,2026-10,ad_ew,partial,0,0,,60,per_destroyed,,med
+194 SPBBr,2026-10,artillery_strike,no,,,,,,,
+194 SPBBr,2026-10,aviation,no,,,,,,,
+194 SPBBr,2026-10,capture_alive,no,,,120,,per_capture,,high
+194 SPBBr,2026-10,drone_operator,no,,,24,,per_kill,,high
+194 SPBBr,2026-10,mlrs,yes,0,0,70,,per_destroyed,,high
+194 SPBBr,2026-10,motorcycle,yes,0,0,24,,per_destroyed,,med
+194 SPBBr,2026-10,personnel_kill,yes,0,,12,,per_kill,,high
+194 SPBBr,2026-10,personnel_wound,yes,0,,8,,per_wounded,,high
+194 SPBBr,2026-10,recon_mission,yes,0,,,,,,
+194 SPBBr,2026-10,remote_mining,no,,,,,,,
+194 SPBBr,2026-10,small_ad,partial,0,0,,,,,
+194 SPBBr,2026-10,sniper,no,,,,,,,
+194 SPBBr,2026-10,suicide_video,no,,,,,,,
+194 SPBBr,2026-10,tank,yes,0,0,40,,per_destroyed,20,high
+194 SPBBr,2026-10,ugv_logistics,no,,,,,,,
+7 CUS STSS,2026-10,ad_ew,partial,0,0,,60,per_destroyed,,med
+7 CUS STSS,2026-10,artillery_strike,no,,,,,,,
+7 CUS STSS,2026-10,aviation,no,,,,,,,
+7 CUS STSS,2026-10,capture_alive,no,,,120,,per_capture,,high
+7 CUS STSS,2026-10,drone_operator,no,,,24,,per_kill,,high
+7 CUS STSS,2026-10,mlrs,yes,0,0,70,,per_destroyed,,high
+7 CUS STSS,2026-10,motorcycle,yes,0,0,24,,per_destroyed,,med
+7 CUS STSS,2026-10,personnel_kill,yes,0,,12,,per_kill,,high
+7 CUS STSS,2026-10,personnel_wound,yes,0,,8,,per_wounded,,high
+7 CUS STSS,2026-10,recon_mission,yes,0,,,,,,
+7 CUS STSS,2026-10,remote_mining,no,,,,,,,
+7 CUS STSS,2026-10,small_ad,partial,14,14,,,,,
+7 CUS STSS,2026-10,sniper,no,,,,,,,
+7 CUS STSS,2026-10,suicide_video,no,,,,,,,
+7 CUS STSS,2026-10,tank,yes,0,0,40,,per_destroyed,20,high
+7 CUS STSS,2026-10,ugv_logistics,no,,,,,,,
+9 SUSBr,2026-10,ad_ew,partial,2,2,,60,per_destroyed,,med
+9 SUSBr,2026-10,artillery_strike,no,,,,,,,
+9 SUSBr,2026-10,aviation,no,,,,,,,
+9 SUSBr,2026-10,capture_alive,no,,,120,,per_capture,,high
+9 SUSBr,2026-10,drone_operator,no,,,24,,per_kill,,high
+9 SUSBr,2026-10,mlrs,yes,0,0,70,,per_destroyed,,high
+9 SUSBr,2026-10,motorcycle,yes,26,37,24,,per_destroyed,,med
+9 SUSBr,2026-10,personnel_kill,yes,47,,12,,per_kill,,high
+9 SUSBr,2026-10,personnel_wound,yes,57,,8,,per_wounded,,high
+9 SUSBr,2026-10,recon_mission,yes,4146,,,,,,
+9 SUSBr,2026-10,remote_mining,no,,,,,,,
+9 SUSBr,2026-10,small_ad,partial,69,88,,,,,
+9 SUSBr,2026-10,sniper,no,,,,,,,
+9 SUSBr,2026-10,suicide_video,no,,,,,,,
+9 SUSBr,2026-10,tank,yes,0,0,40,,per_destroyed,20,high
+9 SUSBr,2026-10,ugv_logistics,no,,,,,,,
+Achilles,2026-10,ad_ew,partial,6,14,,60,per_destroyed,,med
+Achilles,2026-10,artillery_strike,no,,,,,,,
+Achilles,2026-10,aviation,no,,,,,,,
+Achilles,2026-10,capture_alive,no,,,120,,per_capture,,high
+Achilles,2026-10,drone_operator,no,,,24,,per_kill,,high
+Achilles,2026-10,mlrs,yes,0,0,70,,per_destroyed,,high
+Achilles,2026-10,motorcycle,yes,8,39,24,,per_destroyed,,med
+Achilles,2026-10,personnel_kill,yes,290,,12,,per_kill,,high
+Achilles,2026-10,personnel_wound,yes,225,,8,,per_wounded,,high
+Achilles,2026-10,recon_mission,yes,7939,,,,,,
+Achilles,2026-10,remote_mining,no,,,,,,,
+Achilles,2026-10,small_ad,partial,19,22,,,,,
+Achilles,2026-10,sniper,no,,,,,,,
+Achilles,2026-10,suicide_video,no,,,,,,,
+Achilles,2026-10,tank,yes,0,1,40,,per_destroyed,20,high
+Achilles,2026-10,ugv_logistics,no,,,,,,,
+Fenix,2026-10,ad_ew,partial,32,137,,60,per_destroyed,,med
+Fenix,2026-10,artillery_strike,no,,,,,,,
+Fenix,2026-10,aviation,no,,,,,,,
+Fenix,2026-10,capture_alive,no,,,120,,per_capture,,high
+Fenix,2026-10,drone_operator,no,,,24,,per_kill,,high
+Fenix,2026-10,mlrs,yes,1,5,70,,per_destroyed,,high
+Fenix,2026-10,motorcycle,yes,53,291,24,,per_destroyed,,med
+Fenix,2026-10,personnel_kill,yes,1037,,12,,per_kill,,high
+Fenix,2026-10,personnel_wound,yes,1678,,8,,per_wounded,,high
+Fenix,2026-10,recon_mission,yes,10458,,,,,,
+Fenix,2026-10,remote_mining,no,,,,,,,
+Fenix,2026-10,small_ad,partial,45,45,,,,,
+Fenix,2026-10,sniper,no,,,,,,,
+Fenix,2026-10,suicide_video,no,,,,,,,
+Fenix,2026-10,tank,yes,0,4,40,,per_destroyed,20,high
+Fenix,2026-10,ugv_logistics,no,,,,,,,
+Hawks,2026-10,ad_ew,partial,3,6,,60,per_destroyed,,med
+Hawks,2026-10,artillery_strike,no,,,,,,,
+Hawks,2026-10,aviation,no,,,,,,,
+Hawks,2026-10,capture_alive,no,,,120,,per_capture,,high
+Hawks,2026-10,drone_operator,no,,,24,,per_kill,,high
+Hawks,2026-10,mlrs,yes,0,1,70,,per_destroyed,,high
+Hawks,2026-10,motorcycle,yes,1,31,24,,per_destroyed,,med
+Hawks,2026-10,personnel_kill,yes,262,,12,,per_kill,,high
+Hawks,2026-10,personnel_wound,yes,823,,8,,per_wounded,,high
+Hawks,2026-10,recon_mission,yes,3962,,,,,,
+Hawks,2026-10,remote_mining,no,,,,,,,
+Hawks,2026-10,small_ad,partial,23,24,,,,,
+Hawks,2026-10,sniper,no,,,,,,,
+Hawks,2026-10,suicide_video,no,,,,,,,
+Hawks,2026-10,tank,yes,0,3,40,,per_destroyed,20,high
+Hawks,2026-10,ugv_logistics,no,,,,,,,
+K-2,2026-10,ad_ew,partial,11,18,,60,per_destroyed,,med
+K-2,2026-10,artillery_strike,no,,,,,,,
+K-2,2026-10,aviation,no,,,,,,,
+K-2,2026-10,capture_alive,no,,,120,,per_capture,,high
+K-2,2026-10,drone_operator,no,,,24,,per_kill,,high
+K-2,2026-10,mlrs,yes,0,0,70,,per_destroyed,,high
+K-2,2026-10,motorcycle,yes,76,132,24,,per_destroyed,,med
+K-2,2026-10,personnel_kill,yes,984,,12,,per_kill,,high
+K-2,2026-10,personnel_wound,yes,409,,8,,per_wounded,,high
+K-2,2026-10,recon_mission,yes,14558,,,,,,
+K-2,2026-10,remote_mining,no,,,,,,,
+K-2,2026-10,small_ad,partial,47,48,,,,,
+K-2,2026-10,sniper,no,,,,,,,
+K-2,2026-10,suicide_video,no,,,,,,,
+K-2,2026-10,tank,yes,0,1,40,,per_destroyed,20,high
+K-2,2026-10,ugv_logistics,no,,,,,,,
+Magyar's Birds,2026-10,ad_ew,partial,58,122,,60,per_destroyed,,med
+Magyar's Birds,2026-10,artillery_strike,no,,,,,,,
+Magyar's Birds,2026-10,aviation,no,,,,,,,
+Magyar's Birds,2026-10,capture_alive,no,,,120,,per_capture,,high
+Magyar's Birds,2026-10,drone_operator,no,,,24,,per_kill,,high
+Magyar's Birds,2026-10,mlrs,yes,1,2,70,,per_destroyed,,high
+Magyar's Birds,2026-10,motorcycle,yes,148,377,24,,per_destroyed,,med
+Magyar's Birds,2026-10,personnel_kill,yes,3132,,12,,per_kill,,high
+Magyar's Birds,2026-10,personnel_wound,yes,2134,,8,,per_wounded,,high
+Magyar's Birds,2026-10,recon_mission,yes,8587,,,,,,
+Magyar's Birds,2026-10,remote_mining,no,,,,,,,
+Magyar's Birds,2026-10,small_ad,partial,195,203,,,,,
+Magyar's Birds,2026-10,sniper,no,,,,,,,
+Magyar's Birds,2026-10,suicide_video,no,,,,,,,
+Magyar's Birds,2026-10,tank,yes,0,2,40,,per_destroyed,20,high
+Magyar's Birds,2026-10,ugv_logistics,no,,,,,,,
+Nemesis,2026-10,ad_ew,partial,7,30,,60,per_destroyed,,med
+Nemesis,2026-10,artillery_strike,no,,,,,,,
+Nemesis,2026-10,aviation,no,,,,,,,
+Nemesis,2026-10,capture_alive,no,,,120,,per_capture,,high
+Nemesis,2026-10,drone_operator,no,,,24,,per_kill,,high
+Nemesis,2026-10,mlrs,yes,1,1,70,,per_destroyed,,high
+Nemesis,2026-10,motorcycle,yes,57,259,24,,per_destroyed,,med
+Nemesis,2026-10,personnel_kill,yes,522,,12,,per_kill,,high
+Nemesis,2026-10,personnel_wound,yes,961,,8,,per_wounded,,high
+Nemesis,2026-10,recon_mission,yes,2150,,,,,,
+Nemesis,2026-10,remote_mining,no,,,,,,,
+Nemesis,2026-10,small_ad,partial,254,254,,,,,
+Nemesis,2026-10,sniper,no,,,,,,,
+Nemesis,2026-10,suicide_video,no,,,,,,,
+Nemesis,2026-10,tank,yes,0,4,40,,per_destroyed,20,high
+Nemesis,2026-10,ugv_logistics,no,,,,,,,
+Raid,2026-10,ad_ew,partial,11,28,,60,per_destroyed,,med
+Raid,2026-10,artillery_strike,no,,,,,,,
+Raid,2026-10,aviation,no,,,,,,,
+Raid,2026-10,capture_alive,no,,,120,,per_capture,,high
+Raid,2026-10,drone_operator,no,,,24,,per_kill,,high
+Raid,2026-10,mlrs,yes,0,0,70,,per_destroyed,,high
+Raid,2026-10,motorcycle,yes,0,20,24,,per_destroyed,,med
+Raid,2026-10,personnel_kill,yes,99,,12,,per_kill,,high
+Raid,2026-10,personnel_wound,yes,162,,8,,per_wounded,,high
+Raid,2026-10,recon_mission,yes,448,,,,,,
+Raid,2026-10,remote_mining,no,,,,,,,
+Raid,2026-10,small_ad,partial,5,8,,,,,
+Raid,2026-10,sniper,no,,,,,,,
+Raid,2026-10,suicide_video,no,,,,,,,
+Raid,2026-10,tank,yes,0,0,40,,per_destroyed,20,high
+Raid,2026-10,ugv_logistics,no,,,,,,,
+Rarog,2026-10,ad_ew,partial,2,10,,60,per_destroyed,,med
+Rarog,2026-10,artillery_strike,no,,,,,,,
+Rarog,2026-10,aviation,no,,,,,,,
+Rarog,2026-10,capture_alive,no,,,120,,per_capture,,high
+Rarog,2026-10,drone_operator,no,,,24,,per_kill,,high
+Rarog,2026-10,mlrs,yes,0,0,70,,per_destroyed,,high
+Rarog,2026-10,motorcycle,yes,6,50,24,,per_destroyed,,med
+Rarog,2026-10,personnel_kill,yes,492,,12,,per_kill,,high
+Rarog,2026-10,personnel_wound,yes,1199,,8,,per_wounded,,high
+Rarog,2026-10,recon_mission,yes,12083,,,,,,
+Rarog,2026-10,remote_mining,no,,,,,,,
+Rarog,2026-10,small_ad,partial,18,20,,,,,
+Rarog,2026-10,sniper,no,,,,,,,
+Rarog,2026-10,suicide_video,no,,,,,,,
+Rarog,2026-10,tank,yes,0,1,40,,per_destroyed,20,high
+Rarog,2026-10,ugv_logistics,no,,,,,,,
+Steppe Predators,2026-10,ad_ew,partial,2,23,,60,per_destroyed,,med
+Steppe Predators,2026-10,artillery_strike,no,,,,,,,
+Steppe Predators,2026-10,aviation,no,,,,,,,
+Steppe Predators,2026-10,capture_alive,no,,,120,,per_capture,,high
+Steppe Predators,2026-10,drone_operator,no,,,24,,per_kill,,high
+Steppe Predators,2026-10,mlrs,yes,0,0,70,,per_destroyed,,high
+Steppe Predators,2026-10,motorcycle,yes,12,44,24,,per_destroyed,,med
+Steppe Predators,2026-10,personnel_kill,yes,287,,12,,per_kill,,high
+Steppe Predators,2026-10,personnel_wound,yes,239,,8,,per_wounded,,high
+Steppe Predators,2026-10,recon_mission,yes,30442,,,,,,
+Steppe Predators,2026-10,remote_mining,no,,,,,,,
+Steppe Predators,2026-10,small_ad,partial,12,12,,,,,
+Steppe Predators,2026-10,sniper,no,,,,,,,
+Steppe Predators,2026-10,suicide_video,no,,,,,,,
+Steppe Predators,2026-10,tank,yes,0,1,40,,per_destroyed,20,high
+Steppe Predators,2026-10,ugv_logistics,no,,,,,,,
+Svarog,2026-10,ad_ew,partial,0,10,,60,per_destroyed,,med
+Svarog,2026-10,artillery_strike,no,,,,,,,
+Svarog,2026-10,aviation,no,,,,,,,
+Svarog,2026-10,capture_alive,no,,,120,,per_capture,,high
+Svarog,2026-10,drone_operator,no,,,24,,per_kill,,high
+Svarog,2026-10,mlrs,yes,0,0,70,,per_destroyed,,high
+Svarog,2026-10,motorcycle,yes,1,8,24,,per_destroyed,,med
+Svarog,2026-10,personnel_kill,yes,24,,12,,per_kill,,high
+Svarog,2026-10,personnel_wound,yes,59,,8,,per_wounded,,high
+Svarog,2026-10,recon_mission,yes,405,,,,,,
+Svarog,2026-10,remote_mining,no,,,,,,,
+Svarog,2026-10,small_ad,partial,10,14,,,,,
+Svarog,2026-10,sniper,no,,,,,,,
+Svarog,2026-10,suicide_video,no,,,,,,,
+Svarog,2026-10,tank,yes,0,0,40,,per_destroyed,20,high
+Svarog,2026-10,ugv_logistics,no,,,,,,,
+USF Grouping,2026-10,ad_ew,partial,134,402,,60,per_destroyed,,med
+USF Grouping,2026-10,artillery_strike,no,,,,,,,
+USF Grouping,2026-10,aviation,no,,,,,,,
+USF Grouping,2026-10,capture_alive,no,,,120,,per_capture,,high
+USF Grouping,2026-10,drone_operator,no,,,24,,per_kill,,high
+USF Grouping,2026-10,mlrs,yes,3,9,70,,per_destroyed,,high
+USF Grouping,2026-10,motorcycle,yes,388,1288,24,,per_destroyed,,med
+USF Grouping,2026-10,personnel_kill,yes,7176,,12,,per_kill,,high
+USF Grouping,2026-10,personnel_wound,yes,7946,,8,,per_wounded,,high
+USF Grouping,2026-10,recon_mission,yes,95260,,,,,,
+USF Grouping,2026-10,remote_mining,no,,,,,,,
+USF Grouping,2026-10,small_ad,partial,711,752,,,,,
+USF Grouping,2026-10,sniper,no,,,,,,,
+USF Grouping,2026-10,suicide_video,no,,,,,,,
+USF Grouping,2026-10,tank,yes,0,17,40,,per_destroyed,20,high
+USF Grouping,2026-10,ugv_logistics,no,,,,,,,
